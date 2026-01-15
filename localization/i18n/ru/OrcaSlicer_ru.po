@@ -22,7 +22,7 @@ msgstr ""
 msgid ""
 "The filament may not be compatible with the current machine settings. "
 "Generic filament presets will be used."
-msgstr ""
+msgstr "Материал может быть несовместим с текущими настройками принтера. Будет использоваться базовый профиль материала."
 
 msgid ""
 "The filament model is unknown. Still using the previous filament preset."
@@ -34,7 +34,7 @@ msgstr ""
 msgid ""
 "The filament may not be compatible with the current machine settings. A "
 "random filament preset will be used."
-msgstr ""
+msgstr "Материал может быть несовместим с текущими настройками принтера. Будет использоваться случайный профиль материала."
 
 msgid "The filament model is unknown. A random filament preset will be used."
 msgstr ""
@@ -70,25 +70,25 @@ msgstr "Влажный PVA слишком гибок и может застря�
 msgid ""
 "The rough surface of PLA Glow can accelerate wear on the AMS system, "
 "particularly on the internal components of the AMS Lite."
-msgstr ""
+msgstr "Шероховатая поверхность PLA Glow может ускорить износ системы AMS, особенно внутренних компонентов AMS Lite."
 
 msgid ""
 "CF/GF filaments are hard and brittle, it's easy to break or get stuck in "
 "AMS, please use with caution."
-msgstr "Стекло-/угленаполненные материалы твёрдые и хрупкие, легко ломаются или застревают в AMS, поэтому используйте их с осторожностью."
+msgstr "Стекло-/угленаполненные материалы твёрдые и хрупкие, легко ломаются и застревают в AMS, поэтому используйте их с осторожностью."
 
 msgid "PPS-CF is brittle and could break in bended PTFE tube above Toolhead."
-msgstr ""
+msgstr "PPS-CF – это хрупкий материал, который может сломаться в изогнутом тефлоновом канале подачи."
 
 msgid "PPA-CF is brittle and could break in bended PTFE tube above Toolhead."
-msgstr ""
+msgstr "PPA-CF – это хрупкий материал, который может сломаться в изогнутом тефлоновом канале подачи."
 
 #, c-format, boost-format
 msgid "%s is not supported by %s extruder."
 msgstr ""
 
 msgid "Current AMS humidity"
-msgstr "Текущая влажность внутри AMS-модуля"
+msgstr "Текущая влажность внутри AMS"
 
 msgid "Humidity"
 msgstr "Влажность"
@@ -1979,7 +1979,7 @@ msgid "Text"
 msgstr "Текст"
 
 msgid "Height range Modifier"
-msgstr "Модификатор по высоте"
+msgstr "Добавить модификатор по высоте"
 
 msgid "Add settings"
 msgstr "Добавить настройки"
@@ -1988,10 +1988,10 @@ msgid "Change type"
 msgstr "Изменить тип"
 
 msgid "Set as an individual object"
-msgstr "Задать как отдельную модель"
+msgstr "Отвязать от группы экземпляров"
 
 msgid "Set as individual objects"
-msgstr "Задать как отдельные модели"
+msgstr "Отвязать от группы экземпляров"
 
 msgid "Fill bed with copies"
 msgstr "Заполнить весь стол копиями"
@@ -2200,10 +2200,10 @@ msgid "reload all from disk"
 msgstr "Перезагрузить всё с диска"
 
 msgid "Auto Rotate"
-msgstr "Автоповорот"
+msgstr "Положить всё на стол"
 
 msgid "auto rotate current plate"
-msgstr "Автоповорот моделей на текущем столе"
+msgstr "Положить все модели на текущем столе"
 
 msgid "Delete Plate"
 msgstr "Удалить стол"
@@ -2215,28 +2215,28 @@ msgid "Add instance"
 msgstr "Добавить экземпляр"
 
 msgid "Add one more instance of the selected object"
-msgstr ""
+msgstr "Добавить дополнительный экземпляр объекта"
 
 msgid "Remove instance"
 msgstr "Удалить экземпляр"
 
 msgid "Remove one instance of the selected object"
-msgstr ""
+msgstr "Удалить последний экземпляр объекта"
 
 msgid "Set number of instances"
-msgstr ""
+msgstr "Изменить количество экземпляров"
 
 msgid "Change the number of instances of the selected object"
-msgstr ""
+msgstr "Изменить количество экземпляров этого объекта"
 
 msgid "Fill bed with instances"
-msgstr ""
+msgstr "Заполнить стол экземплярами"
 
 msgid "Fill the remaining area of bed with instances of the selected object"
-msgstr ""
+msgstr "Заполнить всё пространство стола экземплярами этого объекта"
 
 msgid "Clone"
-msgstr "Размножить"
+msgstr "Добавить копии"
 
 msgid "Simplify Model"
 msgstr "Упростить полигональную сетку"
@@ -2248,13 +2248,13 @@ msgid "Drop"
 msgstr "Опустить на стол"
 
 msgid "Edit Process Settings"
-msgstr "Редактировать настройки процесса печати"
+msgstr "Настроить печать модели"
 
 msgid "Copy Process Settings"
-msgstr ""
+msgstr "Копировать настройки печати"
 
 msgid "Paste Process Settings"
-msgstr ""
+msgstr "Вставить настройки печати"
 
 msgid "Edit print parameters for a single object"
 msgstr "Редактировать параметры печати для одной модели"
@@ -2345,15 +2345,13 @@ msgstr "Добавление модификатора"
 
 msgid "Switch to per-object setting mode to edit modifier settings."
 msgstr ""
-"Переключитесь в режим настройки каждой модели, чтобы изменить настройки "
-"модификатора."
+"Панель настроек печати была переключена в режим работы с отдельными элементами."
 
 msgid ""
 "Switch to per-object setting mode to edit process settings of selected "
 "objects."
 msgstr ""
-"Переключение в режим работы с моделями для редактирования настроек процесса "
-"печати."
+"Панель настроек печати была переключена в режим работы с отдельными моделями."
 
 msgid "Remove paint-on fuzzy skin"
 msgstr "Удалить покраску нечеткой оболочки"
@@ -2538,13 +2536,13 @@ msgid "Painted"
 msgstr "Вручную"
 
 msgid "Outer brim only"
-msgstr "Кайма только снаружи"
+msgstr "Снаружи"
 
 msgid "Inner brim only"
-msgstr "Кайма только внутри"
+msgstr "Внутри"
 
 msgid "Outer and inner brim"
-msgstr "Кайма снаружи и внутри"
+msgstr "Снаружи и внутри"
 
 msgid "No-brim"
 msgstr "Без каймы"
@@ -2622,7 +2620,7 @@ msgid "Insert a pause command at the beginning of this layer."
 msgstr "Вставить команду паузы в начале этого слоя."
 
 msgid "Add Custom G-code"
-msgstr "Добавить пользовательский G-код"
+msgstr "Добавить G-код"
 
 msgid "Insert custom G-code at the beginning of this layer."
 msgstr "Вставить пользовательский G-код в начале этого слоя."
@@ -7412,10 +7410,10 @@ msgstr ""
 "продолжением?"
 
 msgid "Number of copies:"
-msgstr "Количество новых копий:"
+msgstr "Количество копий:"
 
 msgid "Copies of the selected object"
-msgstr "Количество создаваемых копий выбранных моделей"
+msgstr "Количество экземпляров"
 
 msgid "Save G-code file as:"
 msgstr "Сохранить файл G-кода как:"
@@ -7669,7 +7667,7 @@ msgid "Browse"
 msgstr "Обзор"
 
 msgid "Choose folder for downloaded items"
-msgstr ""
+msgstr "Укажите расположение загружаемых файлов"
 
 msgid "Choose Download Directory"
 msgstr "Выбор папки загрузки"
@@ -7741,7 +7739,7 @@ msgid "Show the splash screen during startup."
 msgstr "Показывать окно приветствия при запуске программы."
 
 msgid "Downloads folder"
-msgstr "Расположение загрузок"
+msgstr "Хранение загрузок"
 
 msgid "Target folder for downloaded items"
 msgstr "Место сохранения загружаемых файлов"
@@ -7756,17 +7754,17 @@ msgid "Always Ask"
 msgstr "выбор действия"
 
 msgid "Load Geometry Only"
-msgstr "только геометрию"
+msgstr "3D-модели"
 
 msgid "Load behaviour"
-msgstr "При загрузке файла открывать ..."
+msgstr "При загрузке файла 3MF открывать ..."
 
 msgid "Should printer/filament/process settings be loaded when opening a 3MF file?"
 msgstr ""
 "Следует ли при открытии 3MF проекта загружать настройки принтера, печати и материала?"
 
 msgid "Maximum recent files"
-msgstr "Максимальное количество последних файлов"
+msgstr "Ограничение последних файлов"
 
 msgid "Maximum count of recent files"
 msgstr "Максимальное количество последних файлов"
@@ -10061,18 +10059,18 @@ msgid ""
 "Orca would re-calculate your flushing volumes everytime the filaments color "
 "changed or filaments changed. You could disable the auto-calculate in Orca "
 "Slicer > Preferences"
-msgstr "Программа будет пересчитывать значения при каждом изменении цвета или смены материала. Это можно отключить в меню Orca Slicer > Параметры."
+msgstr "Программа будет пересчитывать значения при каждом изменении цвета или смены материала. Это можно отключить в настройках."
 
 msgid "Flushing volume (mm³) for each filament pair."
-msgstr "Объём прочистки остатков одного материала в сопле другим\nв мм³."
+msgstr "Объём прочистки остатков одного материала в сопле другим (мм³)."
 
 #, c-format, boost-format
 msgid "Suggestion: Flushing Volume in range [%d, %d]"
-msgstr "Рекомендуемый объём в диапазоне [%d - %d]."
+msgstr "Рекомендуемый диапазон: %d-%d"
 
 #, c-format, boost-format
 msgid "The multiplier should be in range [%.2f, %.2f]."
-msgstr "Множитель должен находиться в диапазоне [%.2f - %.2f]."
+msgstr "Множитель должен находиться в диапазоне [%.2f, %.2f]."
 
 msgid "Re-calculate"
 msgstr "Пересчитать"
@@ -14368,7 +14366,7 @@ msgstr ""
 "данных вашей прошивкой может снизится за счёт увеличения размера файла."
 
 msgid "Infill combination"
-msgstr "Объединять слои заполнения"
+msgstr "Объединение слоёв заполнения"
 
 msgid ""
 "Automatically Combine sparse infill of several layers to print together to "
@@ -19762,14 +19760,14 @@ msgid ""
 "HTTPS CA file is optional. It is only needed if you use HTTPS with a self-"
 "signed certificate."
 msgstr ""
-"Файл корневого сертификата HTTPS не обязателен. Он необходим только \n"
+"Файл корневого сертификата HTTPS не обязателен. Он необходим только "
 "при использовании HTTPS с самоподписанным сертификатом."
 
 msgid "Certificate files (*.crt, *.pem)|*.crt;*.pem|All files|*.*"
 msgstr "Файлы сертификатов (*.crt, *.pem)|*.crt;*.pem|Все файлы|*.*"
 
 msgid "Open CA certificate file"
-msgstr "Открыть файл корневого сертификата"
+msgstr "Выбрать файл корневого сертификата"
 
 #, c-format, boost-format
 msgid ""
@@ -20478,7 +20476,7 @@ msgid "Global settings"
 msgstr ""
 
 msgid "Learn more"
-msgstr ""
+msgstr "Подробнее"
 
 msgid "(Sync with printer)"
 msgstr ""
@@ -20487,7 +20485,7 @@ msgid "We will slice according to this grouping method:"
 msgstr ""
 
 msgid "Tip: You can drag the filaments to reassign them to different nozzles."
-msgstr ""
+msgstr "Совет: для назначения материала можно перетащить его на сопло."
 
 msgid ""
 "The filament grouping method for current plate is determined by the dropdown "
@@ -20624,7 +20622,7 @@ msgid "Skipping objects."
 msgstr ""
 
 msgid "Continue"
-msgstr ""
+msgstr "Продолжить"
 
 msgid "Select Filament"
 msgstr ""
@@ -20640,6 +20638,102 @@ msgstr ""
 
 msgid "More Colors"
 msgstr ""
+
+# ??? несорт (ещё не добавлены разработчиками в файл en-локализации). Закомментированные – подвержены багу кодировки (#4042)
+msgid "Actual speed profile"
+msgstr "График расчётной скорости"
+
+#msgid "Show table"
+#msgstr "Показать значения"
+
+#msgid "Hide table"
+#msgstr "Скрыть значения"
+
+# ??? забаганное отображение – UI не учитывает длину локализованных строк и переносит их. Пришлось ужать до предела, чтобы не выглядело вырвиглазно
+msgid "Replace 3D file"
+msgstr "Заменить на другую модель"
+
+msgid "Replace the selected part with a new 3D file"
+msgstr "Заменить выбранную модель другой"
+
+msgid "Replace all with 3D files"
+msgstr "Заменить все модели"
+
+msgid "Replace all selected parts with 3D files from folder"
+msgstr "Заменить все выбранные модели другими из папки"
+
+msgid "Fit camera to scene or selected object."
+msgstr " Поиск объекта"
+
+msgid "3D Navigator"
+msgstr "Навигатор видов"
+
+msgid "Zoom button"
+msgstr "Кнопка поиска объекта"
+
+msgid "Outline"
+msgstr "Подсветка выбранного"
+
+msgid "Perspective"
+msgstr "Перспектива"
+
+msgid "Labels"
+msgstr "Имена моделей"
+
+msgid "Axes"
+msgstr "Оси координат"
+
+msgid "Feature type"
+msgstr "Элемент структуры"
+
+msgid "Extrude"
+msgstr "Печать"
+
+msgid "External perimeter"
+msgstr "Внешний периметр"
+
+msgid "Perimeter"
+msgstr "Внутренний периметр"
+
+msgid "Top solid infill"
+msgstr "Заполнение верхнего слоя"
+
+# не меняются, хотя корни копировал из кода
+#msgid "Actual Speed"
+#msgstr "Действительная скорость"
+#
+#msgid "Actual Flow"
+#msgstr "Действительный расход"
+
+msgid "Actual Flow: "
+msgstr "Расход: "
+
+msgid "Actual Speed: "
+msgstr "Скорость в точке: "
+
+msgid "Actual Speed (mm/s)"
+msgstr "Действительная скорость (мм/с)"
+
+msgid "Actual volumetric flow rate (mm³/s)"
+msgstr "Действительный расход (мм³/с)"
+
+#msgid "Show properties"
+#msgstr "Показать свойства"
+
+#msgid "Hide properties"
+#msgstr "Скрыть свойства"
+
+msgid "Group user filament presets"
+msgstr "Группировка пользовательских материалов"
+
+msgid "Group user filament presets based on selection"
+msgstr "Режим группировки материалов, добавленных пользователем."
+
+msgid "By type"
+msgstr "Тип материала"
+
+msgid "By vendor"
+msgstr "Производитель"
 
 #: resources/data/hints.ini: [hint:Precise wall]
 msgid ""
