@@ -7691,13 +7691,13 @@ msgid "with OrcaSlicer so that Orca can open models from"
 msgstr "с OrcaSlicer, чтобы она могла открывать модели сразу с"
 
 msgid "Current Association: "
-msgstr "Текущая ассоциация: "
+msgstr "Открывается в "
 
 msgid "Current Instance"
-msgstr "Текущая копия"
+msgstr "OrcaSlicer (текущая версия)"
 
 msgid "Current Instance Path: "
-msgstr "Путь к текущей копии: "
+msgstr "Расположение: "
 
 msgid "General"
 msgstr "Общие"
@@ -7982,43 +7982,37 @@ msgstr ""
 "прошивки BambuLab."
 
 msgid "Associate files to OrcaSlicer"
-msgstr "Сопоставление типов файлов с OrcaSlicer"
+msgstr "Открытие файлов по умолчанию"
 
-#, fuzzy
 msgid "Associate 3MF files to OrcaSlicer"
-msgstr "Ассоциировать файлы .3mf с OrcaSlicer"
+msgstr "Открывать файлы 3MF в OrcaSlicer"
 
-#, fuzzy
 msgid "If enabled, sets OrcaSlicer as default application to open 3MF files."
 msgstr ""
-"Если включено, OrcaSlicer назначается приложением по умолчанию для открытия "
-"файлов .3mf"
+"Назначить OrcaSlicer приложением по умолчанию для открытия "
+"файлов 3MF."
 
-#, fuzzy
 msgid "Associate STL files to OrcaSlicer"
-msgstr "Ассоциировать файлы .stl с OrcaSlicer"
+msgstr "Открывать файлы STL в OrcaSlicer"
 
-#, fuzzy
 msgid "If enabled, sets OrcaSlicer as default application to open STL files."
 msgstr ""
-"Если включено, OrcaSlicer назначается приложением по умолчанию для открытия "
-"файлов .stl"
+"Назначить OrcaSlicer приложением по умолчанию для открытия "
+"файлов STL."
 
-#, fuzzy
 msgid "Associate STEP files to OrcaSlicer"
-msgstr "Ассоциировать файлы .step/.stp с OrcaSlicer"
+msgstr "Открывать файлы STEP в OrcaSlicer"
 
-#, fuzzy
 msgid "If enabled, sets OrcaSlicer as default application to open STEP files."
 msgstr ""
-"Если включено, OrcaSlicer назначается приложением по умолчанию для открытия "
-"файлов .step"
+"Назначить OrcaSlicer приложением по умолчанию для открытия "
+"файлов STEP."
 
 msgid "Associate web links to OrcaSlicer"
-msgstr "Ассоциировать веб-ссылки с OrcaSlicer"
+msgstr "Открытие ссылок в OrcaSlicer"
 
 msgid "Developer"
-msgstr ""
+msgstr "Разработка"
 
 msgid "Develop mode"
 msgstr "Режим разработчика"
@@ -8032,7 +8026,7 @@ msgstr "Снять ограничение перепада температур"
 msgid ""
 "With this option enabled, you can print materials with a large temperature "
 "difference together."
-msgstr ""
+msgstr "Активировать возможность совместной печати разными материалами с большим перепадом температур."
 
 msgid "Allow Abnormal Storage"
 msgstr "Игнорировать неисправность хранилища"
@@ -8139,7 +8133,7 @@ msgid "Incompatible presets"
 msgstr "Несовместимые профили"
 
 msgid "My Printer"
-msgstr ""
+msgstr "Мой принтер"
 
 msgid "Left filaments"
 msgstr "Остаток материалов"
@@ -8367,10 +8361,10 @@ msgid "Send print job"
 msgstr "Отправка задания на печать"
 
 msgid "On"
-msgstr ""
+msgstr "Вкл"
 
 msgid "Not satisfied with the grouping of filaments? Regroup and slice ->"
-msgstr ""
+msgstr "Не нравится текущая группировка материалов? Изменить и нарезать заново →"
 
 msgid "Manually change external spool during printing for multi-color printing"
 msgstr ""
@@ -8379,7 +8373,7 @@ msgid "Multi-color with external"
 msgstr ""
 
 msgid "Your filament grouping method in the sliced file is not optimal."
-msgstr ""
+msgstr "Группировка материалов в файле печати не оптимальна."
 
 msgid "Auto Bed Leveling"
 msgstr ""
@@ -8401,7 +8395,7 @@ msgid ""
 msgstr ""
 
 msgid "Nozzle Offset Calibration"
-msgstr ""
+msgstr "Калибровка смещения сопла"
 
 msgid ""
 "Calibrate nozzle offsets to enhance print quality.\n"
@@ -8455,7 +8449,7 @@ msgstr ""
 msgid ""
 "The current printer does not support timelapse in Traditional Mode when "
 "printing By-Object."
-msgstr ""
+msgstr "Принтер не поддерживает таймлапс в режиме по умолчанию при печати моделей по очереди."
 
 msgid "Errors"
 msgstr "Ошибок"
@@ -8516,7 +8510,7 @@ msgstr "Слишком длинное имя."
 
 #, c-format, boost-format
 msgid "Cost %dg filament and %d changes more than optimal grouping."
-msgstr ""
+msgstr "Будет затрачено на %d г материала и на %d смен больше, чем при оптимальной группировке."
 
 msgid "nozzle"
 msgstr ""
@@ -8527,7 +8521,7 @@ msgstr ""
 msgid ""
 "Tips: If you changed your nozzle of your printer lately, Please go to "
 "'Device -> Printer parts' to change your nozzle setting."
-msgstr ""
+msgstr "Совет: после замены сопла в принтере необходимо обновить его настройки («Принтер» → «Части принтера»)."
 
 #, c-format, boost-format
 msgid ""
@@ -8563,16 +8557,16 @@ msgid ""
 msgstr ""
 
 msgid "Cool"
-msgstr ""
+msgstr "Гладкий лист"
 
 msgid "Engineering"
-msgstr ""
+msgstr "Инженерный лист"
 
 msgid "High Temp"
-msgstr ""
+msgstr "Высокотемпературный"
 
 msgid "Cool(Supertack)"
-msgstr ""
+msgstr "SuperTack"
 
 msgid "Click here if you can't connect to the printer"
 msgstr "Нажмите, если не удаётся подключиться к принтеру"
@@ -8592,7 +8586,7 @@ msgid "Synchronizing device information timed out."
 msgstr "Время синхронизации информации об устройстве истекло"
 
 msgid "Cannot send a print job when the printer is not at FDM mode."
-msgstr ""
+msgstr "Невозможно отправить задание на печати, пока принтер не в режиме FDM."
 
 msgid "Cannot send a print job while the printer is updating firmware."
 msgstr ""
@@ -8615,7 +8609,7 @@ msgid ""
 msgstr ""
 
 msgid "Storage needs to be inserted before printing via LAN."
-msgstr ""
+msgstr "Перед печатью по локальной сети необходимо вставить хранилище данных."
 
 msgid "Storage is in abnormal state or is in read-only mode."
 msgstr "Хранилище неисправно или защищено от записи."
@@ -8635,7 +8629,7 @@ msgstr ""
 "Невозможно отправить задание на печать, так как печатная пластина пуста"
 
 msgid "Storage needs to be inserted to record timelapse."
-msgstr ""
+msgstr "Для записи таймлапса необходимо вставить хранилище данных."
 
 msgid ""
 "You have selected both external and AMS filaments for an extruder. You will "
@@ -8675,7 +8669,7 @@ msgid "click to retry"
 msgstr ""
 
 msgid "Upload file timeout, please check if the firmware version supports it."
-msgstr ""
+msgstr "Превышено время ожидания отправки файла. Убедитесь, что прошивка поддерживает эту функцию."
 
 msgid ""
 "No available external storage was obtained. Please confirm and try again."
@@ -8689,21 +8683,21 @@ msgstr ""
 msgid ""
 "Please check the network and try again, You can restart or update the "
 "printer if the issue persists."
-msgstr ""
+msgstr "Проверьте подключение и повторите попытку. Если проблема сохраняется, попробуйте перезапустить принтер или обновить его прошивку."
 
 msgid "Sending..."
-msgstr ""
+msgstr "Отправка..."
 
 msgid ""
 "File upload timed out. Please check if the firmware version supports this "
 "operation or verify if the printer is functioning properly."
-msgstr ""
+msgstr "Превышено время ожидания отправки файла. Убедитесь, что прошивка поддерживает эту функцию, и что принтер работает нормально."
 
 msgid "Sending failed, please try again!"
-msgstr ""
+msgstr "Ошибка отправки, попробуйте ещё раз."
 
 msgid "Connection failed. Click the icon to retry"
-msgstr ""
+msgstr "Не удалось подключиться. Нажмите на значок для повтора."
 
 msgid "Cannot send the print task when the upgrade is in progress"
 msgstr "Во время обновления невозможно отправить задание на печать"
@@ -8712,13 +8706,13 @@ msgid "The selected printer is incompatible with the chosen printer presets."
 msgstr "Выбранный принтер несовместим с выбранными профилями принтера."
 
 msgid "Storage needs to be inserted before send to printer."
-msgstr ""
+msgstr "Перед отправкой необходимо вставить хранилище данных"
 
 msgid "The printer is required to be in the same LAN as Orca Slicer."
 msgstr "Принтер должен находиться в одной локальной сети с Orca Slicer."
 
 msgid "The printer does not support sending to printer storage."
-msgstr ""
+msgstr "Принтер не поддерживает отправку файлов в его память."
 
 msgid "Slice ok."
 msgstr "Нарезка завершена."
@@ -12253,7 +12247,7 @@ msgid "Print sequence, layer by layer or object by object."
 msgstr "Выбор последовательности печати моделей - параллельно или по очереди.\nПримечание: очерёдность печати моделей по очереди зависит от позиции в списке на вкладке «Модели»."
 
 msgid "By layer"
-msgstr "Параллельно"
+msgstr "Совместно"
 
 msgid "By object"
 msgstr "По очереди"
@@ -20764,6 +20758,9 @@ msgstr "По умолчанию"
 
 msgid "Replaced with 3D files from directory:\n"
 msgstr "Заменено файлами из расположения:\n"
+
+msgid "Reload"
+msgstr "Перезагрузить"
 
 #: resources/data/hints.ini: [hint:Precise wall]
 msgid ""
