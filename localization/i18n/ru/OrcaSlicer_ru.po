@@ -1113,7 +1113,7 @@ msgid "Undo boldness"
 msgstr "Сброс толщины шрифта"
 
 msgid "Tiny / Wide glyphs"
-msgstr "Тонкие/Толстые символы"
+msgstr "Расширение/сужение символов"
 
 msgid "Undo letter's skew"
 msgstr "Сброс наклона букв"
@@ -1484,7 +1484,7 @@ msgid "Length"
 msgstr "Длина"
 
 msgid "Selection"
-msgstr "Выделение"
+msgstr "Элемент"
 
 msgid " (Moving)"
 msgstr " (подвижная)"
@@ -1529,7 +1529,7 @@ msgid "Warning: please select two different meshes."
 msgstr "Внимание: выберите требуемый элемент на втором объекте."
 
 msgid "Copy to clipboard"
-msgstr "Скопировать в буфер обмена"
+msgstr "Копировать в буфер обмена"
 
 msgid "Perpendicular distance"
 msgstr "Длина перпендикуляра"
@@ -4498,6 +4498,9 @@ msgstr "Выбрать"
 msgid "Summary"
 msgstr "Сводка"
 
+msgid "Actual Speed"
+msgstr "Действительная скорость"
+
 msgid "Layer Height"
 msgstr "Высота слоя"
 
@@ -4509,6 +4512,9 @@ msgstr "Охлаждение"
 
 msgid "Flow"
 msgstr "Поток/расход"
+
+msgid "Actual Flow"
+msgstr "Действительный расход"
 
 msgid "Tool"
 msgstr "Инструмент"
@@ -7086,7 +7092,7 @@ msgid "The name may show garbage characters!"
 msgstr "В названии могут присутствовать ненужные символы!"
 
 msgid "Remember my choice."
-msgstr "Запомнить выбор."
+msgstr "Запомнить выбор"
 
 #, boost-format
 msgid "Failed loading file \"%1%\". An invalid configuration was found."
@@ -20699,13 +20705,6 @@ msgstr "Внутренний периметр"
 msgid "Top solid infill"
 msgstr "Заполнение верхнего слоя"
 
-# не меняются, хотя корни копировал из кода
-#msgid "Actual Speed"
-#msgstr "Действительная скорость"
-#
-#msgid "Actual Flow"
-#msgstr "Действительный расход"
-
 msgid "Actual Flow: "
 msgstr "Расход: "
 
@@ -20759,6 +20758,12 @@ msgstr "Заменено файлами из расположения:\n"
 
 msgid "Reload"
 msgstr "Перезагрузить"
+
+msgid "Face and face assembly"
+msgstr "Сборка по граням"
+
+msgid "Point and point assembly"
+msgstr "Сборка по точкам"
 
 #: resources/data/hints.ini: [hint:Precise wall]
 msgid ""
@@ -22446,14 +22451,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Введите допустимый коэффициент затухания (0 <= Начальное значение "
 #~ "затухания < Конечное значение затухания <= 1) "
-
-# если нужно короче то Грань-грань
-#~ msgid "Face and face assembly"
-#~ msgstr "Сборка по граням"
-
-# если нужно короче то Точка-точка
-#~ msgid "Point and point assembly"
-#~ msgstr "Сборка по точкам"
 
 #~ msgid "Unselect"
 #~ msgstr "Отменить выбор"
