@@ -107,7 +107,7 @@ msgid "On highlighted overhangs only"
 msgstr "Только на подсвеченных нависаниях"
 
 msgid "Erase all"
-msgstr ""
+msgstr "Сброс"
 
 msgid "Highlight overhangs"
 msgstr "Выделить зоны нависания"
@@ -311,13 +311,13 @@ msgid "Enable painted fuzzy skin for this object"
 msgstr "Включить нечёткую оболочку для модели"
 
 msgid "Entering Paint-on fuzzy skin"
-msgstr ""
+msgstr "Вход в режим рисования нечёткой оболочки"
 
 msgid "Leaving Paint-on fuzzy skin"
-msgstr ""
+msgstr "Выход из режима рисования нечёткой оболочки"
 
 msgid "Paint-on fuzzy skin editing"
-msgstr ""
+msgstr "Рисование нечёткой оболочки"
 
 msgid "Move"
 msgstr "Перемещение"
@@ -359,10 +359,10 @@ msgid "Fixed step drag"
 msgstr "Сместить с шагом"
 
 msgid "Context Menu"
-msgstr ""
+msgstr "Контекстное меню"
 
 msgid "Toggle Auto-Drop"
-msgstr ""
+msgstr "Переключить притягивание к столу"
 
 msgid "Single sided scaling"
 msgstr "Масштабирование без привязки к центру"
@@ -816,7 +816,7 @@ msgid "Angle"
 msgstr "Угол"
 
 msgid "Embedded depth"
-msgstr "Глубинапроникновения"
+msgstr "Глубина проникновения"
 
 msgid "Input text"
 msgstr "Введите текст"
@@ -863,7 +863,7 @@ msgid "Embossing actions"
 msgstr "Действие c рельефным текстом"
 
 msgid "Position on surface"
-msgstr ""
+msgstr "Разместить на поверхности"
 
 msgid "Emboss"
 msgstr "Рельефный текст"
@@ -1480,7 +1480,7 @@ msgid "Esc"
 msgstr ""
 
 msgid "Cancel a feature until exit"
-msgstr "Отменить выбор до выхода"
+msgstr "Отменить выбор/выйти"
 
 msgid "Measure"
 msgstr "Измерения"
@@ -1825,16 +1825,16 @@ msgid "Info"
 msgstr "Информация"
 
 msgid "Loading printer & filament profiles"
-msgstr ""
+msgstr "Загрузка профилей принтеров и материалов"
 
 msgid "Creating main window"
-msgstr ""
+msgstr "Запуск окна"
 
 msgid "Loading current preset"
-msgstr ""
+msgstr "Загрузка текущего профиля"
 
 msgid "Showing main window"
-msgstr ""
+msgstr "Вывод окна"
 
 msgid ""
 "The OrcaSlicer configuration file may be corrupted and cannot be parsed.\n"
@@ -1885,13 +1885,14 @@ msgid "User logged out"
 msgstr "Пользователь вышел из системы"
 
 msgid "You are currently in Stealth Mode. To log into the Cloud, you need to disable Stealth Mode first."
-msgstr ""
+msgstr "Активен режим приватности. Отключите его для авторизации в облаке."
 
 msgid "Stealth Mode"
-msgstr "Режим конфиденциальности (отключение телеметрии Bambulab)"
+msgstr "Режим приватности"
 
+# Не совсем прямой перевод, но лучше доносит то, чего пользователь лишается.
 msgid "Quit Stealth Mode"
-msgstr ""
+msgstr "Покинуть приватность"
 
 msgid "new or open project file is not allowed during the slicing process!"
 msgstr "Создание или открытие файла проекта невозможно во время нарезки."
@@ -1906,29 +1907,39 @@ msgid ""
 "Cloud sync conflict: this preset has a newer version in OrcaCloud.\n"
 "Pull downloads the cloud copy. Force push overwrites it with your local preset."
 msgstr ""
+"Конфликт синхронизации с облаком: профиль имеет обновлённую версию в OrcaCloud.\n"
+"«Загрузить из облака» отменит локальные изменения в пользу облачных. «Выгрузить в облако» выгрузит локальные изменения."
 
 msgid ""
 "Cloud sync conflict: a preset with this name already exists in OrcaCloud.\n"
 "Pull downloads the cloud copy. Force push overwrites it with your local preset."
 msgstr ""
+"Конфликт синхронизации с облаком: профиль с таким именем уже существует в OrcaCloud.\n"
+"«Загрузить из облака» заменит локальнный профиль облачным. «Выгрузить в облако» выгрузит локальный профиль в облако."
 
 msgid ""
 "Cloud sync conflict: a preset with the same name was previously deleted from the cloud.\n"
 "Delete will delete your local preset. Force push overwrites it with your local preset."
 msgstr ""
+"Конфликт синхронизации с облаком: профиль с таким именем был удалён из OrcaCloud.\n"
+"«Удалить» сделает то же самое локально. «Выгрузить в облако» выгрузит локальный профиль в облако."
 
 msgid ""
 "Cloud sync conflict: there was an unexpected or unidentified preset conflict.\n"
 "Pull downloads the cloud copy. Force push overwrites it with your local preset."
 msgstr ""
+"Конфликт синхронизации с облаком: произошёл непредвиденный конфликт профилей.\n"
+"«Загрузить из облака» сохранит профиль из облака. «Выгрузить в облако» сохранит локальный профиль."
 
 msgid ""
 "Force push will overwrite the cloud copy with your local preset changes.\n"
 "Do you want to continue?"
 msgstr ""
+"«Выгрузить в облако» перезапишет профиль в облаке вашим локальным профилем.\n"
+"Вы действительно хотите продолжить?"
 
 msgid "Resolve cloud sync conflict"
-msgstr ""
+msgstr "Решение проблем синхронизации"
 
 msgid "Retrieving printer information, please try again later."
 msgstr "Получение информации о принтере, попробуйте позднее."
@@ -1974,11 +1985,11 @@ msgid "your Orca Cloud profile (user ID: \"%s\")"
 msgstr ""
 
 msgid "your default profile"
-msgstr ""
+msgstr "профиль по умолчанию"
 
 #, c-format, boost-format
 msgid "a user profile (folder: \"%s\")"
-msgstr ""
+msgstr "профиль пользователя (папка: «%s»)"
 
 #, c-format, boost-format
 msgid ""
@@ -1986,36 +1997,40 @@ msgid ""
 "Do you want to migrate them to your OrcaCloud profile?\n"
 "This will copy your presets so they are available under your new account."
 msgstr ""
+"Обнаружены пользовательские профили в %s.\n"
+"Перенести их в папку пользователя, привязанного к OrcaSloud?\n"
+"Файлы будут скопированы в папку нового пользователя и станут доступны для синхронизации."
 
 msgid "Migrate User Presets"
-msgstr ""
+msgstr "Перенести"
 
 #, c-format, boost-format
 msgid ""
 "Failed to migrate user presets:\n"
 "%s"
-msgstr ""
+msgstr "Не удалось перенести профили:\n"
+"%s"
 
 msgid "The number of user presets cached in the cloud has exceeded the upper limit, newly created user presets can only be used locally."
-msgstr "Количество пользовательских профилей, кэшированных в облаке, превысило установленный лимит. Новые пользовательские профили можно будет использовать только локально."
+msgstr "Количество пользовательских профилей в облаке превысило допустимый предел. Новые пользовательские профили можно будет сохранять только локально."
 
 msgid "Sync user presets"
-msgstr "Синхронизировать пользовательские профили"
+msgstr "Синхронизировать профили"
 
 msgid "The preset content is too large to sync to the cloud (exceeds 1MB). Please reduce the preset size by removing custom configurations or use it locally only."
-msgstr ""
+msgstr "Размер файла профиля слишком велик для синхронизации (превышает 1 МБ). Сократите пользовательское содержимое или используйте профиль локально."
 
 #, c-format, boost-format
 msgid "%s updated from %s to %s"
-msgstr ""
+msgstr "%s обновлён с %s до %s"
 
 #, c-format, boost-format
 msgid "%s has been downloaded."
-msgstr ""
+msgstr "%s загружен."
 
 #, c-format, boost-format
 msgid "Bundle %s is no longer available."
-msgstr ""
+msgstr "Пакет %s больше недоступен."
 
 #, c-format, boost-format
 msgid "Bundle %s access is unauthorized."
@@ -2238,7 +2253,7 @@ msgid ""
 "Yes - Change these settings automatically\n"
 "No  - Do not change these settings for me"
 msgstr ""
-"На верхней поверхности модели присутствует рельефный текст. Для достижения оптимального результата рекомендуется установить «Порог одного периметра» (min_width_top_surface) равным 0, чтобы избежать проблем в работе настройки «Только один периметр на верхней поверхности».\n"
+"На верхней поверхности модели присутствует рельефный текст. Для достижения оптимального результата рекомендуется установить «Порог верхней поверхности» (min_width_top_surface) равным 0, чтобы избежать проблем в работе настройки «Только один периметр на верхней поверхности».\n"
 "\n"
 "Да – применить рекомендуемые настройки\n"
 "Нет – ничего не менять"
@@ -2286,10 +2301,10 @@ msgid "Printable"
 msgstr "Для печати"
 
 msgid "Auto Drop"
-msgstr ""
+msgstr "Притягивать к столу"
 
 msgid "Automatically drops the selected object to the build plate."
-msgstr ""
+msgstr "Автоматически притягивать модель к поверхности стола при её поднятии."
 
 msgid "Fix Model"
 msgstr "Восстановить модель"
@@ -3017,6 +3032,7 @@ msgstr "Изменить в любом случае"
 msgid "Off"
 msgstr "Выкл"
 
+# Очередной оверюзинг строки в нескольких местах; невозможно перевести универсально.
 msgid "Filter"
 msgstr "Фильтровать"
 
@@ -3175,19 +3191,20 @@ msgid "Filter nonSelected"
 msgstr ""
 
 msgid "Simple settings"
-msgstr ""
+msgstr "Простые настройки"
 
 msgid "Advanced settings"
 msgstr "Расширенные настройки"
 
 msgid "Expert settings"
-msgstr ""
+msgstr "Продвинутые настройки"
 
 msgid "Developer mode"
 msgstr "Режим разработчика"
 
+# Подсказка переключателя настроек при включённом режиме разработчика
 msgid "Launch troubleshoot center"
-msgstr ""
+msgstr "Запустить экран отладки"
 
 msgid ""
 "All the selected objects are on a locked plate.\n"
@@ -5125,7 +5142,7 @@ msgid "Sequence"
 msgstr "Последовательность"
 
 msgid "Object selection"
-msgstr ""
+msgstr "Выбрать объект"
 
 msgid "number keys"
 msgstr "(цифры)"
@@ -5583,7 +5600,7 @@ msgid "Show Configuration Folder"
 msgstr "Показать конфигурационную папку"
 
 msgid "Troubleshoot Center"
-msgstr ""
+msgstr "Экран отладки"
 
 msgid "Open Network Test"
 msgstr "Проверка сети"
@@ -5726,13 +5743,13 @@ msgid "Export"
 msgstr "Экспорт"
 
 msgid "Sync Presets"
-msgstr ""
+msgstr "Синхронизация"
 
 msgid "Pull and apply the latest presets from OrcaCloud"
-msgstr ""
+msgstr "Загрузить и применить новейшие профили из OrcaCloud"
 
 msgid "You must be logged in to sync presets from cloud."
-msgstr ""
+msgstr "Для синхронизации с облаком необходима авторизация."
 
 msgid "Quit"
 msgstr "Выход"
@@ -5846,10 +5863,10 @@ msgid "View"
 msgstr "Вид"
 
 msgid "Preset Bundle"
-msgstr ""
+msgstr "Пакет профилей"
 
 msgid "Syncing presets from cloud…"
-msgstr ""
+msgstr "Синхронизация профилей с облаком…"
 
 msgid "Help"
 msgstr "Помощь"
@@ -5892,7 +5909,7 @@ msgid "VFA"
 msgstr "Тест ряби (VFA)"
 
 msgid "Calibration Guide"
-msgstr ""
+msgstr "Руководство по калибровкам"
 
 msgid "&Open G-code"
 msgstr "&Открыть файл G-кода"
@@ -6326,8 +6343,9 @@ msgstr "Мой принтер"
 msgid "Other Device"
 msgstr "Другое устройство"
 
+# Ранее – "В сети". Вернуть как было после миграции на более функциональную систему локализации, которая умеет разделять строки в зависимости от их расположения. Сейчас статус "в сети" конфликтует с вкладкой настроек "Сеть" (тоже Online).
 msgid "Online"
-msgstr "В сети"
+msgstr "Онлайн"
 
 msgid "Input access code"
 msgstr "Введите код доступа"
@@ -6338,8 +6356,9 @@ msgstr "Не удаётся найти свои принтеры?"
 msgid "Log out successful."
 msgstr "Выход выполнен успешно."
 
+# Вернуть "Не в сети" в будущем, причину см. в строке "Online"
 msgid "Offline"
-msgstr "Не в сети"
+msgstr "Офлайн"
 
 msgid "Busy"
 msgstr "Занят"
@@ -6853,22 +6872,22 @@ msgid "Model file downloaded."
 msgstr "Файл модели скачан."
 
 msgid "Pull"
-msgstr ""
+msgstr "Загрузить из облака"
 
 msgid "Force push"
-msgstr ""
+msgstr "Выгрузить в облако"
 
 msgid "Shared profiles may be available for this printer."
-msgstr ""
+msgstr "Для этого профиля могут быть доступны профили от сообщества."
 
 msgid "Browse shared profiles"
-msgstr ""
+msgstr "Найти профили сообщества"
 
 msgid "Serious warning:"
 msgstr "Серьёзное предупреждение:"
 
 msgid " (Repair)"
-msgstr " (Починить)"
+msgstr " (Восстановить)"
 
 msgid " Click here to install it."
 msgstr " Нажмите здесь, чтобы установить."
@@ -8234,40 +8253,40 @@ msgid "Clear my choice for synchronizing printer preset after loading the file."
 msgstr "Отменить выбор для синхронизации профиля принтера при открытии файла."
 
 msgid "Graphics"
-msgstr ""
+msgstr "Графика"
 
 msgid "Phong shading"
-msgstr ""
+msgstr "Затенение по Фонгу"
 
 msgid "Uses Phong shading inside realistic view."
-msgstr ""
+msgstr "Использовать затенение по Фонгу в режиме реалистичного освещения."
 
 msgid "SSAO ambient occlusion"
-msgstr ""
+msgstr "Фоновое затенение"
 
 msgid "Applies SSAO in realistic view."
-msgstr ""
+msgstr "Применять фоновое затенение в пространстве экрана в режиме реалистичного освещения."
 
 msgid "Shadows"
-msgstr ""
+msgstr "Тени"
 
 msgid "Renders cast shadows on the plate in realistic view."
-msgstr ""
+msgstr "Отрисовывать тени в режиме реалистичного освещения."
 
 msgid "Smooth normals"
-msgstr ""
+msgstr "Сглаживание бликов"
 
 msgid ""
 "Applies smooth normals to the realistic view.\n"
 "\n"
 "Requires manual scene reload to take effect (right-click on 3D view → \"Reload All\")."
-msgstr ""
+msgstr "Применять сглаживание нормалей в режиме реалистичного освещения. Требует перезагрузки."
 
 msgid "Anti-aliasing"
-msgstr "Anti-aliasing"
+msgstr "Сглаживание"
 
 msgid "MSAA Multiplier"
-msgstr ""
+msgstr "Множитель MSAA"
 
 msgid ""
 "Set the Multi-Sample Anti-Aliasing level.\n"
@@ -8282,7 +8301,7 @@ msgid "Disabled"
 msgstr "Отключено"
 
 msgid "FXAA post-processing"
-msgstr ""
+msgstr "Сглаживание FXAA"
 
 msgid ""
 "Applies Fast Approximate Anti-Aliasing as a screen-space pass.\n"
@@ -8295,10 +8314,10 @@ msgid "FPS"
 msgstr "FPS"
 
 msgid "FPS cap"
-msgstr ""
+msgstr "Ограничение частоты кадров"
 
 msgid "(0 = unlimited)"
-msgstr ""
+msgstr "(0 – не ограничено)"
 
 msgid ""
 "Limits viewport frame rate to reduce GPU load and power usage.\n"
@@ -8306,16 +8325,16 @@ msgid ""
 msgstr ""
 
 msgid "Show FPS overlay"
-msgstr ""
+msgstr "Отображать частоту кадров"
 
 msgid "Displays current viewport FPS in the top-right corner."
-msgstr ""
+msgstr "Выводить частоту кадров рабочего пространства в правом верхнем углу."
 
 msgid "Login region"
 msgstr "Регион входа"
 
 msgid "Stealth mode"
-msgstr "Режим конфиденциальности (отключение телеметрии Bambu Lab)"
+msgstr "Режим приватности"
 
 msgid ""
 "This disables all cloud features, including Orca Cloud profile syncing. Users who prefer to work entirely offline can enable this option.\n"
@@ -8323,10 +8342,10 @@ msgid ""
 msgstr ""
 
 msgid "Hide login side panel"
-msgstr ""
+msgstr "Скрыть панель входа"
 
 msgid "Hide the login side panel on the home page."
-msgstr ""
+msgstr "Скрыть панель авторизации на главной странице."
 
 msgid "Network test"
 msgstr "Тестирование сети"
@@ -8335,10 +8354,10 @@ msgid "Test"
 msgstr "Тест"
 
 msgid "Cloud Providers"
-msgstr ""
+msgstr "Поставщики услуг"
 
 msgid "Enable Bambu Cloud"
-msgstr ""
+msgstr "Облако Bambu Cloud"
 
 msgid "Allow logging into Bambu Cloud alongside Orca Cloud. When enabled, a Bambu login section appears on the homepage."
 msgstr ""
@@ -8350,7 +8369,7 @@ msgid "Check for stable updates only"
 msgstr "Уведомлять только о стабильных версиях"
 
 msgid "Auto sync user presets (Printer/Filament/Process)"
-msgstr "Синхронизация пользовательских профилей (принтера/материала/настроек)"
+msgstr "Синхронизация пользов. профилей (принтера/материала/настроек)"
 
 msgid "Update built-in presets automatically."
 msgstr "Автоматически обновлять системные профили"
@@ -8377,10 +8396,10 @@ msgid "Color only"
 msgstr "Цвет"
 
 msgid "Bambu network plug-in"
-msgstr ""
+msgstr "Сетевой плагин Bambu"
 
 msgid "Enable Bambu network plug-in"
-msgstr ""
+msgstr "Включить сетевой плагин Bambu"
 
 msgid "Network plug-in version"
 msgstr "Версия сетевого плагина"
@@ -8419,10 +8438,10 @@ msgid "Associate files to OrcaSlicer"
 msgstr "Открытие файлов по умолчанию"
 
 msgid "File associations for the Microsoft Store version are managed by Windows Settings."
-msgstr ""
+msgstr "Ассоциации файлов с версией для Microsoft Store управляются через настройки Windows."
 
 msgid "Open Windows Default Apps Settings"
-msgstr ""
+msgstr "Перейти в настройки"
 
 msgid "Associate 3MF files to OrcaSlicer"
 msgstr "Открывать файлы 3MF в OrcaSlicer"
@@ -8458,7 +8477,7 @@ msgid "Skip AMS blacklist check"
 msgstr "Пропуск проверки материалов в AMS из файла чёрного списка"
 
 msgid "(Experimental) Keep painted feature after mesh change"
-msgstr ""
+msgstr "Восстанавливать цвета после изменения сетки (beta)"
 
 msgid ""
 "Attempt to keep painted features (color/seam/support/fuzzy etc.) after changing the object mesh (such as cut/reload from disk/simplify/fix etc.)\n"
@@ -8466,7 +8485,7 @@ msgid ""
 msgstr ""
 
 msgid "Show unsupported presets"
-msgstr ""
+msgstr "Показывать несовместимые профили"
 
 msgid "Show incompatible/unsupported presets in the printer and filament dropdown lists. These presets cannot be selected."
 msgstr ""
@@ -9207,7 +9226,7 @@ msgid "Terms and Conditions"
 msgstr "Условия использования"
 
 msgid "Thank you for purchasing a Bambu Lab device. Before using your Bambu Lab device, please read the terms and conditions. By clicking to agree to use your Bambu Lab device, you agree to abide by the Privacy Policy and Terms of Use (collectively, the \"Terms\"). If you do not comply with or agree to the Bambu Lab Privacy Policy, please do not use Bambu Lab equipment and services."
-msgstr "Благодарим вас за покупку устройства Bambu Lab. Перед использованием устройства Bambu Lab ознакомьтесь с правилами и условиями. Нажимая на кнопку «Согласие на использование устройства Bambu Lab», вы соглашаетесь соблюдать Политику конфиденциальности и Условия использования (далее - «Условия»). Если вы не соблюдаете или не согласны с Политикой конфиденциальности Bambu Lab, пожалуйста, не пользуйтесь оборудованием и услугами Bambu Lab."
+msgstr "Благодарим вас за покупку устройства Bambu Lab. Перед использованием устройства Bambu Lab ознакомьтесь с правилами и условиями. Нажимая на кнопку «Согласие на использование устройства Bambu Lab», вы соглашаетесь соблюдать Политику конфиденциальности и Условия использования (далее – «Условия»). Если вы не соблюдаете или не согласны с Политикой конфиденциальности Bambu Lab, пожалуйста, не пользуйтесь оборудованием и услугами Bambu Lab."
 
 msgid "and"
 msgstr "и"
@@ -9438,7 +9457,7 @@ msgid "Precision"
 msgstr "Точность"
 
 msgid "Z contouring"
-msgstr ""
+msgstr "Сглаживание"
 
 msgid "Wall generator"
 msgstr "Генератор периметров"
@@ -11205,7 +11224,7 @@ msgid "Layer height cannot exceed nozzle diameter."
 msgstr "Высота слоя не может быть больше диаметра сопла."
 
 msgid "Bridge line width must not exceed nozzle diameter"
-msgstr ""
+msgstr "Ширина линии моста не может превышать диаметр сопла"
 
 msgid "\"G92 E0\" was found in before_layer_change_gcode, but the G or E are not uppercase. Please change them to the exact uppercase \"G92 E0\"."
 msgstr ""
@@ -11344,7 +11363,7 @@ msgid "The number of layers on which the elephant foot compensation will be acti
 msgstr "Количество слоёв, на которые будет распространяться компенсация слоновьей ноги. Первый слой будет уменьшен на величину компенсации слоновьей ноги с последующим линейным уменьшением до слоя, указанного здесь."
 
 msgid "Elephant foot layers density"
-msgstr ""
+msgstr "Плотность слоёв компенсации"
 
 msgid ""
 "Density of internal solid infill for Elephant foot layers compensation.\n"
@@ -11384,10 +11403,10 @@ msgid "Allow controlling BambuLab's printer through 3rd party print hosts."
 msgstr "Позволяет управлять принтером BambuLab через сторонние хосты печати."
 
 msgid "Use 3MF instead of G-code"
-msgstr ""
+msgstr "Сжимать G-код перед отправкой"
 
 msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Orca Slicer sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
-msgstr ""
+msgstr "Рекомендуется для принтеров, поддерживающих печать из архивов 3MF. Файлы печати будут сохраняться с расширением \".gcode.3mf\"."
 
 msgid "Printer Agent"
 msgstr "Сетевой агент"
@@ -11414,10 +11433,10 @@ msgid "Orca Slicer can upload G-code files to a printer host. This field should 
 msgstr "Orca Slicer может загружать файл G-кода на хост принтера. Это поле должно содержать API-ключ или пароль, необходимые для проверки подлинности."
 
 msgid "Serial Number"
-msgstr ""
+msgstr "Серийный номер"
 
 msgid "Flashforge local API requires the printer serial number."
-msgstr ""
+msgstr "Локальный API Flashforge требует указания серийного номера."
 
 msgid "Name of the printer."
 msgstr "Название принтера."
@@ -11467,7 +11486,7 @@ msgid "Maximum detour distance for avoiding crossing wall: The printer won't det
 msgstr "Максимальное расстояние обхода сопла от модели во избежание пересечения периметров при движении. Если расстояние обхода превышает это значение, то для данного маршрута эта опция не применяется. Можно указать значение в миллиметрах или процент от прямого пути перемещения (например, 50%). 0 – отключено."
 
 msgid "mm or %"
-msgstr "мм или %"
+msgstr "мм или %"
 
 msgid "Other layers"
 msgstr "Основная"
@@ -11637,6 +11656,8 @@ msgid ""
 "\n"
 "Use 180° for zero absolute angle."
 msgstr ""
+"Ручное управление углом внешних мостов. 0 – автоматическое выравнивание каждого отдельного моста.\n\n"
+"Примечание: используйте 180° для направления в 0° без включения авторежима."
 
 msgid "Internal bridge infill direction"
 msgstr "Угол внутренних мостов"
@@ -11651,12 +11672,14 @@ msgid ""
 "\n"
 "Use 180° for zero absolute angle."
 msgstr ""
+"Ручное управление углом внутренних мостов. 0 – автоматическое выравнивание каждого отдельного моста.\n\n"
+"Примечание: используйте 180° для направления в 0° без включения авторежима."
 
 msgid "Relative bridge angle"
-msgstr ""
+msgstr "Относительный угол"
 
 msgid "When enabled, the bridge angle values are added to the automatically calculated bridge direction instead of overriding it."
-msgstr ""
+msgstr "Прибавлять указанные выше значения к автоматически рассчитанному углу вместо его перезаписи."
 
 msgid "External bridge density"
 msgstr "Плотность внешних мостов"
@@ -11673,6 +11696,17 @@ msgid ""
 "  - Pros: Can create a string-like first layer. Faster and with better cooling because there is more space for air to circulate around the extruded bridge.\n"
 "  - Cons: May lead to sagging and poorer surface finish."
 msgstr ""
+"Плотность расположения линий внешних мостов.\n\n"
+"Повышение плотности:\n"
+"• создаёт опору на предыдущие линии при печати каждой новой;\n"
+"• требует точного подбора потока, хорошего охлаждения и низкой скорости печати;\n"
+"• может вызвать переэкструзию, усадочную деформацию слоя и ухудшить отделяемость поддержек.\n\n"
+"Понижение плотности:\n"
+"• улучшает эффективность охлаждения за счёт увеличения отступа;\n"
+"• предотвращает усадочную деформацию слоя моста;\n"
+"• позволяет усадке натягивать каждую из линий моста в струну;\n"
+"• создаёт видимые зазоры между линиями.\n\n"
+"Примечание: при печати со сниженной плотностью рекомендуется немного занизить поток мостов."
 
 msgid "Internal bridge density"
 msgstr "Плотность внутренних мостов"
@@ -11691,6 +11725,16 @@ msgid ""
 "\n"
 "This option works particularly well when combined with the second internal bridge over infill option to improve bridging further before solid infill is extruded."
 msgstr ""
+"Плотность расположения линий внутренних мостов.\n\n"
+"Повышение плотности:\n"
+"• позволяет быстро набрать прочность перед печатью внешних слоёв;\n"
+"• требует точного подбора потока, хорошего охлаждения и/или низкой скорости печати;\n"
+"• может вызвать усадочную деформацию слоя моста при охлаждении.\n\n"
+"Понижение плотности:\n"
+"• улучшает эффективность охлаждения за счёт увеличения отступа;\n"
+"• предотвращает усадочную деформацию слоя моста;\n"
+"• позволяет усадке натягивать каждую из линий моста в струну.\n\n"
+"Примечание: рекомендуется использовать в паре с «Двухслойными мостами»."
 
 msgid "Bridge flow ratio"
 msgstr "Поток внешних мостов"
@@ -11702,14 +11746,19 @@ msgid ""
 "\n"
 "The actual bridge flow used is calculated by multiplying this value with the filament flow ratio, and if set, the object's flow ratio."
 msgstr ""
+"Управляет толщиной линии и слоя внешних (видимых) мостов.\n"
+"Повышенные значения позволяют добиться качественной поверхности в паре с повышением плотности линий, а пониженные – минимального провисания и отклонения от заданных размеров.\n\n"
+"Внимание: при значениях меньше 1 плотность линий автоматически повышается для обеспечения печатаемости.\n"
+"Примечание: фактический поток для моста рассчитывается путём умножения этого значения на поток материала и общий поток модели (если он задан)."
 
+# Максимальное значение можно не указывать, т.к. теперь в каждой подсказке есть абзац с допустимым диапазоном значений.
 msgid ""
 "Line width of the Bridge. If expressed as a %, it will be computed over the nozzle diameter.\n"
 "Recommended to use with a higher Bridge density or Bridge flow ratio.\n"
 "\n"
 "The maximum value is 100% or the nozzle diameter.\n"
 "If set to 0, the line width will match the Internal solid infill width."
-msgstr ""
+msgstr "Ширина линий мостов. Можно указать процент от диаметра сопла.\nРекомендуется использовать в паре с увеличенными плотностью или потоком мостов.\n\n0 – использовать ширину линий сплошного заполнения."
 
 msgid "Internal bridge flow ratio"
 msgstr "Поток внутренних мостов"
@@ -11721,6 +11770,10 @@ msgid ""
 "\n"
 "The actual bridge flow used is calculated by multiplying this value with the filament flow ratio, and if set, the object's flow ratio."
 msgstr ""
+"Управляет толщиной линии и слоя внутренних (скрытых в модели) мостов. Внутренние мосты служат опорой для сплошного заполнения при переходе от разреженного.\n"
+"Повышенные значения позволяют добиться быстрого набора плотности основы для внешней поверхности, а пониженные – минимального провисания и температурной деформации.\n\n"
+"Внимание: при значениях меньше 1 плотность линий автоматически повышается для обеспечения печатаемости.\n"
+"Примечание: фактический поток для моста рассчитывается путём умножения этого значения на поток материала и общий поток модели (если он задан)."
 
 msgid "Top surface flow ratio"
 msgstr "Поток верхней поверхности"
@@ -11872,8 +11925,9 @@ msgstr "Только один периметр на верхней поверх�
 msgid "Use only one wall on flat top surfaces, to give more space to the top infill pattern."
 msgstr "Печатать только один периметр на верхней поверхности, чтобы оставить больше пространства для верхнего шаблона заполнения."
 
+# Некорректное название в оригинальной строке – ломается связь с настройкой Арахны "Minimal wall length". Там настройка также (не) влияет только на верхние поверхности, и точно так же разблокирует эту настройку при установке повышенного значения. Но в последнем случае об одном периметре речи не идёт, т.к. там по определению заполняются щели между периметрами.
 msgid "One wall threshold"
-msgstr "Порог одного периметра"
+msgstr "Порог верхней поверхности"
 
 #, no-c-format, no-boost-format
 msgid ""
@@ -12199,22 +12253,22 @@ msgid "This disables supporting bridges, which decreases the amount of support r
 msgstr "Отключить создание поддержек под мостами. Относительно небольшие мосты обычно можно печатать без них."
 
 msgid "Thick external bridges"
-msgstr "Толстые внешние мосты"
+msgstr "Круглые внешние мосты"
 
 msgid ""
 "If enabled, bridge extrusion uses a line height equal to the nozzle diameter.\n"
 "This increases bridge strength and reliability, allowing longer spans, but may worsen appearance.\n"
 "If disabled, bridges may look better but are generally reliable only for shorter spans."
-msgstr ""
+msgstr "Использовать современную модель формирования мостов на основе круглого сечения линии, равного диаметру сопла. Это повышает корректность расчётов требуемого материала и позволяет добиться более качественной поверхности после тонкой настройки плотности линий и потока мостов.\n\nЕсли отключено, используется старый подход к расчётам, который не отличает мосты от обычных сплюснутых линий с опорой под ними."
 
 msgid "Thick internal bridges"
-msgstr "Толстые внутренние мосты"
+msgstr "Круглые внутренние мосты"
 
 msgid ""
 "If enabled, internal bridge extrusion uses a line height equal to the nozzle diameter.\n"
 "This increases internal bridge strength and reliability when printed over sparse infill, but may worsen appearance.\n"
 "If disabled, internal bridges may look better but can be less reliable over sparse infill."
-msgstr ""
+msgstr "Использовать современную модель формирования мостов на основе круглого сечения линии, равного диаметру сопла. Это повышает корректность расчётов требуемого материала и позволяет добиться более качественной поверхности после тонкой настройки плотности линий и потока мостов.\n\nЕсли отключено, используется старый подход к расчётам, который не отличает мосты от обычных сплюснутых линий с опорой под ними."
 
 msgid "Extra bridge layers (beta)"
 msgstr "Двухслойные мосты (beta)"
@@ -12236,7 +12290,7 @@ msgid ""
 msgstr ""
 "Создание второго слоя моста над внешниеми/внутренними мостами.\n"
 "\n"
-"Дополнительный слой улучшает внешний вид и надёжность мостов, создавая прочную опору для последующего сплошного заполнения. Это особенно полезно для быстрой печати, когда скорости печати мостов и сплошного заполнения значительно отличаются. Дополнительный слой у у внешнего моста повышает прочность стыковки с периметрами, а у внутреннего – снижает риск проявления и заметность \"тени\" шаблона заполнения на верхних поверхностях.\n"
+"Дополнительный слой улучшает внешний вид и надёжность мостов, создавая прочную опору для последующего сплошного заполнения. Это особенно полезно для быстрой печати, когда скорости печати мостов и сплошного заполнения значительно отличаются. Дополнительный слой у внешнего моста повышает прочность стыковки с периметрами, а у внутреннего – снижает риск проявления и заметность \"тени\" шаблона заполнения на верхних поверхностях.\n"
 "\n"
 "Рекомендуется добавлять второй слой как минимум для внешних мостов, если это не создаёт особых проблем.\n"
 "\n"
@@ -12255,10 +12309,11 @@ msgstr "Внутренние мосты"
 msgid "Apply to all"
 msgstr "Везде"
 
+# "small" здесь лишняя, размер мостов в алгоритме фильтрации не учитывается. Разработчики, видимо, имели ввиду размер областей, требующих опоры.
 msgid "Filter out small internal bridges"
-msgstr "Убрать небольшие внутренние мосты (beta)"
+msgstr "Чувствительность внутренних мостов"
 
-# ????
+# Переусложнённая настройка, исходящая из реализации алгоритма фильтрации внутренних нависающих зон. Можно кратно упростить без потери смысла, приняв "фильтрацию" как "чувствительность". Ждём перехода на новую систему локализации, чтобы убрать это инородное "(фильтровать)".
 msgid ""
 "This option can help reduce pillowing on top surfaces in heavily slanted or curved models.\n"
 "By default, small internal bridges are filtered out and the internal solid infill is printed directly over the sparse infill. This works well in most cases, speeding up printing without too much compromise on top surface quality.\n"
@@ -12268,23 +12323,18 @@ msgid ""
 "2. Limited filtering - creates internal bridges on heavily slanted surfaces while avoiding unnecessary bridges. This works well for most difficult models\n"
 "3. No filtering - creates internal bridges on every potential internal overhang. This option is useful for heavily slanted top surface models; however, in most cases, it creates too many unnecessary bridges."
 msgstr ""
-"Эта опция может помочь уменьшить образование эффекта «дырявой подушки» на верхних сильно наклонных поверхностях или изогнутых моделях\n"
-"\n"
-"По умолчанию, маленькие внутренние мосты отфильтровываются, а внутреннее сплошное заполнение печатается непосредственно поверх разреженного заполнения. В большинстве случаев это хорошо работает, ускоряя печать без особого ущерба для качества верхней поверхности. Однако, на сильно наклонных поверхностях или изогнутых моделях, особенно при низкой плотности заполнения, это может привести к скручиванию неподдерживаемого сплошного заполнения и образованию эффекта «дырявой подушки»\n"
-"\n"
-"Отключение позволит печатать слой внутреннего моста над слабо поддерживаемым внутренним сплошным заполнением. Приведённые ниже параметры управляют степенью фильтрации, т.е. количеством создаваемых внутренних мостов.n\n"
-"\n"
-"Фильтрация включена по умолчанию и хорошо работает в большинстве случаев\n"
-"\n"
-"Ограниченная фильтрация - создаёт внутренние мосты на сильно наклонных поверхностях, при этом избегая создания ненужных внутренних мостов. Это хорошо работает с большинством сложных моделей.n\n"
-"\n"
-"Без фильтрации - мосты создаются над каждым потенциально внутреннем нависании. Этот вариант полезен для моделей с сильно наклонной верхней поверхностью. Однако в большинстве случаев этот вариант создаёт слишком много ненужных мостов."
+"Чувствительность поддержки мостами внутренних нависаний:\n"
+"• Низкая (фильтровать) – создавать только для мест без опоры.\n"
+"• Средняя – поддерживать крутые наклонные выступы.\n"
+"• Высокая – поддерживать любые внутренние нависания.\n\n"
+"Снижение чувствительности позволяет экономить время при печати большинства моделей без особых потерь в качестве, однако некоторые модели с комплексной геометрией или низкой плотностью заполнения могут потребовать более частого размещения внутренних опор.\n\n"
+"Примечание: в большинстве случаев высокая чувтствительность создаёт слишком много ненужных мостов."
 
 msgid "Limited filtering"
-msgstr "Ограниченная фильтрация"
+msgstr "Средняя"
 
 msgid "No filtering"
-msgstr "Без фильтрации"
+msgstr "Высокая"
 
 msgid "Max bridge length"
 msgstr "Максимальный интервал опор"
@@ -12491,6 +12541,9 @@ msgid ""
 "\n"
 "This option will be disabled if spiral vase mode is enabled."
 msgstr ""
+"Напрвление, в котором печатаются контуры периметров на виде сверху.\n"
+"Внутренние полости и отверстия печатаются в противоположном направлении, чтобы обеспечить равномерность при слиянии внутренней поверхности с наружней.\n\n"
+"При включении режима вазы эта настройках будет игнорироваться."
 
 msgid "Counter clockwise"
 msgstr "Против часовой стрелки"
@@ -13293,7 +13346,7 @@ msgid "Acceleration of bridges. If the value is expressed as a percentage (e.g. 
 msgstr "Ускорение на мостах. Можно указать процент от ускорения внешних периметров."
 
 msgid "mm/s² or %"
-msgstr "мм/с² или %"
+msgstr "мм/с² или %"
 
 msgid "Acceleration of sparse infill. If the value is expressed as a percentage (e.g. 100%), it will be calculated based on the default acceleration."
 msgstr "Ускорение на разреженном заполнении. Можно указать процент от ускорения по умолчанию."
@@ -14119,26 +14172,28 @@ msgid "Expand or contract the ironing area."
 msgstr ""
 
 msgid "Z contouring enabled"
-msgstr ""
+msgstr "Сглаживание слоёв"
 
 msgid "Enable Z-layer contouring (aka Z-layer anti-aliasing)."
-msgstr ""
+msgstr "Динамическое управление высотой отдельных линий для сглаживания переходов между слоями."
 
+# Прижимать к предыдущему слою периметры 
 msgid "Minimize wall height angle"
-msgstr ""
+msgstr "Угол прижима периметров"
 
 msgid ""
 "Reduce the height of top-surface perimeters to match the model edge height.\n"
 "Affects perimeters with a slope less than this angle (degrees).\n"
 "A reasonable value is 35. Set to 0 to disable."
-msgstr ""
+msgstr "Прижимать периметры к предыдущему слою на поверхностях с наклоном менее заданного значения.\nВнимание: в настоящий момент действие настройки инвертировано (затрагивается всё, кроме верхних периметров с указанным углом), что делает её вредоносной."
 
 msgid "Don't alternate fill direction"
-msgstr ""
+msgstr "Отключить поворот шаблона заполнения"
 
 msgid "Disable alternating fill direction when using Z contouring."
-msgstr ""
+msgstr "Сохранять одинаковый угол шаблона сплошного заполнения при использовании сглаживания."
 
+# Без понятия, что это. Но точно не минимальная высота по Z.
 msgid "Minimum Z height"
 msgstr ""
 
@@ -14190,7 +14245,7 @@ msgstr "Модель компенсации потока"
 
 msgid "Flow Compensation Model, used to adjust the flow for small infill areas. The model is expressed as a comma separated pair of values for extrusion length and flow correction factor. Each pair is on a separate line, followed by a semicolon, in the following format: \"1.234, 5.678;\""
 msgstr ""
-"Модель компенсации избытка потока в небольших областях заполнения.\n"
+"Модель (график) компенсации избытка потока в небольших областях заполнения.\n"
 "Формат: пара значений (длина экструзии и применяемый поток), разделённых запятыми. Каждая пара указывается с новой строки и завершается точкой с запятой, например: «1.234, 5.678;»."
 
 msgid "Maximum speed X"
@@ -14621,9 +14676,8 @@ msgstr "Максимальная площадь отверстия в основ
 msgid "Detect overhang walls"
 msgstr "Обнаруживать нависающие периметры"
 
-#, c-format, boost-format
 msgid "This detects the overhang percentage relative to line width and uses a different speed to print. For 100%% overhang, bridging speed is used."
-msgstr "Определяет процент нависания относительно ширины линии и использует разную скорость печати. Для 100%%-го нависания используется скорость печати мостов."
+msgstr "Определяет процент нависания относительно ширины линии и использует разную скорость печати. Для 100%-го нависания используется скорость печати мостов."
 
 # В секции "Материал для линий"
 msgid "Outer walls"
@@ -16125,10 +16179,11 @@ msgid "Arachne"
 msgstr "Arachne"
 
 msgid "Wall transition length"
-msgstr "Длина перехода между периметрами"
+msgstr "Длина уплотнения"
 
+# Задаёт длину перехода между периметрами при изменении их количества (с чётного на нечётное, и обратно). Чем больше значение, тем плавнее переход, и наоборот: чем меньше, тем резче. Указывается в процентах от диаметра сопла.
 msgid "When transitioning between different numbers of walls as the part becomes thinner, a certain amount of space is allotted to split or join the wall segments. It's expressed as a percentage over nozzle diameter."
-msgstr "Задаёт длину перехода между периметрами при изменении их количества (с чётного на нечётное, и обратно). Чем больше значение, тем плавнее переход, и наоборот: чем меньше, тем резче. Указывается в процентах от диаметра сопла."
+msgstr "Длина сегмента, закрывающего пустоты между периметрами. Чем короче уплотнение, тем лучше устраняются пустоты. Указывается в процентах от диаметра сопла.\n\nВнимание: низкие значения требуют точной калибровки коррекции давления (PA) и повышают нагрузку на электронику, поскольку приводят к генерации бóльшего количества команд на малом отрезке пути."
 
 msgid "Wall transitioning filter margin"
 msgstr "Допустимое отклонение ширины"
@@ -16136,54 +16191,56 @@ msgstr "Допустимое отклонение ширины"
 msgid "Prevent transitioning back and forth between one extra wall and one less. This margin extends the range of extrusion widths which follow to [Minimum wall width - margin, 2 * Minimum wall width + margin]. Increasing this margin reduces the number of transitions, which reduces the number of extrusion starts/stops and travel time. However, large extrusion width variation can lead to under- or overextrusion problems. It's expressed as a percentage over nozzle diameter."
 msgstr "Параметр расширяет допустимый диапазон значений ширины периметров, чтобы уменьшить частые изменения их количества на тонких стенках, что улучшает качество печати. Однако слишком большой диапазон может привести к недоэкструзии или переэкструзии. Указывается в процентах от диаметра сопла. Например, для сопла 0,4 мм оптимальным считается значение 25% (0,1 мм)."
 
+# Ранее было некорректно переведено как "... между периметрами". Тут речь идёт о "петле" (loop, wall) – замкнутом контуре, и конкретном эдж-кейсе на острых углах такого контура. + речь не о "переходе" (transition) между периметрами, а о структуре, формируемой внутри конкретной "петли" (контура) периметра. P.S. Немного хитрю с пробелами, чтобы не переносить строку из-за одного лишнего символа.
 msgid "Wall transitioning threshold angle"
-msgstr "Пороговый угол перехода между периметрами"
+msgstr "Порог угла для уплотнения"
 
+# Опять же, это не переход от линии к линии – это место уплотнение с внешней стороны острого угла периметров внутри модели для закрытия пустот между ними
 msgid "When to create transitions between even and odd numbers of walls. A wedge shape with an angle greater than this setting will not have transitions and no walls will be printed in the center to fill the remaining space. Reducing this setting reduces the number and length of these center walls, but may leave gaps or overextrude."
-msgstr "Этот параметр задаёт минимальный угол между периметрами, при котором требуется создавать переход между чётным и нечётным их количеством. Если угол в клиновидной зоне, то есть в месте схождения периметров, превышает заданное значение, переходы не генерируются, и в центре клина не будут печататься дополнительные периметры для заполнения пустоты. Если же угол меньше заданного значения, слайсер добавит переход и дополнительный периметр в клиновидной зоне, чтобы заполнить оставшуюся пустоту."
+msgstr ""
+"По мере сужения контура модели могут возникать места с острыми углами, где между периметрами с классическим генератором образуются пустоты. Генератор Arachne позволяет резко локально расширить линию контура, чтобы сформировать уплотнение, закрыть им пустоту и повысить прочность. Здесь задаётся максимальный угол, при котором создаётся уплотнение."
 
 msgid "Wall distribution count"
 msgstr "Количество изменяемых периметров"
 
-# Т.е. если значение этого параметра задано как 1, а на участке модели 3
-# периметра, то только самый внутренний периметр будет печататься с переменной
-# толщиной, а 2 оставшихся — с постоянной.
 msgid "The number of walls, counted from the center, over which the variation needs to be spread. Lower values mean that the outer walls don't change in width."
-msgstr "Количество периметров, отсчитываемое от заполнения, на которые будут распространяться изменения, вносимые генератором периметров Arachne. Если значение параметра низкое (например, 1), то только первый периметр от заполнения будет печататься с переменной толщиной, а все остальные периметры (второй, третий и т.д.) — с фиксированной шириной, заданной в настройках слайсера (например, 0.45 мм для сопла 0.4 мм)."
+msgstr "Количество периметров, на которые будет распространяться допустимое отклонение ширины (начиная с внутренних)."
 
 msgid "Minimum feature size"
-msgstr "Минимальный размер элемента"
+msgstr "Допустимая ширина элемента"
 
 msgid "Minimum thickness of thin features. Model features that are thinner than this value will not be printed, while features thicker than than this value will be widened to the minimum wall width. It's expressed as a percentage over nozzle diameter."
 msgstr ""
-"Минимальная ширина тонких элементов. Элементы модели тоньше этого значения не будут печататься, а более широкие элементы – расширены до «минимальной ширины периметра». Указывается в процентах от диаметра сопла.\n"
+"Минимальная ширина элементов модели для печати. Позволяет игнорировать слишком тонкие элементы, а подходящие по ширине печатать с «минимальной шириной периметра». Указывается в процентах от диаметра сопла.\n"
 "\n"
-"Например, при значении 25% и сопле 0,4 мм будут печататься элементы больше следующей толщины:\n"
+"Например, при значении 25% и сопле 0,4 мм будут игнорироваться элементы меньше следующей толщины:\n"
 "0,4 мм × 25% = 0,1 мм."
 
+# Инвертирую значение настройки без потери смысла, чтобы обеспечить нормальную читаемость и кратно упростить восприятие смысла.
 msgid "Minimum wall length"
-msgstr "Минимальная длина периметра"
+msgstr "Допустимая длина щели"
 
 msgid ""
 "Adjust this value to prevent short, unclosed walls from being printed, which could increase print time. Higher values remove more and longer walls.\n"
 "\n"
 "NOTE: Bottom and top surfaces will not be affected by this value to prevent visual gaps on the outside of the model. Adjust 'One wall threshold' in the Advanced settings below to adjust the sensitivity of what is considered a top-surface. 'One wall threshold' is only visible if this setting is set above the default value of 0.5, or if single-wall top surfaces is enabled."
 msgstr ""
-"Отрегулируйте это значение, чтобы предотвратить печать коротких незамкнутых периметров, что может увеличить время печати. Более высокие значения удаляют большие и более длинные периметры.\n"
-"\n"
-"Примечание: нижние и верхние поверхности не будут затронуты этим значением, чтобы избежать визуальных пробелов на наружной стороне модели. Настройте параметр «Порог одного периметра» в расширенных настройках ниже, чтобы настроить чувствительность определения верхней поверхности. «Порог одного периметра» будет отображаться только в том случае, если этот параметр установлен выше значения по умолчанию, равным 0,5 или если включён параметр «Только один периметр на верхней поверхности»."
+"Максимальная длина щели в месте уплотнения, которую можно игнорировать. Помогает избежать печати большого количества ненужных коротких линий.\n\n"
+"Примечание: не влияет на периметры на первом слое и верхних поверхностях во избежание появления видимых щелей в них. Дополнительно можно настроить чувствительность определения поверхности как верхней в настройке «Порог верхней поверхности», если значение превышает стандартное значение в 0.5 мм."
 
+# Минимальный сегмент периметра
 msgid "Maximum wall resolution"
-msgstr ""
+msgstr "Минимальная длина сегмента"
 
 msgid "This value determines the smallest wall line segment length in mm. The smaller you set this value, the more accurate and precise the walls will be."
-msgstr ""
+msgstr "Минимальная длина каждого прямого сегмента линии периметра. Чем меньше, тем выше точность генерации периметров.\n\nПримечание: фактическая длина может быть ограничена настройкой предельного отклонения."
 
 msgid "Maximum wall deviation"
-msgstr ""
+msgstr "Предельное отклонение"
 
+# Перенёс упоминание главенства этой настройки в настройку выше.
 msgid "The maximum deviation allowed when reducing the resolution for the 'Maximum wall resolution' setting. If you increase this, the print will be less accurate, but the G-Code will be smaller. 'Maximum wall deviation' limits 'Maximum wall resolution', so if the two conflict, 'Maximum wall deviation' takes precedence."
-msgstr ""
+msgstr "Максимальное отклонение сегментов от модели. Чем меньше, тем выше точность и размер файла."
 
 msgid "First layer minimum wall width"
 msgstr "Минимальная ширина периметра первого слоя"
@@ -16194,8 +16251,9 @@ msgstr "Минимальная ширина периметра, использу
 msgid "Minimum wall width"
 msgstr "Минимальная ширина периметра"
 
+# Без понятия, зачем тут в оригинале упоминается условие расширения, ведь за это отвечает другая настройка. Возможно, разработчикам так уж хотелось описать случай, обратный действию этой настройки... Перенёс в примечание, чтобы не сбивало с толку.
 msgid "Width of the wall that will replace thin features (according to the Minimum feature size) of the model. If the Minimum wall width is thinner than the thickness of the feature, the wall will become as thick as the feature itself. It's expressed as a percentage over nozzle diameter."
-msgstr "Минимальная ширина периметра для печати тонких элементов модели (в соответствии с «минимальным размером элемента»). Ширина периметра будет подогнана под размер элемента, если значение этого параметра меньше его ширины. Можно указать процент от диаметра сопла."
+msgstr "Минимальная ширина периметра для печати тонких элементов модели (в соответствии с «Допустимой шириной элемента»). Можно указать процент от диаметра сопла.\n\nПримечание: периметр может расширяться до ширины элемента."
 
 msgid "Detect narrow internal solid infills"
 msgstr "Оптимизация заполнения узких мест"
@@ -16210,7 +16268,7 @@ msgid "Invalid value when spiral vase mode is enabled: "
 msgstr "Недопустимое значение при включенном режиме спиральной вазы: "
 
 msgid "Bridge line width must not exceed nozzle diameter: "
-msgstr ""
+msgstr "Ширина линии моста не может превышать диаметр сопла: "
 
 msgid "too large line width "
 msgstr "слишком большая ширина линии "
@@ -17733,30 +17791,30 @@ msgid "Calibration Test Type"
 msgstr ""
 
 msgid "Pass 1 (Coarse)"
-msgstr ""
+msgstr "Проход 1 (примерный)"
 
 msgid "Pass 2 (Fine)"
-msgstr ""
+msgstr "Проход 2 (точный)"
 
 # YOLO – калибровка "с первого раза", "Одним махом", You Only Look Once
 # (https://github.com/OrcaSlicer/OrcaSlicer/pull/6479)
 msgid "YOLO (Recommended)"
-msgstr "Экспресс-калибровка потока (YOLO, шаг 0.01, рекомендуется)"
+msgstr "Экспресс-калибровка YOLO (шаг 0,01)"
 
 msgid "YOLO (Perfectionist)"
-msgstr ""
+msgstr "Экспресс-калибровка YOLO (шаг 0,005)"
 
 msgid "Top Surface Pattern"
-msgstr ""
+msgstr "Шаблон поверхности"
 
 msgid "Choose a slot for the selected color"
-msgstr ""
+msgstr "Укажите слот для выбранного цвета"
 
 msgid "Material in the material station"
-msgstr ""
+msgstr "Материал в хранилище"
 
 msgid "Only materials of the same type can be selected."
-msgstr ""
+msgstr "Можно выбрать материал только того же типа."
 
 msgid "Send G-code to printer host"
 msgstr "Отправить G-код на хост принтера"
@@ -17781,7 +17839,7 @@ msgid "Upload"
 msgstr "Загрузить"
 
 msgid "Leveling before print"
-msgstr ""
+msgstr "Калибровка перед печатью"
 
 msgid "Time-lapse"
 msgstr "Таймлапсы"
@@ -19200,16 +19258,16 @@ msgid "Detection radius"
 msgstr "Радиус обнаружения"
 
 msgid "Selected"
-msgstr ""
+msgstr "Выбранные"
 
 msgid "Auto-generate"
-msgstr ""
+msgstr "Авторазмещение"
 
 msgid "Generate brim ears using Max angle and Detection radius"
 msgstr ""
 
 msgid "Add or Select"
-msgstr ""
+msgstr "Выбрать/добавить"
 
 msgid "Warning: The brim type is not set to \"painted\", the brim ears will not take effect!"
 msgstr "Предупреждение: ручная расстановка каймы не будет учитваться в автоматических режимах генерации!"
@@ -19227,10 +19285,10 @@ msgid "Please select single object."
 msgstr "Пожалуйста, выберите один объект."
 
 msgid "Entering Brim Ears"
-msgstr ""
+msgstr "Вход в режим размещения мышиных ушек"
 
 msgid "Leaving Brim Ears"
-msgstr ""
+msgstr "Выход из режима размещения мышиных ушек"
 
 msgid "Zoom Out"
 msgstr "Отдалить"
@@ -19242,7 +19300,7 @@ msgid "Load skipping objects information failed. Please try again."
 msgstr "Не удалось загрузить информацию о пропуске объектов, попробуйте ещё раз."
 
 msgid "Failed to create the temporary folder."
-msgstr ""
+msgstr "Не удалось создать временное расположение"
 
 #, c-format, boost-format
 msgid "/%d Selected"
