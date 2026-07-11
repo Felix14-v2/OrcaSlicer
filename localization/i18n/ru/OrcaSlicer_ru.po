@@ -5906,14 +5906,15 @@ msgid "Cornering calibration"
 msgstr "Калибровка прохождения углов"
 
 msgid "Input Shaping Frequency"
-msgstr "Частота Input Shaping"
+msgstr "Частота шейпера"
 
+# Коэффициент из формулы, использующейся в шейпинге. Подробнее тут: wikipedia.org/wiki/Затухающие_колебания
 msgid "Input Shaping Damping/zeta factor"
-msgstr "Затухание Input Shaping/Коэффициент затухания (ζ)"
+msgstr "Коэффициент затухания (ζ)"
 
-# Тест шейпера
+# подставляется после "Тест частоты" и "Тест затухания"
 msgid "Input Shaping"
-msgstr "Input Shaping"
+msgstr "Подбор параметров шейпера"
 
 msgid "VFA"
 msgstr "Тест ряби (VFA)"
@@ -9798,10 +9799,10 @@ msgid "The frequency of the anti-vibration signal will correspond to the natural
 msgstr "Частота управляющего сигнала, противодействующего колебаниям механики принтера."
 
 msgid "Damping"
-msgstr ""
+msgstr "Коэффициент затухания"
 
 msgid "Damping ratio for the input shaping filter."
-msgstr ""
+msgstr "Используется для обработки шейпером колебаний с учётом снижающейся амплитуды."
 
 msgid "Speed limitation"
 msgstr "Максимальные скорости перемещения"
@@ -13618,6 +13619,7 @@ msgstr "Использовать нечёткую оболочку для изм
 msgid "Fuzzy skin generator mode"
 msgstr "Метод создания оболочки"
 
+# Чтобы снять визуальную нагрузку, упоминание ошибки перенесено в конкретные параметры, которые их вызывают (где ему и место).
 #, c-format, boost-format
 msgid ""
 "Fuzzy skin generation mode. Works only with Arachne!\n"
@@ -13627,11 +13629,11 @@ msgid ""
 "\n"
 "Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. At the same time, the width of the extrusion for a particular layer should also not be below a certain level. It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35mm! If you enter a higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is repeated."
 msgstr ""
-"Выбор способа создания нечёткой оболочки. Работает только с генератором периметров Arachne!\n"
+"Выбор способа создания нечёткой оболочки.\n"
 "\n"
-"• Смещение: классический подход, при котором фактура формируется за счёт частых колебаний относительно исходной траектории.\n"
+"• Смещение: классический подход, при котором фактура формируется за счёт колебаний траектории.\n"
 "• Экструзия: фактура создаётся за счёт колебаний подачи пластика. Печать происходит быстро и без лишней тряски. Отлично подходит для создания просвечивающих стенок (режим «Все периметры»).\n"
-"• Совместный: сочетает два предыдущих метода. Внешне напоминает первый, но не создаёт пустот между периметрами."
+"• Совместный: сочетает два предыдущих метода. Внешне напоминает первый, но не создаёт пустот между периметрами.\n\nВнимание: только первый способ совместим с классическим генератором."
 
 msgid "Displacement"
 msgstr "Смещение"
@@ -13644,7 +13646,7 @@ msgid "Combined"
 msgstr "Совместный"
 
 msgid "Fuzzy skin noise type"
-msgstr "Алгоритм генерации"
+msgstr "Алгоритм"
 
 msgid ""
 "Noise type to use for fuzzy skin generation:\n"
@@ -13655,44 +13657,56 @@ msgid ""
 "Voronoi: Divides the surface into voronoi cells, and displaces each one by a random amount. Creates a patchwork texture.\n"
 "Ripple: Uniform ripple pattern that ripples left and right of the original path. Repeating pattern, woven appearance."
 msgstr ""
+"Тип шума, используемый для генерации нечёткой оболочки.\n"
+"\n"
+"• Случайный: равномерно резкий шум.\n"
+"• Шум Перлина: согласованный однородный шум.\n"
+"• Волновой: более резкий вариант шума Перлина.\n"
+"• Ребристый: резкий сглаженный шум с мраморной текстурой.\n"
+"• Диаграмма Вороного: плоская диаграмма в виде природных форм.\n"
+"• Синусоида: равномерное смещение с имитацией плетения.\n"
+"\n"
+"Примечание: для разных алгоритмов оптимальны разные масштабы."
 
+# Поменял на "случайный" из-за нехватки места.
 msgid "Classic"
-msgstr "Классический"
+msgstr "Случайный"
 
 msgid "Perlin"
 msgstr "Шум Перлина"
 
-# ??? Шум волн
 msgid "Billow"
-msgstr "Волнообразный"
+msgstr "Волновой"
 
 msgid "Ridged Multifractal"
-msgstr "Гребенчатый"
+msgstr "Ребристый"
 
+# Felix: В Орке используется не шум, а обычная плоская диаграмма. Попытаюсь согласовать с названием настройки: "Алгоритм Вороного" (да и с другими алгоритмами согласуется лучше)
 msgid "Voronoi"
-msgstr "Шум Вороного"
+msgstr "Вороного"
 
+# Судя по комментариям разработчика в коде, это адаптированный алгоритм синусоидальной волны.
 msgid "Ripple"
-msgstr "Ripple"
+msgstr "Синусоида"
 
 # Размер шероховатости
 msgid "Fuzzy skin feature size"
-msgstr "Размер элемента нечёткой оболочки"
+msgstr "Масштаб генерации"
 
 # 0.5 мм - Мелкая рябь
 # 2 мм - Крупные волны
 msgid "The base size of the coherent noise features, in mm. Higher values will result in larger features."
 msgstr "Параметр определяет базовый размер элемента когерентного шума в миллиметрах. Более высокое значение увеличивает размер этого элемента."
 
-# уровень детализации шума Перлина
+# Felix: программистами пользователей не считаем, поэтому заменил октавы на простую аналогию со слоями. Точное упоминание уже в описании.
 msgid "Fuzzy Skin Noise Octaves"
-msgstr "Количество октав нечёткой оболочки"
+msgstr "Количество слоёв шума"
 
-# Чем больше октав, тем сложнее и «естественнее» выглядит шероховатость.
-# Октавы - это количество кривых Перлина, которые отвечают за неоднородность
-# шума.
+# Andy: Чем больше октав, тем сложнее и «естественнее» выглядит шероховатость. Октавы - это количество кривых Перлина, которые отвечают за неоднородность шума.
+# 
+# Felix: Не совсем за "неоднородность", скорее за проявление мелких деталей поверх предыдущей октавы. Грубо говоря, в процедурной генерации 1 октава – горы и основной ландшафт, 2 октава – бугры и расщелины, 3 октава – отдельные камни и микрорельеф, 4 октава – неровная фактура камней. Короче, уберу про неоднородность.
 msgid "The number of octaves of coherent noise to use. Higher values increase the detail of the noise, but also increase computation time."
-msgstr "Количество октав когерентного шума, которые отвечают за его неоднородность. Более высокие значения повышают детализацию шума, но увеличивают время вычисления."
+msgstr "Количество октав когерентного шума. Чем больше октав, тем выше время вычислений и детализация шума от смешивания его слоёв."
 
 # Интенсивность затухания шума нечёткой оболочки
 msgid "Fuzzy skin noise persistence"
@@ -13855,7 +13869,7 @@ msgid "Will only take into account the delay for the cooling of overhangs."
 msgstr "Применять смещение времени только для охлаждения нависаний."
 
 msgid "Fan kick-start time"
-msgstr "Продолжительность принудительного запуска вентилятора"
+msgstr "Продолжительность принудительного запуска"
 
 msgid ""
 "Emit a max fan speed command for this amount of seconds before reducing to target speed to kick-start the cooling fan.\n"
@@ -13866,13 +13880,14 @@ msgstr ""
 "Установите 0 для отключения."
 
 msgid "Minimum non-zero part cooling fan speed"
-msgstr ""
+msgstr "Скорость страгивания"
 
+# "ideally" здесь, мягко скажем, неуместно. В идеале в прошивке должна быть настроена автоматическая нормализация, чтобы обороты шли уже при M106 S1.
 msgid ""
 "Some part-cooling fans cannot start spinning when commanded below a certain PWM duty cycle. When set above 0, any non-zero part-cooling fan command will be raised to at least this percentage so the fan reliably starts. A fan command of 0 (fan off) is always honoured exactly. This clamp is applied after every other fan calculation (first-layer ramp, layer-time interpolation, overhang/bridge/support-interface/ironing overrides), so scaling still operates within the range [this value, 100%].\n"
 "If your firmware already disables the fan below a threshold (for example Klipper's [fan] off_below: 0.10 shuts the fan off whenever the commanded duty cycle is below 10%), this option and the firmware threshold should ideally be set to the same value. Matching them (e.g. off_below: 0.10 in Klipper and 10% here) guarantees the slicer never emits a non-zero value that the firmware would silently drop, and the fan never receives a value below the one you know it can actually spool at.\n"
 "Set to 0 to deactivate."
-msgstr ""
+msgstr "Минимальный процент скорости, при котором ротор вентилятора фактически способен начать вращаться. Если указать ненулевое значение, любые команды охлаждения с меньшими значениями будут повышаться до него, чтобы обеспечить обдув в расчётный момент.\n\n0 – не менять команды.\n\nПримечание: ограничение запуска в некоторых прошивках (например, [fan] off_below в Klipper) может автоматически занулять слишком низкие значения. В таком случае рекомендуется указать минимальный процент, который не сбрасывается прошивкой."
 
 msgid "%"
 msgstr "%"
@@ -14071,6 +14086,8 @@ msgid ""
 "Filament to print internal sparse infill.\n"
 "\"Default\" uses the active object/part filament."
 msgstr ""
+"Материал для печати разреженного заполнения.\n"
+"«По умолчанию» – текущий материал модели/части."
 
 msgid "Line width of internal sparse infill. If expressed as a %, it will be computed over the nozzle diameter."
 msgstr "Ширина линий заполнения. Можно указать процент от диаметра сопла."
@@ -14213,17 +14230,18 @@ msgstr "Фиксированный угол"
 msgid "Use a fixed absolute angle for ironing."
 msgstr "Расчитывать угол относительно стола."
 
+# На момент 2.4.2 не используется и скрыто в интерфейсе (см. "ironing_expansion") в Tab.cpp. Судя по всему, задумывалось как доп. фича для сглаживания слоёв (ZAA).
 msgid "Ironing expansion"
-msgstr ""
+msgstr "Расширение разглаживания"
 
 msgid "Expand or contract the ironing area."
-msgstr ""
+msgstr "Расширение (или сужение) границ разглаживания."
 
 msgid "Z contouring enabled"
 msgstr "Сглаживание слоёв"
 
 msgid "Enable Z-layer contouring (aka Z-layer anti-aliasing)."
-msgstr "Динамическое управление высотой отдельных линий для сглаживания переходов между слоями."
+msgstr "Динамическое управление высотой отдельных линий для сглаживания переходов между слоями.\n\nПримечание: поток линий не корректируется, линии просто смещаются по высоте."
 
 # Прижимать к предыдущему слою периметры 
 msgid "Minimize wall height angle"
@@ -14243,12 +14261,18 @@ msgstr "Сохранять одинаковый угол шаблона спло
 
 # Без понятия, что это. Но точно не минимальная высота по Z.
 msgid "Minimum Z height"
-msgstr ""
+msgstr "Сдвиг допустимой высоты"
 
+# Z-layer – довольно технично, максимально упрощённо изложил суть. В алгоритме используется нестандартный подход через расчёт промежуточного диапазона отклонения слоя от его плоскости для каждой линии в пределах [-(layer_height - min_z), min_z]. Т.е., при слое 0.2 мм и стандартном сдвиге в 0.05 мм мы получим допустимый диапазон [-0.15, 0.05]. Если нормализовать к уровню предыдущего слоя (прибавить layer_height), то получатся фактические высоты линий в диапазоне [0.05, 0.25]. Если взять сдвиг 0.1 мм, то получаются высоты [0.1, 0.3]. Соответственно, если взять сдвиг 0.2, то получится [0.2, 0.4] – линии не будут опускаться ниже высоты слоя, но смогут получать удвоенную высоту.
 msgid ""
 "Minimum Z-layer height.\n"
 "Also controls the slicing plane."
 msgstr ""
+"Положительное смещение нижней и верхней границ допустимого положения линии относительно плоскости слоя (h).\n\n"
+"Иными словами, если сдвиг равен ...\n"
+"• 0: линии могут только опускаться (вплоть до предыдущего слоя).\n"
+"• h/2: линии балансируют между ½ текущего и ½ следующего слоя.\n"
+"• h: линии не могут опускаться, но могут иметь удвоенную высоту."
 
 msgid "This G-code is inserted at every layer change after the Z lift."
 msgstr "Команды в G-коде, которые выполняются каждый раз после смены слоя, то есть после поднятия оси Z."
@@ -14498,8 +14522,8 @@ msgid ""
 msgstr ""
 "Частота резонанса для шейпера оси X.\n"
 "0 – не менять частоту из прошивки.\n"
-"Для отключения алгоритма используйте настройку выше.\n\n"
-"Примечание: прошивка RepRap не поддерживает раздельное управление осями."
+"Для отключения шейпера используйте настройку его типа.\n\n"
+"Примечание: прошивка RepRap не поддерживает раздельную настройку осей."
 
 msgid "Y"
 msgstr "Y"
@@ -14511,20 +14535,29 @@ msgid ""
 msgstr ""
 "Частота резонанса для шейпера оси Y.\n"
 "0 – не менять частоту из прошивки.\n"
-"Для отключения алгоритма используйте настройку выше."
+"Для отключения шейпера используйте настройку его типа."
 
+# коэфициент затухания
 msgid ""
 "Damping ratio for the X axis input shaper.\n"
 "Zero will use the firmware damping ratio.\n"
 "To disable input shaping, use the Disable type.\n"
 "RRF: X and Y values are equal."
 msgstr ""
+"Коэффициент затухания для шейпера оси X.\n"
+"0 – не менять коэффициент из прошивки.\n"
+"Для отключения шейпера используйте настройку его типа.\n\n"
+"Примечание: прошивка RepRap не поддерживает раздельную настройку осей."
 
+# коэфициент затухания
 msgid ""
 "Damping ratio for the Y axis input shaper.\n"
 "Zero will use the firmware damping ratio.\n"
 "To disable input shaping, use the Disable type."
 msgstr ""
+"Коэффициент затухания для шейпера оси Y.\n"
+"0 – не менять коэффициент из прошивки.\n"
+"Для отключения шейпера используйте настройку его типа."
 
 msgid "The part cooling fan speed may be increased when auto cooling is enabled. This is the maximum speed for the part cooling fan."
 msgstr "Скорость вентилятора охлаждения моделей может быть увеличена, если включено автоматическое охлаждение. Это максимальное ограничение скорости вентилятора для охлаждения моделей."
@@ -17700,8 +17733,8 @@ msgid ""
 msgstr ""
 "Введите допустимое значение:\n"
 "Начальное > 10\n"
-"Шаг >= 0\n"
-"Конечное > Начальное + Шаг"
+"Шаг ≥ 0\n"
+"Конечное > начальное + шаг"
 
 msgid "Start retraction length: "
 msgstr "Начальная длина отката: "
@@ -17710,7 +17743,7 @@ msgid "End retraction length: "
 msgstr "Конечная длина отката: "
 
 msgid "Input shaping Frequency test"
-msgstr "Подбор частоты Input Shaping"
+msgstr "Ручной подбор частоты шейпера"
 
 msgid "Test model"
 msgstr "Тестовая модель"
@@ -17724,8 +17757,7 @@ msgstr "Быстрый тест (Fast Tower)"
 msgid "Please ensure the selected type is compatible with your firmware version."
 msgstr "Убедитесь, что выбранный шейпер совместим с версией прошивки."
 
-# https://marlinfw.org/docs/features/ft_motion.html и
-# https://youtu.be/6sN71fx9frk
+# Подробности: https://marlinfw.org/docs/features/ft_motion.html и https://youtu.be/6sN71fx9frk
 msgid ""
 "Marlin version => 2.1.2\n"
 "Fixed-Time motion not yet implemented."
@@ -17761,25 +17793,25 @@ msgid "RepRap firmware uses the same frequency range for both axes."
 msgstr "Прошивка RepRap использует общий диапазон частот для обеих осей."
 
 msgid "Damp: "
-msgstr "Затухание (Damp): "
+msgstr "Коэф. затухания: "
 
 msgid ""
 "Recommended: Set Damp to 0.\n"
 "This will use the printer's default or saved value."
-msgstr "Совет: установите значение затухания (Damp) равным 0 для использования значения из прошивки принтера."
+msgstr "Совет: установите коэффициент равным 0 для использования значения из прошивки принтера."
 
 msgid ""
 "Please input valid values:\n"
 "(0 < FreqStart < FreqEnd < 500)"
 msgstr ""
 "Введите допустимые значения:\n"
-"(0 < Нач. частота < Конеч. частота < 500)"
+"(0 < нач. частота < конеч. частота < 500)"
 
 msgid "Please input a valid damping factor (0 < Damping/zeta factor <= 1)"
-msgstr "Введите допустимый коэффициент затухания (0 < Затухание/коэффициент затухания ≤ 1)"
+msgstr "Введите допустимый коэффициент затухания (0 < коэффициент затухания ≤ 1)"
 
 msgid "Input shaping Damp test"
-msgstr "Тест затухания Input shaping"
+msgstr "Ручной подбор коэффициента затухания"
 
 msgid "Check firmware compatibility."
 msgstr "Проверьте совместимость с прошивкой."
@@ -17787,8 +17819,9 @@ msgstr "Проверьте совместимость с прошивкой."
 msgid "Frequency: "
 msgstr "Частота: "
 
+# Коэффициент затухания
 msgid "Damp"
-msgstr "Затухание"
+msgstr "Коэффициент"
 
 msgid "RepRap firmware uses the same frequency for both axes."
 msgstr "Прошивка RepRap использует общую частоту для обеих осей."
