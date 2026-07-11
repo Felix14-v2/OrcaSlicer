@@ -13718,13 +13718,13 @@ msgid "The decay rate for higher octaves of the coherent noise. Lower values wil
 msgstr "Скорость затухания для более высоких октав когерентного шума. Более низкие значения приведут к сглаживанию шума."
 
 msgid "Number of ripples per layer"
-msgstr ""
+msgstr "Количество волн на слое"
 
 msgid "Controls how many full cycles of ripples will be added per layer."
-msgstr ""
+msgstr "Поддерживать заданное количество максимумов в каждом контуре."
 
 msgid "Ripple offset"
-msgstr ""
+msgstr "Смещение волн"
 
 msgid ""
 "Shifts the ripple phase forward along the print path by the specified percentage of a wavelength each layer period.\n"
@@ -13734,9 +13734,15 @@ msgid ""
 "\n"
 "The shift is applied once every number of layers set by Layers between ripple offset, so layers within the same group are printed identically."
 msgstr ""
+"Смещать фазу волны с каждым новым слоем на заданный процент её длины.\n"
+"• 0% – не использовать смещение.\n"
+"• 50% – смещать в противофазу.\n"
+"• 100% – по сути, возврат к 0%.\n"
+"\n"
+"Примечание: слои можно сгруппировать настройкой ниже."
 
 msgid "Layers between ripple offset"
-msgstr ""
+msgstr "Группировка слоёв"
 
 msgid ""
 "Specifies how many consecutive layers share the same ripple phase before the offset is applied.\n"
@@ -13744,6 +13750,8 @@ msgid ""
 "- 1 = Layer 1 is printed with the base ripple pattern, then layer 2 is shifted by the configured offset, then layer 3 returns to the base pattern, and so on.\n"
 "- 3 = Layers 1 to 3 are printed with the base ripple pattern, then layers 4 to 6 are shifted by the configured offset, then layers 7 to 9 return to the base pattern, etc."
 msgstr ""
+"Задаёт количество слоёв с общей фиксированной фазой.\n"
+"Позволяет смещать синусоиду раз в несколько слоёв."
 
 msgid "Filter out tiny gaps"
 msgstr "Минимальная длина щели"
