@@ -3556,20 +3556,24 @@ msgid "Libraries"
 msgstr "Библиотеки"
 
 msgid "This software uses open source components whose copyright and other proprietary rights belong to their respective owners"
-msgstr "В данном программном обеспечении используются компоненты с открытым исходным кодом, авторские и иные права на которые принадлежат их соответствующим владельцам"
+msgstr "В данном ПО используются компоненты с открытым исходным кодом, авторские и иные права на которые принадлежат их соответствующим владельцам"
 
 #, c-format, boost-format
 msgid "About %s"
 msgstr "О программе %s"
 
+# Не знаю, как тут лучше красиво сформулировать по-русски, может потом кто-то исправит (или я сам сюда вернусь). Текст почти лирический, попытался это передать.
 msgid "Open-source slicing stands on a tradition of collaboration and attribution. Slic3r, created by Alessandro Ranellucci and the RepRap community, laid the foundation. PrusaSlicer by Prusa Research built on that work, Bambu Studio forked from PrusaSlicer, and SuperSlicer extended it with community-driven enhancements. Each project carried the work of its predecessors forward, crediting those who came before."
 msgstr ""
+"Разработчики и сообщество OrcaSlicer придерживаются идей открытости, совместной работы и взаимоуважения. Основоположником стал Slic3r, созданный в 2011 году Alessandro Ranellucci и сообществом RepRap. Компания Prusa Research основала на нём PrusaSlicer, от которого позднее ответвились Bambu Studio и SuperSlicer, вобравший в себя множество улучшений от сообщества. Каждый из них продолжал дело своих предшественников, отдавая должное тем, кто нёс его сквозь время."
 
 msgid "OrcaSlicer began in that same spirit, drawing from PrusaSlicer, BambuStudio, SuperSlicer, and CuraSlicer. But it has since grown far beyond its origins — introducing advanced calibration tools, precise wall and seam control and hundreds of other features."
 msgstr ""
+"OrcaSlicer начинал свой путь с тем же замыслом, опираясь на PrusaSlicer, Bambu Studio, SuperSlicer и Cura. Но с тех пор проект развился далеко за пределы своих истоков, привнеся в сферу печати расширенные инструменты калибровок, обработки швов, поверхностей и сотни других функций."
 
 msgid "Today, OrcaSlicer is the most widely used and actively developed open-source slicer in the 3D printing community. Many of its innovations have been adopted by other slicers, making it a driving force for the entire industry."
 msgstr ""
+"В наши дни OrcaSlicer – самый прогрессивный и распространённый в сообществе слайсер с открытым исходным кодом. Благодаря множеству инноваций он становится основой других слайсеров и движущей силой всей индустрии 3D-печати."
 
 msgid "Version"
 msgstr "Версия"
