@@ -1973,14 +1973,6 @@ msgid ""
 "Force push will overwrite the cloud copy of preset \"%s\" with your local changes.\n"
 "Do you want to continue?"
 msgstr ""
-"«Выгрузить в облако» перезапишет сведения в облаке вашими локальными изменениями.\n"
-"Вы действительно хотите продолжить?"
-
-#, c-format, boost-format
-msgid ""
-"Force push will overwrite the cloud copy of preset \"%s\" with your local changes.\n"
-"Do you want to continue?"
-msgstr ""
 "«Выгрузить в облако» перезапишет профиль «%s» в облаке вашим локальным профилем.\n"
 "Вы действительно хотите продолжить?"
 
@@ -8088,48 +8080,6 @@ msgstr "Не удалось перезагрузить сетевой плаги
 msgid "Reload Failed"
 msgstr "Перезапуск не удался"
 
-msgid "(Latest)"
-msgstr "(новейшая)"
-
-msgid "Network plug-in switched successfully."
-msgstr "Сетевой плагин успешно переключён."
-
-msgid "Success"
-msgstr "Успех"
-
-msgid "Failed to load network plug-in. Please restart the application."
-msgstr "Для загрузки сетевого плагина требуется перезапуск приложения."
-
-#, c-format, boost-format
-msgid ""
-"You've selected network plug-in version %s.\n"
-"\n"
-"Would you like to download and install this version now?\n"
-"\n"
-"Note: The application may need to restart after installation."
-msgstr ""
-"Выбрана следующая версия плагина: %s.\n"
-"\n"
-"Загрузить и установить её? Возможно, потребуется перезагрузка приложения."
-
-msgid "Download Network Plug-in"
-msgstr "Загрузить сетевой плагин"
-
-msgid "Reload the network plug-in without restarting the application"
-msgstr "Перезагрузить плагин без перезапуска приложения."
-
-msgid "Network plug-in reloaded successfully."
-msgstr "Плагин успешно перезагружен."
-
-msgid "Reload"
-msgstr "Перезагрузить"
-
-msgid "Failed to reload network plug-in. Please restart the application."
-msgstr "Не удалось перезагрузить сетевой плагин. Требуется перезапуск приложения."
-
-msgid "Reload Failed"
-msgstr "Перезапуск не удался"
-
 # Строки дублируются, используем универсальное
 msgid "Associate"
 msgstr "Открытие"
@@ -8258,8 +8208,6 @@ msgstr ""
 "Значение по умолчанию: 0.003 мм."
 
 msgid "STEP importing: angle deflection"
-msgstr "Угловое отклонение при импорте STEP"
-
 msgstr "Угловое отклонение при импорте STEP"
 
 msgid ""
@@ -8603,18 +8551,6 @@ msgstr "Уведомлять только о стабильных версиях
 
 msgid "Auto sync user presets (Printer/Filament/Process)"
 msgstr "Синхронизация пользовательских профилей (принтера/материала/настроек)"
-
-msgid "Update built-in presets automatically."
-msgstr "Автоматически обновлять системные профили"
-
-msgid "Use encrypted file for token storage"
-msgstr "Хранить токены в зашифрованном файле"
-
-msgid "Store authentication tokens in an encrypted file instead of the system keychain. (Requires restart)"
-msgstr "Сохранять токены аутентификации в зашифрованном файле вместо использования системной связки ключей (требуется перезапуск)."
-
-msgid "Filament Sync Options"
-msgstr "Настройки синхронизации"
 
 msgid "Filament sync mode"
 msgstr "Режим синхронизации"
