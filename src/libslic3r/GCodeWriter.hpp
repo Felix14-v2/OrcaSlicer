@@ -19,6 +19,7 @@ public:
     GCodeWriter() :
         multiple_extruders(false), m_curr_filament_extruder(MAXIMUM_EXTRUDER_NUMBER, nullptr),
         m_curr_extruder_id (-1),
+        m_cached_extruder_idx(0),
         m_single_extruder_multi_material(false),
         m_last_acceleration(0), m_max_acceleration(0),m_last_travel_acceleration(0), m_max_travel_acceleration(0),
         m_last_jerk(0), m_max_jerk_x(0), m_max_jerk_y(0),
@@ -135,22 +136,24 @@ public:
     bool            m_single_extruder_multi_material;
     std::vector<Extruder*> m_curr_filament_extruder;
     int        m_curr_extruder_id;
-    unsigned int    m_last_acceleration;
-    unsigned int    m_last_travel_acceleration;
-    unsigned int    m_max_travel_acceleration;
+    // Motion uses the global/base process variant until a filament becomes active.
+    size_t     m_cached_extruder_idx;
+    unsigned int              m_last_acceleration;
+    unsigned int              m_last_travel_acceleration;
+    std::vector<unsigned int> m_max_travel_acceleration;
 
     // Limit for setting the acceleration, to respect the machine limits set for the Marlin firmware.
-    // If set to zero, the limit is not in action.
-    unsigned int    m_max_acceleration;
-    double          m_max_jerk_x;
-    double          m_max_jerk_y;
-    double          m_last_jerk;
-    double          m_max_jerk_z;
-    double          m_max_jerk_e;
-    double          m_max_junction_deviation;
+    // If set to zero, the limit is not in action. Indexed by 0-based physical nozzle id.
+    std::vector<unsigned int> m_max_acceleration;
+    std::vector<double>       m_max_jerk_x;
+    std::vector<double>       m_max_jerk_y;
+    double                    m_last_jerk;
+    std::vector<double>       m_max_jerk_z;
+    std::vector<double>       m_max_jerk_e;
+    std::vector<double>       m_max_junction_deviation;
 
-    unsigned int  m_travel_acceleration;
-    unsigned int  m_travel_jerk;
+    // unsigned int  m_travel_acceleration;
+    // unsigned int  m_travel_jerk;
 
 
     //BBS

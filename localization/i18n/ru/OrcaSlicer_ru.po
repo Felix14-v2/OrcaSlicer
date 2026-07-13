@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OrcaSlicer V2.5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 10:26+0800\n"
+"POT-Creation-Date: 2026-07-12 12:27-0300\n"
 "PO-Revision-Date: 2026-02-25 13:38+0300\n"
 "Last-Translator: Felix14_v2\n"
 "Language-Team: Felix14_v2 (ДС/ТГ: @felix14_v2, почта: aleks111001@list.ru), Andylg <andylg@yandex.ru>\n"
@@ -173,6 +173,12 @@ msgstr "Заливка"
 msgid "Gap Fill"
 msgstr "Заливка вкраплений"
 
+msgid "Vertical"
+msgstr "Вертикальная линия"
+
+msgid "Horizontal"
+msgstr "Горизонтальная линия"
+
 #, boost-format
 msgid "Allows painting only on facets selected by: \"%1%\""
 msgstr "Ограничить область работы инструмента настройкой «%1%»"
@@ -268,12 +274,6 @@ msgstr "Треугольник"
 
 msgid "Height Range"
 msgstr "Диапазон высот"
-
-msgid "Vertical"
-msgstr "Вертикальная линия"
-
-msgid "Horizontal"
-msgstr "Горизонтальная линия"
 
 msgid "Remove painted color"
 msgstr "Удаление окрашенного участка"
@@ -1963,6 +1963,14 @@ msgstr ""
 # Не известно, один профиль меняется, или несколько.
 msgid ""
 "Force push will overwrite the cloud copy with your local preset changes.\n"
+"Do you want to continue?"
+msgstr ""
+"«Выгрузить в облако» перезапишет сведения в облаке вашими локальными изменениями.\n"
+"Вы действительно хотите продолжить?"
+
+#, c-format, boost-format
+msgid ""
+"Force push will overwrite the cloud copy of preset \"%s\" with your local changes.\n"
 "Do you want to continue?"
 msgstr ""
 "«Выгрузить в облако» перезапишет сведения в облаке вашими локальными изменениями.\n"
@@ -5817,15 +5825,6 @@ msgstr "Экспортировать текущую конфигурацию в 
 msgid "Export"
 msgstr "Экспорт"
 
-msgid "Sync Presets"
-msgstr "Синхронизация"
-
-msgid "Pull and apply the latest presets from OrcaCloud"
-msgstr "Загрузить и применить новейшие профили из OrcaCloud"
-
-msgid "You must be logged in to sync presets from cloud."
-msgstr "Для синхронизации с облаком необходима авторизация."
-
 msgid "Quit"
 msgstr "Выход"
 
@@ -5939,6 +5938,15 @@ msgstr "Вид"
 
 msgid "Preset Bundle"
 msgstr "Пакет профилей"
+
+msgid "Sync Presets"
+msgstr "Синхронизация"
+
+msgid "Pull and apply the latest presets from OrcaCloud"
+msgstr "Загрузить и применить новейшие профили из OrcaCloud"
+
+msgid "You must be logged in to sync presets from cloud."
+msgstr "Для синхронизации с облаком необходима авторизация."
 
 msgid "Syncing presets from cloud…"
 msgstr "Синхронизация профилей с облаком…"
@@ -8080,6 +8088,48 @@ msgstr "Не удалось перезагрузить сетевой плаги
 msgid "Reload Failed"
 msgstr "Перезапуск не удался"
 
+msgid "(Latest)"
+msgstr "(новейшая)"
+
+msgid "Network plug-in switched successfully."
+msgstr "Сетевой плагин успешно переключён."
+
+msgid "Success"
+msgstr "Успех"
+
+msgid "Failed to load network plug-in. Please restart the application."
+msgstr "Для загрузки сетевого плагина требуется перезапуск приложения."
+
+#, c-format, boost-format
+msgid ""
+"You've selected network plug-in version %s.\n"
+"\n"
+"Would you like to download and install this version now?\n"
+"\n"
+"Note: The application may need to restart after installation."
+msgstr ""
+"Выбрана следующая версия плагина: %s.\n"
+"\n"
+"Загрузить и установить её? Возможно, потребуется перезагрузка приложения."
+
+msgid "Download Network Plug-in"
+msgstr "Загрузить сетевой плагин"
+
+msgid "Reload the network plug-in without restarting the application"
+msgstr "Перезагрузить плагин без перезапуска приложения."
+
+msgid "Network plug-in reloaded successfully."
+msgstr "Плагин успешно перезагружен."
+
+msgid "Reload"
+msgstr "Перезагрузить"
+
+msgid "Failed to reload network plug-in. Please restart the application."
+msgstr "Не удалось перезагрузить сетевой плагин. Требуется перезапуск приложения."
+
+msgid "Reload Failed"
+msgstr "Перезапуск не удался"
+
 # Строки дублируются, используем универсальное
 msgid "Associate"
 msgstr "Открытие"
@@ -8199,7 +8249,7 @@ msgid ""
 "Smaller values produce higher-quality meshes but increase processing time.\n"
 "Used as the default in the import dialog, or directly when the import dialog is disabled.\n"
 "Default: 0.003 mm."
-msgstr ""
+msgstr "" 
 "Линейное отклонение при создании сетки импортируемых файлов STEP.\n"
 "Чем меньше, тем выше точность поверхности и время обработки.\n"
 "\n"
@@ -8208,6 +8258,8 @@ msgstr ""
 "Значение по умолчанию: 0.003 мм."
 
 msgid "STEP importing: angle deflection"
+msgstr "Угловое отклонение при импорте STEP"
+
 msgstr "Угловое отклонение при импорте STEP"
 
 msgid ""
@@ -8550,7 +8602,19 @@ msgid "Check for stable updates only"
 msgstr "Уведомлять только о стабильных версиях"
 
 msgid "Auto sync user presets (Printer/Filament/Process)"
-msgstr "Синхронизация пользов. профилей (принтера/материала/настроек)"
+msgstr "Синхронизация пользовательских профилей (принтера/материала/настроек)"
+
+msgid "Update built-in presets automatically."
+msgstr "Автоматически обновлять системные профили"
+
+msgid "Use encrypted file for token storage"
+msgstr "Хранить токены в зашифрованном файле"
+
+msgid "Store authentication tokens in an encrypted file instead of the system keychain. (Requires restart)"
+msgstr "Сохранять токены аутентификации в зашифрованном файле вместо использования системной связки ключей (требуется перезапуск)."
+
+msgid "Filament Sync Options"
+msgstr "Настройки синхронизации"
 
 msgid "Filament sync mode"
 msgstr "Режим синхронизации"
@@ -10527,12 +10591,8 @@ msgstr "Информация о сопле успешно синхронизир
 msgid "Successfully synchronized nozzle and AMS number information."
 msgstr "Информация о сопле и количестве AMS успешно синхронизирована."
 
-msgid "Continue to sync filaments"
-msgstr "Продолжить синхронизацию филаментов"
-
-msgctxt "Sync_Nozzle_AMS"
-msgid "Cancel"
-msgstr "Отмена"
+msgid "Do you want to continue to sync filaments?"
+msgstr ""
 
 msgid "Successfully synchronized filament color from printer."
 msgstr "Цвет материала успешно синхронизирован с принтером."
@@ -11825,7 +11885,7 @@ msgid ""
 "If left to zero, the bridging angle will be calculated automatically for each specific bridge.\n"
 "Otherwise the provided angle will be used according to:\n"
 " - The absolute coordinates\n"
-" - The absolute coordinates + Model rotation: If Align infill direction to model is enabled\n"
+" - The absolute coordinates + Model rotation: If Align directions to model is enabled\n"
 " - The optimal automatic angle + this value: If 'Relative Bridge Angle' is enabled\n"
 "\n"
 "Use 180° for zero absolute angle."
@@ -11841,7 +11901,7 @@ msgid ""
 "If left to zero, the bridging angle will be calculated automatically for each specific bridge.\n"
 "Otherwise the provided angle will be used according to:\n"
 " - The absolute coordinates\n"
-" - The absolute coordinates + Model rotation: If Align infill direction to model is enabled\n"
+" - The absolute coordinates + Model rotation: If Align directions to model is enabled\n"
 " - The optimal automatic angle + this value: If 'Relative Bridge Angle' is enabled\n"
 "\n"
 "Use 180° for zero absolute angle."
@@ -12631,6 +12691,42 @@ msgstr "Плотность верхней поверхности"
 msgid "Density of top surface layer. A value of 100% creates a fully solid, smooth top layer. Reducing this value results in a textured top surface, according to the chosen top surface pattern. A value of 0% will result in only the walls on the top layer being created. Intended for aesthetic or functional purposes, not to fix issues such as over-extrusion."
 msgstr "Плотность верхней поверхности. Если установить 100%, поверхность будет сплошной и гладкой. Уменьшение этого параметра создаст текстурированную поверхность в соответствии с выбранным шаблоном заполнения верхней поверхности. При значении 0% останутся только стенки верхнего слоя. Эта функция предназначена для улучшения внешнего вида или функциональности объекта, но не для решения проблем, таких как чрезмерная экструзия."
 
+msgid "Top surface expansion"
+msgstr ""
+
+msgid ""
+"Expands the top surfaces by this distance to connect distinct top surfaces and fill gaps.\n"
+"Useful for cases where the top surface is interrupted by a raised feature, such as text on a plane.Expanding it removes the holes beneath these features and creates a continuous path with a better finish for printing on top.The expansion is applied to the original top surface, before any other processing such as bridging or overhang detection."
+msgstr ""
+
+msgid "Top expansion wall margin"
+msgstr ""
+
+msgid ""
+"Using “Top surface expansion” may cause a surface that did not previously touch the model's outer walls to now do so.\n"
+"This can cause contraction marks (such as the hull line) on the outer walls.\n"
+"By adding a small margin, this contraction will not occur directly on the walls, thereby preventing a visible mark."
+msgstr ""
+
+msgid "Top expansion direction"
+msgstr ""
+
+msgid ""
+"Direction in which the top surface expansion grows.\n"
+" - Inward grows into the holes and gaps left by features rising from the middle of a top surface.\n"
+" - Outward grows the outer edge of the surface, connecting surfaces separated by features that can divide a surface, such as a lattice pattern.\n"
+" - Inward and Outward does both."
+msgstr ""
+
+msgid "Inward and Outward"
+msgstr ""
+
+msgid "Inward"
+msgstr ""
+
+msgid "Outward"
+msgstr ""
+
 msgid "Bottom surface pattern"
 msgstr "Шаблон заполнения нижней поверхности"
 
@@ -12933,6 +13029,11 @@ msgid "Enable adaptive pressure advance within features (beta)"
 msgstr "Адаптироваться к изменениям линии"
 
 msgid ""
+"Enable adaptive PA whenever there are flow changes in a feature, such as line width changes in a corner or overhangs.\n"
+"\n"
+"Not compatible with Prusa printers as they pause to process PA changes, which causes delays and defects.\n"
+"\n"
+"This is an experimental option, as if the PA profile is not set accurately, it will cause uniformity issues."
 "Enable adaptive PA whenever there are flow changes in a feature, such as line width changes in a corner or overhangs.\n"
 "\n"
 "Not compatible with Prusa printers as they pause to process PA changes, which causes delays and defects.\n"
@@ -13371,12 +13472,12 @@ msgstr "Плотность заполнения"
 msgid "Density of internal sparse infill, 100% turns all sparse infill into solid infill and internal solid infill pattern will be used."
 msgstr "Плотность внутреннего заполнения, выраженная в процентах. 100% означает сплошное заполнение."
 
-msgid "Align infill direction to model"
-msgstr "Вращать заполнение с моделью"
+msgid "Align directions to model"
+msgstr ""
 
 msgid ""
-"Aligns infill, bridge, ironing and surface fill directions to follow the model's orientation on the build plate.\n"
-"When enabled, directions rotate with the model to maintain optimal strength characteristics."
+"Aligns infill, bridge, ironing, and top/bottom surface directions to follow the model's orientation on the build plate.\n"
+"When enabled, these directions rotate together with the model so the printed features keep their intended orientation relative to the part, preserving optimal strength and surface characteristics regardless of how the model is placed."
 msgstr ""
 
 msgid "Insert solid layers"
@@ -15725,6 +15826,18 @@ msgstr "Подготовка всех печатающих экструдеро�
 msgid "If enabled, all printing extruders will be primed at the front edge of the print bed at the start of the print."
 msgstr "Если этот параметр включён, все печатающие экструдеры в начале печати будут подготавливаться на переднем крае стола."
 
+msgid "Toolchange ordering"
+msgstr ""
+
+msgid ""
+"Determines the order of tool changes on each layer.\n"
+"- Default: Starts with the last used extruder to minimize tool changes.\n"
+"- Cyclic: Uses a fixed tool sequence each layer. This sacrifices speed for better surface quality, as the extra toolchanges allow layers more time to cool."
+msgstr ""
+
+msgid "Cyclic"
+msgstr ""
+
 msgid "Slice gap closing radius"
 msgstr "Радиус закрытия зазоров полигональной сетки"
 
@@ -16216,6 +16329,45 @@ msgstr "Толщина оболочки сверху"
 
 msgid "The number of top solid layers is increased when slicing if the thickness calculated by top shell layers is thinner than this value. This can avoid having too thin a shell when layer height is small. 0 means that this setting is disabled and thickness of top shell is determined simply by the number of top shell layers."
 msgstr "Минимальная толщина оболочки сверху в мм. Если толщина оболочки, рассчитанная по количеству сплошных слоёв сверху, меньше этого значения, количество сплошных слоёв сверху будет автоматически увеличено при нарезке, для удовлетворения минимальной толщины оболочки. Это позволяет избежать слишком тонкой оболочки при небольшой высоте слоя. 0 означает, что этот параметр отключён, а толщина оболочки сверху задаётся количеством сплошных слоёв сверху."
+
+msgid "Anisotropic surfaces"
+msgstr ""
+
+msgid ""
+"Anisotropic patterns on the top and bottom surfaces.\n"
+"Co-directional printing mode will be applied. For certain patterns, omni-directional filling provides color dispersion when using multi-colored or silk plastics.\n"
+"This option disable the gap fill.\n"
+"This option can increase a printing time."
+msgstr ""
+
+msgid "Separated infills"
+msgstr ""
+
+msgid ""
+"Centers the internal infill of each part on itself, as if it were sliced on its own, instead of on the whole assembly. Parts that touch or overlap are treated as one body and share a center; separate parts (or distinct 3D objects) each get their own.\n"
+"Useful when an assembly groups several objects that should each keep a consistent, self-centered infill.\n"
+"Affects line and grid patterns and rotation-template infills.\n"
+"Patterns locked to global coordinates (Gyroid, Honeycomb, TPMS, ...) are unaffected."
+msgstr ""
+
+msgid "Center surface pattern on"
+msgstr ""
+
+msgid ""
+"Chooses where the centering point of centered top/bottom surface patterns (Archimedean Chords, Octagram Spiral) is placed.\n"
+" - Each Surface: centers the pattern on every individual surface region, so each island is symmetric on its own.\n"
+" - Each Model: centers the pattern on each connected body. Parts that touch or overlap share one center; parts detached from the rest each get their own.\n"
+" - Each Assembly: uses a single shared center for the whole object or assembly."
+msgstr ""
+
+msgid "Each Surface"
+msgstr ""
+
+msgid "Each Model"
+msgstr ""
+
+msgid "Each Assembly"
+msgstr ""
 
 msgid "This is the speed at which traveling is done."
 msgstr "Ограничение скорости холостых перемещений печатающей головы."
@@ -18957,7 +19109,7 @@ msgid "Login/Test"
 msgstr "Вход/Тест"
 
 msgid "Connection to printers connected via the print host failed."
-msgstr "Не удалось подключиться к принтерам, подключенным через хост печати."
+msgstr "Не удалось подключиться к принтерам, подключённым через хост печати."
 
 msgid "Detect Creality K-series printer"
 msgstr "Обнаружение принтеров Creality K-серии"
@@ -19166,7 +19318,7 @@ msgstr "Примечание: для активации функцией заг�
 msgid "Connection to MKS is working correctly."
 msgstr "Подключение к MKS успешно установлено."
 
-# Ну не могу пройти мимо, пускай будет пасхалка :)
+# Ну не могу пройти мимо, пускай будет пасхалка ;-;
 msgid "Could not connect to MKS"
 msgstr "Не удалось подключиться к MKS. Проверьте, не сведена ли она с орбиты"
 
@@ -20366,6 +20518,83 @@ msgid ""
 msgstr ""
 "Предотвращение коробления материала\n"
 "Знаете ли вы, что при печати материалами, склонными к короблению, таких как ABS, повышение температуры подогреваемого стола может снизить эту вероятность?"
+
+#~ msgid "Continue to sync filaments"
+#~ msgstr "Продолжить синхронизацию филаментов"
+
+#~ msgctxt "Sync_Nozzle_AMS"
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Align infill direction to model"
+#~ msgstr "Вращать заполнение с моделью"
+
+#~ msgid "Print"
+#~ msgstr "Печать"
+
+#~ msgid "in"
+#~ msgstr "дюйм"
+
+#~ msgid "Object coordinates"
+#~ msgstr "Относительно модели"
+
+#~ msgid "World coordinates"
+#~ msgstr "Относительно стола"
+
+#~ msgid "Translate(Relative)"
+#~ msgstr "Перемещение (относительное)"
+
+#~ msgid "Rotate (absolute)"
+#~ msgstr "Поворот"
+
+#~ msgid "Part coordinates"
+#~ msgstr "Относительно части"
+
+# Тут речь о коэффициенте PA (адаптивный коэффициент PA), а не об адаптивном
+# алгоритме
+#~ msgid "Enable adaptive pressure advance for overhangs (beta)"
+#~ msgstr "Адаптивный PA на нависаниях (beta)"
+
+#~ msgid "Pressure advance for bridges"
+#~ msgstr "Коэффициент PA на мостах"
+
+#~ msgid ""
+#~ "Pressure advance value for bridges. Set to 0 to disable.\n"
+#~ "\n"
+#~ "A lower PA value when printing bridges helps reduce the appearance of slight under extrusion immediately after bridges. This is caused by the pressure drop in the nozzle when printing in the air and a lower PA helps counteract this."
+#~ msgstr ""
+#~ "Коэффициент Pressure Advance для мостов. Установите значение 0, если хотите отключить функцию.\n"
+#~ "\n"
+#~ "Более низкое значение PA при печати мостов помогает уменьшить появление небольшой недоэкструзии сразу после мостов. Это вызвано падением давления в сопле при печати в воздухе, и более низкое значение PA помогает предотвратить это."
+
+#~ msgid "Filament Sync Options"
+#~ msgstr "Настройки синхронизации"
+
+#~ msgid "Network plug-in"
+#~ msgstr "Сетевой плагин"
+
+#~ msgid "View control settings"
+#~ msgstr "Просмотр настроек управления"
+
+#~ msgid "Rotate view"
+#~ msgstr "Вращение камеры"
+
+#~ msgid "Pan view"
+#~ msgstr "Перемещение камеры"
+
+#~ msgid "Zoom view"
+#~ msgstr "Масштабирование вида"
+
+#~ msgid "Reverse scroll direction while zooming"
+#~ msgstr "Инвертировать масштабирование с помощью колеса мыши"
+
+#, c-format, boost-format
+#~ msgid "Left: %s"
+#~ msgstr "Левый: %s"
+
+#, c-format, boost-format
+#~ msgid "Right: %s"
+#~ msgstr "Правый: %s"
 
 #~ msgid "Enable network plug-in"
 #~ msgstr "Включить сетевой плагин"
