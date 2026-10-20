@@ -259,7 +259,6 @@ msgstr "Обычный"
 msgid "TPU High Flow"
 msgstr "TPU High Flow"
 
-# AI Translated
 msgid "E3D High Flow"
 msgstr "E3D High Flow"
 
@@ -359,7 +358,6 @@ msgstr "Чтение "
 msgid "Please wait"
 msgstr "Подождите"
 
-# AI Translated
 #. TRN %d/%d is the hotend being read and the number of hotends to read.
 #, c-format, boost-format
 msgid "Induction Hotend Rack: Reading %d/%d"
@@ -425,7 +423,6 @@ msgstr "Применить"
 msgid "On highlighted overhangs only"
 msgstr "Только на подсвеченных нависаниях"
 
-# AI Translated
 msgid "Erase all"
 msgstr "Стереть всё"
 
@@ -463,7 +460,6 @@ msgstr "Правая кнопка мыши"
 msgid "Block supports"
 msgstr "Блокировка поддержек"
 
-# AI Translated
 msgid "Erase"
 msgstr "Стереть"
 
@@ -526,13 +522,12 @@ msgstr "Гизмо: Поверхностью на стол"
 msgid "Lay on Face"
 msgstr "Поверхностью на стол"
 
-# AI Translated
 #, boost-format
 msgid "Filament count exceeds the maximum number that painting tool supports. Only the first %1% filament will be available in painting tool."
 msgid_plural "Filament count exceeds the maximum number that painting tool supports. Only the first %1% filaments will be available in painting tool."
-msgstr[0] "Количество материалов превышает максимум, который поддерживает инструмент рисования. В нём будут доступны только первые %1% материал."
-msgstr[1] "Количество материалов превышает максимум, который поддерживает инструмент рисования. В нём будут доступны только первые %1% материала."
-msgstr[2] "Количество материалов превышает максимум, который поддерживает инструмент рисования. В нём будут доступны только первые %1% материалов."
+msgstr[0] "Количество материалов превышает максимум, который поддерживает инструмент. Будет доступен только первый %1% из них."
+msgstr[1] "Количество материалов превышает максимум, который поддерживает инструмент. Будут доступны только первые %1%."
+msgstr[2] "Количество материалов превышает максимум, который поддерживает инструмент. Будут доступны только первые %1%."
 
 msgid "Color Painting"
 msgstr "Покраска"
@@ -585,7 +580,6 @@ msgctxt "Keyboard Shortcut"
 msgid "Enter"
 msgstr "Enter"
 
-# AI Translated
 #, c-format, boost-format
 msgid "Shortcut Key %d"
 msgstr "Горячая клавиша %d"
@@ -745,83 +739,64 @@ msgid "Relative"
 msgstr "Прибавить"
 
 msgid "Selection"
-msgstr "Элемент"
+msgstr "Выбранное"
 
 msgid "Plate"
 msgstr "Стол"
 
-# AI Translated
-# Needs human review: No glossary rendering yet (Russian cell empty); Распределить matches the existing Align/Distribute label.
 msgid "Distribute"
 msgstr "Распределить"
 
 msgid "Coordinate system used for transform actions."
 msgstr "Опорная система координат для изменения положения."
 
-# AI Translated
-# Needs human review: Label in the Align/Distribute tool: what the objects are aligned to; check the wording in the UI.
 msgid "Reference for alignment"
-msgstr "Опора для выравнивания"
+msgstr "Область применения выравнивания"
 
-# AI Translated
 msgid "Select at least 3 parts or objects"
-msgstr "Выберите не менее 3 частей или объектов"
+msgstr "Применимо для 3 и более объектов"
 
-# AI Translated
 msgid "Align left"
-msgstr "Выровнять по левому краю"
+msgstr "Выровнять слева"
 
-# AI Translated
-# Needs human review: Align/Distribute menu (object right-click): left-right/front-back/top-bottom are rendered as по ширине/глубине/высоте (the menu appends X/Y/Z); check it reads as aligning the objects' centers along that axis.
 msgid "Align left-right center"
-msgstr "Выровнять центры по ширине"
+msgstr "Выровнять в колонку"
 
-# AI Translated
 msgid "Align right"
-msgstr "Выровнять по правому краю"
+msgstr "Выровнять справа"
 
-# AI Translated
 msgid "Align front"
-msgstr "Выровнять по переднему краю"
+msgstr "Выровнять спереди"
 
-# AI Translated
 msgid "Align front-back center"
-msgstr "Выровнять центры по глубине"
+msgstr "Выровнять в ряд"
 
-# AI Translated
 msgid "Align back"
-msgstr "Выровнять по заднему краю"
+msgstr "Выровнять сзади"
 
-# AI Translated
 msgid "Align bottom"
-msgstr "Выровнять по нижнему краю"
+msgstr "Выровнять снизу"
 
-# AI Translated
 msgid "Align top-bottom center"
-msgstr "Выровнять центры по высоте"
+msgstr "Выровнять посередине"
 
-# AI Translated
 msgid "Align top"
-msgstr "Выровнять по верхнему краю"
+msgstr "Выровнять сверху"
 
-# AI Translated
 msgid "Distribute left-right"
 msgstr "Распределить по ширине"
 
-# AI Translated
 msgid "Distribute front-back"
 msgstr "Распределить по глубине"
 
-# AI Translated
 msgid "Distribute top-bottom"
 msgstr "Распределить по высоте"
 
 msgid "Drop"
 msgstr "Опустить на стол"
 
-# AI Translated
 msgid "Move the selection along Z so that its lowest point touches the bed."
-msgstr "Сместить выбранное по оси Z так, чтобы его нижняя точка касалась стола."
+msgstr "Опустить крайнюю нижнюю точку выбранных объектов на стол."
 
 msgid "Absolute"
 msgstr "Поворот"
@@ -1101,7 +1076,6 @@ msgstr "текущее положение секущей плоскости с �
 msgid "Connector"
 msgstr "Соединение"
 
-# AI Translated
 #, boost-format
 msgid ""
 "Object (%1%) has duplicated connectors. Some connectors may be missing in slicing result.\n"
@@ -1185,7 +1159,6 @@ msgstr "Низкая"
 msgid "Extra low"
 msgstr "Очень низкая"
 
-# AI Translated
 #, boost-format
 msgid "%1% triangle"
 msgid_plural "%1% triangles"
@@ -1202,16 +1175,14 @@ msgstr "Дождитесь окончания расчёта упрощения 
 msgid "Operation already cancelling. Please wait a few seconds."
 msgstr "Операция уже отменена. Пожалуйста, подождите несколько секунд."
 
-# AI Translated
 msgid "Model simplification has been canceled"
-msgstr "Упрощение модели отменено"
+msgstr "Упрощение отменено"
 
 msgid "Wiki Guide"
 msgstr "Руководство"
 
-# AI Translated
 msgid "Video Guide"
-msgstr "Видеоруководство"
+msgstr "Обзор"
 
 msgid "Enforce seam"
 msgstr "Принудительный шов"
@@ -1264,13 +1235,11 @@ msgstr "Разместить на поверхности"
 msgid "Emboss"
 msgstr "Объёмный текст"
 
-# AI Translated
 msgid "No active font in style. Select correct one."
 msgstr "В стиле нет активного шрифта. Выберите подходящий."
 
-# AI Translated
 msgid "WxFont is not loaded properly."
-msgstr "WxFont загружен неправильно."
+msgstr "Проблема при загрузке WxFont."
 
 msgid "NORMAL"
 msgstr "ОБЫЧНЫЙ"
@@ -1338,11 +1307,10 @@ msgstr "Невозможно выбрать шрифт «%1%»."
 msgid "Operation"
 msgstr "Операция:"
 
-# AI Translated
 #. TRN EmbossOperation
 #. ORCA
 msgid "Join"
-msgstr "Объединение"
+msgstr "Создание"
 
 msgid "Click to change text into object part."
 msgstr "Добавить текст как часть модели"
@@ -1713,7 +1681,7 @@ msgid "Open filled path"
 msgstr "Открытый контур с заливкой"
 
 msgid "Undefined stroke type"
-msgstr "Неопределенный тип обводки"
+msgstr "Неопределённый тип обводки"
 
 msgid "Path can't be healed from self-intersection and multiple points."
 msgstr "Не удалось исправить дублирующиеся точки и самопересечение контура."
@@ -1738,24 +1706,20 @@ msgstr "Обводка фигуры (%1%) слишком тонкая (мини�
 msgid "Stroke of shape (%1%) contains unsupported: %2%."
 msgstr "Обводка фигуры (%1%) не поддерживается: %2%."
 
-# AI Translated
 msgid "Not valid state please report reproduction steps on GitHub"
-msgstr "Недопустимое состояние. Сообщите о шагах воспроизведения на GitHub"
+msgstr "Недопустимое состояние. Пожалуйста, сообщите о шагах воспроизведения на GitHub"
 
-# AI Translated
 msgid "No embossed file"
-msgstr "Нет файла рельефа"
+msgstr "Файл объекта отсутствует"
 
-# AI Translated
 msgid "Missing SVG file in embossed shape"
-msgstr "В рельефной фигуре отсутствует файл SVG"
+msgstr "У объёмного объекта потерян файл SVG"
 
-# AI Translated
 msgid "Missing data of SVG file"
 msgstr "Отсутствуют данные файла SVG"
 
 msgid "Face the camera"
-msgstr "Разместить параллельно экрану"
+msgstr "Повернуть к экрану"
 
 #. TRN - Preview of filename after clear local filepath.
 msgid "Unknown filename"
@@ -1840,7 +1804,6 @@ msgstr "Отразить по горизонтали"
 msgid "Change SVG Type"
 msgstr "Изменение типа SVG"
 
-# AI Translated
 msgid "SVG shape"
 msgstr "Фигура SVG"
 
@@ -1937,23 +1900,18 @@ msgstr "Диаметр"
 msgid "Length"
 msgstr "Длина"
 
-# AI Translated
 msgid "Face 1 (Fixed)"
 msgstr "Грань 1 (неподвижная)"
 
-# AI Translated
 msgid "Face 2 (Moving)"
 msgstr "Грань 2 (подвижная)"
 
-# AI Translated
 msgid "Point 1 (Fixed)"
 msgstr "Точка 1 (неподвижная)"
 
-# AI Translated
 msgid "Point 2 (Moving)"
 msgstr "Точка 2 (подвижная)"
 
-# AI Translated
 msgid "Selection 1"
 msgstr "Элемент 1"
 
@@ -1971,7 +1929,6 @@ msgstr ""
 "Выберите 2 точки или окружности на моделях\n"
 "и укажите расстояние между ними."
 
-# AI Translated
 msgid "Selection 2"
 msgstr "Элемент 2"
 
@@ -2077,22 +2034,18 @@ msgid "Leaving Assembly gizmo"
 msgstr "Выход из режима сборки"
 
 # AI Translated
+# Не могу воспроизвести, по коду тоже не понял, как затриггерить
 msgid "Parts of a cut object cannot be moved"
 msgstr "Части разрезанного объекта нельзя перемещать"
 
-# AI Translated
-# Needs human review: Plate renders as Стол per the glossary; check it reads naturally for a project plate.
 msgid "Aligning to the plate is available in X and Y only"
-msgstr "Выравнивание по столу доступно только по осям X и Y"
+msgstr "Недоступно в режиме выравнивания по столу"
 
-# AI Translated
 msgid "Turn off Auto-Drop for the selected objects to move them in Z"
-msgstr "Отключите притягивание к столу для выбранных объектов, чтобы перемещать их по оси Z"
+msgstr "Недоступно для объектов с притягиванием к столу"
 
-# AI Translated
-# Needs human review: Plate renders as Стол per the glossary; check it reads naturally for a project plate.
 msgid "All selected objects must be on the same plate"
-msgstr "Все выбранные объекты должны находиться на одном столе"
+msgstr "Недоступно за пределами стола"
 
 msgid "Shift+"
 msgstr "Shift+"
@@ -2138,18 +2091,16 @@ msgstr "Пакет профилей был загружен, но некотор
 msgid "The configuration file “%1%” was loaded, but some values were not recognized."
 msgstr "Файл профиля «%1%» был загружен, но некоторые значения не были распознаны."
 
-# AI Translated
 #, c-format, boost-format
 msgid ""
 "\"%s\" is not a plain document, image or model file. Opening it may run it as a program or script on this computer.\n"
 "\n"
 "Only open attachments from projects you trust. Open it anyway?"
 msgstr ""
-"«%s» не является обычным документом, изображением или файлом модели. При открытии он может быть запущен на этом компьютере как программа или скрипт.\n"
+"«%s» не является обычным документом, изображением или файлом модели. При открытии на этом компьютере он может запуститься как программа или скрипт.\n"
 "\n"
 "Открывайте вложения только из проектов, которым доверяете. Всё равно открыть?"
 
-# AI Translated
 msgid "Open attachment"
 msgstr "Открыть вложение"
 
@@ -2281,7 +2232,6 @@ msgstr ""
 msgid "WebView2 Runtime"
 msgstr "WebView2 Runtime"
 
-# AI Translated
 #, boost-format
 msgid ""
 "The Microsoft WebView2 Runtime could not be installed.\n"
@@ -2515,25 +2465,22 @@ msgstr "Ограничение сетевого плагина"
 msgid "Privacy Policy Update"
 msgstr "Обновление политики конфиденциальности"
 
-# AI Translated
 msgid "All your filament presets are available on the printers they were made for."
-msgstr "Все ваши профили материалов доступны на принтерах, для которых они были созданы."
+msgstr "Все ваши профили материалов доступны с принтерами, для которых они были созданы."
 
-# AI Translated
 msgid "Migrate Filament Presets"
-msgstr "Перенести профили материалов"
+msgstr "Миграция профилей материалов"
 
-# AI Translated
+# Какая-то логическая ерунда: то у них профили не отображаются с принтерами (подразумевается, что эти принтеры есть в списке), то эти принтеры надо обратно добавлять в список...
 msgid ""
 "OrcaSlicer 2.5.0 restructured many system filament presets to fix incorrect profiles and prepare for future features. As a result, the presets below no longer show on some printers they were made for. Sorry for the trouble; this is a one-time fix.\n"
 "\n"
 "Add those printers back to your presets now? Your presets are backed up first. You can also do this later from Help > Migrate Filament Presets."
 msgstr ""
-"OrcaSlicer 2.5.0 изменил структуру многих системных профилей материалов, чтобы исправить неверные профили и подготовиться к будущим функциям. Из-за этого перечисленные ниже профили больше не отображаются на некоторых принтерах, для которых они были созданы. Приносим извинения за неудобства: это разовое исправление.\n"
+"В OrcaSlicer 2.5.0 была изменена структура многих системных профилей материалов, чтобы исправить проблемные профили и подготовиться к последующим обновлениям. Из-за этого перечисленные ниже профили больше не отображаются на некоторых принтерах. Приносим извинения за неудобства: это разовое исправление.\n"
 "\n"
-"Добавить эти принтеры в ваши профили обратно? Сначала будет создана резервная копия ваших профилей. Это можно сделать и позже через Помощь > Перенести профили материалов."
+"Добавить принтеры в их основе обратно в ваш каталог? Сначала будет создана резервная копия. Миграцию можно выполнить позднее через Помощь → Миграция профилей материалов."
 
-# AI Translated
 #, boost-format
 msgid "%1% (based on %2%)"
 msgstr "%1% (на основе %2%)"
@@ -2541,24 +2488,20 @@ msgstr "%1% (на основе %2%)"
 msgid "Don't remind me again"
 msgstr "Больше не показывать"
 
-# AI Translated
 msgid "Your presets could not be backed up, so they were not migrated."
-msgstr "Не удалось создать резервную копию ваших профилей, поэтому они не были перенесены."
+msgstr "Не удалось создать резервную копию ваших профилей; миграция отменена."
 
-# AI Translated
 msgid "The user presets folder could not be locked, so nothing was migrated. Another OrcaSlicer instance may be saving presets; try again later from Help > Migrate Filament Presets."
-msgstr "Не удалось заблокировать папку пользовательских профилей, поэтому ничего не было перенесено. Возможно, другой экземпляр OrcaSlicer сохраняет профили; повторите попытку позже через Помощь > Перенести профили материалов."
+msgstr "Не удалось выполнить безопасную запись в хранилище пользовательских профилей; миграция отменена. Возможно, другой экземпляр OrcaSlicer выполняет сохранение профилей. Повторите попытку позже через Помощь → Миграция профилей материалов."
 
-# AI Translated
 #, boost-format
 msgid ""
 "Your filament presets could not be migrated. A backup of your presets was saved to:\n"
 "%1%"
 msgstr ""
-"Не удалось перенести ваши профили материалов. Резервная копия ваших профилей сохранена в:\n"
+"Миграция профилей материалов не удалась. Расположение резервной копии ваших профилей:\n"
 "%1%"
 
-# AI Translated
 #, boost-format
 msgid ""
 "Your filament presets were migrated. Select them again in the filament list where you used them.\n"
@@ -2566,14 +2509,13 @@ msgid ""
 "A backup of your presets was saved to:\n"
 "%1%"
 msgstr ""
-"Ваши профили материалов перенесены. Выберите их снова в списке материалов там, где вы их использовали.\n"
+"Миграция профилей материалов завершена. Выберите их снова там, где они использовались ранее.\n"
 "\n"
-"Резервная копия ваших профилей сохранена в:\n"
+"Расположение резервной копии ваших профилей:\n"
 "%1%"
 
-# AI Translated
 msgid "These presets could not be migrated:"
-msgstr "Не удалось перенести эти профили:"
+msgstr "Ошибка миграции профилей:"
 
 #, c-format, boost-format
 msgid "your Orca Cloud profile (user ID: \"%s\")"
@@ -2654,7 +2596,6 @@ msgstr ""
 "\n"
 "Возможно, потребуется восстановить отсутствующие файлы локализации (например, при помощи команд \"locale-gen\" и \"dpkg-reconfigure locales\").\n"
 
-# AI Translated
 msgid "Application will close."
 msgstr "Приложение будет закрыто."
 
@@ -2678,11 +2619,9 @@ msgstr ""
 msgid "Failed to open the Plugins dialog (unknown error)."
 msgstr "Не удалось открыть меню плагинов (неизвестная ошибка)."
 
-# AI Translated
 msgid "Plugins refreshed."
 msgstr "Список плагинов обновлён."
 
-# AI Translated
 #, c-format, boost-format
 msgid "Failed to refresh plugins: %s"
 msgstr "Не удалось обновить список плагинов: %s"
@@ -2690,11 +2629,9 @@ msgstr "Не удалось обновить список плагинов: %s"
 msgid "Unknown error"
 msgstr "Неизвестная ошибка"
 
-# AI Translated
 msgid "Select plugin package"
 msgstr "Выберите пакет плагина"
 
-# AI Translated
 msgid "Plugin files (*.py;*.whl)|*.py;*.whl"
 msgstr "Файлы плагинов (*.py;*.whl)|*.py;*.whl"
 
@@ -2802,7 +2739,7 @@ msgid "Bed adhesion"
 msgstr "Адгезия к столу"
 
 msgid "Add Part"
-msgstr "Добавить элемент"
+msgstr "Добавить часть"
 
 msgid "Add Negative Part"
 msgstr "Добавить вырез"
@@ -2816,7 +2753,6 @@ msgstr "Добавить блокировщик поддержки"
 msgid "Add Support Enforcer"
 msgstr "Добавить принудительную поддержку"
 
-# AI Translated
 msgid "Add Precise Seam"
 msgstr "Добавить точный шов"
 
@@ -2940,7 +2876,6 @@ msgstr "Блокировщик поддержки"
 msgid "Support Enforcer"
 msgstr "Принудительная поддержка"
 
-# AI Translated
 msgid "Precise Seam"
 msgstr "Точный шов"
 
@@ -3089,35 +3024,27 @@ msgstr "Отразить модель вдоль оси Z"
 msgid "Mirror object"
 msgstr "Отразить модель"
 
-# AI Translated
 msgid "Precise Seam Type"
 msgstr "Тип точного шва"
 
-# AI Translated
 msgid "Seam Center"
 msgstr "Шов по центру"
 
-# AI Translated
 msgid "Seam Left"
 msgstr "Шов слева"
 
-# AI Translated
 msgid "Seam Right"
 msgstr "Шов справа"
 
-# AI Translated
 msgid "Seam Enforced"
 msgstr "Принудительный шов"
 
-# AI Translated
 msgid "Seam Blocked"
 msgstr "Блокировка шва"
 
-# AI Translated
 msgid "Seam Neutral"
-msgstr "Нейтральный шов"
+msgstr "Обычный шов"
 
-# AI Translated
 msgid "Choose precise seam subtype"
 msgstr "Выберите подтип точного шва"
 
@@ -3285,13 +3212,11 @@ msgstr " (с потерей цвета)"
 msgid "Center"
 msgstr "По центру"
 
-# AI Translated
 msgid "Align/Distribute"
-msgstr "Выровнять/Распределить"
+msgstr "Расстановка"
 
-# AI Translated
 msgid "Align and distribute objects"
-msgstr "Выровнять и распределить модели"
+msgstr "Выравнивание и распределение моделей"
 
 # Согласуем с содержимым уведомления (отображается, если не нажато "больше не
 # показывать")
@@ -5186,15 +5111,15 @@ msgstr "Высота слоя слишком мала. Будет установ
 
 # AI Translated
 msgid "Layer height is outside the limits set in Printer Settings -> Extruder -> Layer height limits, this may cause printing quality issues."
-msgstr "Высота слоя выходит за пределы, заданные в настройках принтера → Экструдер → Ограничение высоты слоя. Это может вызвать проблемы с качеством печати."
+msgstr "Высота слоя выходит за предел, заданный в настройках принтера → Экструдер → Ограничение высоты слоя. Это может вызвать проблемы с качеством печати."
 
 # AI Translated
 #, c-format, boost-format
 msgid "Adjust it to the limit (%g mm) automatically?"
-msgstr "Автоматически подстроить под предел (%g мм)?"
+msgstr "Адаптировать к пределу (%g мм)?"
 
 msgid "Adjust"
-msgstr "Подстроиться"
+msgstr "Адаптировать"
 
 # AI Translated
 msgid ""
@@ -5323,7 +5248,7 @@ msgstr "Использовать нечёткую оболочку с движк
 
 # AI Translated
 msgid "Brim ear radius"
-msgstr "Радиус ушек каймы"
+msgstr "Радиус ушек"
 
 msgid "Brim width"
 msgstr "Ширина каймы"
@@ -8348,67 +8273,51 @@ msgstr "Заблокировать/разблокировать стол"
 msgid "No plates available."
 msgstr "Нет доступных столов."
 
-# AI Translated
 msgid "Synchronize Filament List from AMS"
 msgstr "Синхронизировать список материалов из AMS"
 
-# AI Translated
 msgid "Connect a printer to synchronize the AMS filament list."
-msgstr "Подключите принтер для синхронизации списка материалов AMS."
+msgstr "Настройте подключение к принтеру для синхронизации списка материалов."
 
-# AI Translated
 msgid "Open Preset Bundle"
 msgstr "Открыть пакет профилей"
 
-# AI Translated
 msgid "Sign in to sync presets."
 msgstr "Войдите в учётную запись для синхронизации профилей."
 
-# AI Translated
 msgid "Export All Objects as STLs"
 msgstr "Экспорт всех моделей в отдельные STL"
 
-# AI Translated
 msgid "Export All Objects as DRC (one file)"
 msgstr "Экспорт всех моделей в один DRC"
 
-# AI Translated
 msgid "Export All Objects as DRCs"
 msgstr "Экспорт всех моделей в отдельные DRC"
 
-# AI Translated
 msgid "Export Toolpaths as OBJ"
 msgstr "Экспорт траектории инструмента в OBJ"
 
-# AI Translated
 msgid "About OrcaSlicer"
 msgstr "О программе OrcaSlicer"
 
-# AI Translated
 msgid "Open Wiki"
 msgstr "Открыть Вики"
 
-# AI Translated
 msgid "Open YouTube Channel"
-msgstr "Открыть канал YouTube"
+msgstr "Открыть канал на YouTube"
 
-# AI Translated
 msgid "Open Plugins"
 msgstr "Открыть плагины"
 
-# AI Translated
 msgid "Refresh Plugins"
 msgstr "Обновить список плагинов"
 
-# AI Translated
 msgid "Install Plugin"
-msgstr "Установить плагин"
+msgstr "Найти плагины"
 
-# AI Translated
 msgid "Install Local Plugin"
-msgstr "Установить локальный плагин"
+msgstr "Импорт плагина"
 
-# AI Translated
 msgid "Unknown command."
 msgstr "Неизвестная команда."
 
@@ -9912,10 +9821,9 @@ msgstr "Оптимизация вращения"
 msgid "Printer not connected. Please go to the device page to connect %s before syncing."
 msgstr "Принтер не подключён. Перед запуском синхронизации необходимо подключить %s на вкладке «Принтер»."
 
-# В переменную добавляется пробел
 #, c-format, boost-format
 msgid "OrcaSlicer can't connect to %s. Please check if the printer is powered on and connected to the network."
-msgstr "Не удалось подключиться к%s. Проверьте питание принтера и его подключение к сети."
+msgstr "Не удалось подключиться к %s. Проверьте питание принтера и его подключение к сети."
 
 #, c-format, boost-format
 msgid "The currently connected printer on the device page is not %s. Please switch to %s before syncing."
@@ -11298,7 +11206,7 @@ msgstr "Сохранить без родителя"
 
 # AI Translated
 msgid "Unique preset"
-msgstr "Независимый профиль"
+msgstr "Уже независимый"
 
 # AI Translated
 msgid "Parent preset"
@@ -17488,7 +17396,7 @@ msgstr ""
 "Позволяет смещать синусоиду раз в несколько слоёв."
 
 msgid "Filter out tiny gaps"
-msgstr "Минимальная длина щели"
+msgstr "Допустимая длина щели"
 
 msgid "Layers and Perimeters"
 msgstr "Слои и периметры"
@@ -19981,7 +19889,7 @@ msgstr ""
 "\n"
 "Стиль «Сетка» создаёт более устойчивую поддержку (по умолчанию). Стиль «Аккуратные» экономит материал и уменьшает образование дефектов на моделях.\n"
 "\n"
-"Для древовидной поддержки, при стройном и органическом стиле происходит более агрессивное объединение ветвей и экономия материала (по умолчанию органический). В то время как гибридный стиль создаёт структуру, схожую с обычную поддержкой при больших плоских нависаниях."
+"Для древовидной поддержки, при тонком и органическом стиле происходит более агрессивное объединение ветвей и экономия материала (по умолчанию органический). В то время как гибридный стиль создаёт структуру, схожую с обычную поддержкой при больших плоских нависаниях."
 
 msgid "Default (Grid/Organic)"
 msgstr "По умолчанию"
@@ -19993,7 +19901,7 @@ msgid "Organic"
 msgstr "Органические"
 
 msgid "Tree Slim"
-msgstr "Стройные"
+msgstr "Тонкие"
 
 msgid "Tree Strong"
 msgstr "Крепкие"
@@ -20303,7 +20211,7 @@ msgid ""
 "\n"
 "This option relies on the firmware supporting the M191 and M141 commands either via macros or natively and is usually used when an active chamber heater is installed."
 msgstr ""
-"Для автоматического поддержания температуры внутри термокамеры принтера включите эту опцию. Эта опция активирует отправку команды M191 перед стартовым G-code принтера (machine_start_gcode)\", которая устанавливает температуру внутри термокамеры и ждёт её достижения. Так же, она отправляет команду M141 в конце печати, чтобы отключить нагреватель камеры, если он есть.\n"
+"Для автоматического поддержания температуры внутри термокамеры принтера включите эту опцию. Эта опция активирует отправку команды M191 перед стартовым G-code принтера (machine_start_gcode), которая устанавливает температуру внутри термокамеры и ждёт её достижения. Так же, она отправляет команду M141 в конце печати, чтобы отключить нагреватель камеры, если он есть.\n"
 "\n"
 "Эта опция зависит от поддержки прошивкой команд M191 и M141, либо через макросы, либо нативно, и обычно используется, когда имеется активный нагреватель камеры."
 
@@ -25563,7 +25471,7 @@ msgid "Please store the filament marked with an exclamation mark."
 msgstr "Уберите на хранение материал, отмеченный восклицательным знаком."
 
 msgid "Filament left in the feeder during drying may soften because the drying temperature exceeds the softening point of materials like PLA and TPU."
-msgstr "Заправленный материал может размягчиться во время сушки, поскольку её сушки превышает точку размягчения материалов вроде PLA и TPU."
+msgstr "Заправленный материал может размягчиться во время сушки, поскольку её температура превышает точку размягчения материалов вроде PLA и TPU."
 
 msgid "Starting: Checking adapter connection"
 msgstr "Запуск: проверка подключения адаптера"
