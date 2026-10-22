@@ -3167,9 +3167,8 @@ msgstr "Имя"
 msgid "All Plates"
 msgstr "Все столы"
 
-# AI Translated
 msgid "Order By"
-msgstr "Сортировать по"
+msgstr "Упорядочить"
 
 msgid "Fix All"
 msgstr "Восстановить всё"
@@ -5115,7 +5114,7 @@ msgid "Layer height is too small. It will be set to the minimum (%g mm)."
 msgstr "Высота слоя слишком мала. Будет установлено минимальное значение (%g мм)."
 
 msgid "Layer height is outside the limits set in Printer Settings -> Extruder -> Layer height limits, this may cause printing quality issues."
-msgstr "Высота слоя выходит за предел, заданный в настройках принтера → Экструдер → Ограничение высоты слоя. Это может вызвать проблемы с качеством печати."
+msgstr "Высота слоя выходит за пределы, заданные в настройках принтера → Экструдер → Ограничение высоты слоя. Это может вызвать проблемы с качеством печати."
 
 #, c-format, boost-format
 msgid "Adjust it to the limit (%g mm) automatically?"
