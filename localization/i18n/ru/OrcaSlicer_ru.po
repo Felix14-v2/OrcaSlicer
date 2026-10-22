@@ -3105,9 +3105,8 @@ msgstr "Правка"
 msgid "Merge with"
 msgstr "Объединить с"
 
-# AI Translated
 msgid "Decompose Color"
-msgstr "Разложить цвет"
+msgstr "Создать смешанный"
 
 msgid "Delete this filament"
 msgstr "Удалить материал"
@@ -3142,19 +3141,15 @@ msgstr "Перезагрузить всё"
 msgid "Reload all from disk"
 msgstr "Перезагрузить всё с диска"
 
-# AI Translated
 msgid "Fix All"
-msgstr "Восстановить все"
+msgstr "Восстановить всё"
 
-# AI Translated
 msgid "Fix all models on the current plate"
 msgstr "Восстановить все модели на текущем столе"
 
-# AI Translated
 msgid "Fix All Plates"
 msgstr "Восстановить все столы"
 
-# AI Translated
 msgid "Fix all models on all plates"
 msgstr "Восстановить все модели на всех столах"
 
@@ -3439,9 +3434,8 @@ msgstr "Сборка"
 msgid "Merge parts to an object"
 msgstr "Сборка моделей"
 
-# AI Translated
 msgid "Using variable layer height together with mixed color sublayer may result in poor color mixing quality."
-msgstr "Использование переменной высоты слоя вместе с подслоем смешанного цвета может ухудшить качество смешивания цветов."
+msgstr "Использование переменной высоты слоя вместе со смешанным цветом может ухудшить качество смешивания."
 
 # Запись в истории действий
 msgid "Add layers"
@@ -3525,13 +3519,12 @@ msgstr[0] "Не удалось восстановить следующую мо�
 msgstr[1] "Не удалось восстановить следующие модели"
 msgstr[2] "Не удалось восстановить следующие модели"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%1$d model object needed no repair."
 msgid_plural "%1$d model objects needed no repair."
-msgstr[0] "%1$d модель не требовала восстановления."
-msgstr[1] "%1$d модели не требовали восстановления."
-msgstr[2] "%1$d моделей не требовали восстановления."
+msgstr[0] "Пропущена %1$d исправная модель."
+msgstr[1] "Пропущены %1$d исправные модели."
+msgstr[2] "Пропущено %1$d исправных моделей."
 
 msgid "Repairing was canceled"
 msgstr "Восстановление отменено"
@@ -3728,7 +3721,6 @@ msgstr "Проверка состояния текущих системных с
 msgid "code"
 msgstr "код"
 
-# AI Translated
 #. TRN Short for "description" of a connection error
 msgid "desc"
 msgstr "описание"
@@ -3784,7 +3776,6 @@ msgstr "Изменить в любом случае"
 msgid "Off"
 msgstr "Выкл"
 
-# AI Translated
 msgctxt "air_duct"
 msgid "Filter"
 msgstr "Фильтр"
@@ -3905,17 +3896,14 @@ msgstr "Подтверждение экструзии"
 msgid "Check filament location"
 msgstr "Проверка расположения прутка"
 
-# AI Translated
 msgctxt "Verb"
 msgid "Pause"
 msgstr "Приостановить"
 
-# AI Translated
 #. TRN Filament change step: the printer switches to the other extruder.
 msgid "Switch extruder"
 msgstr "Переключение экструдера"
 
-# AI Translated
 #. TRN Filament change step: the printer switches to another hotend.
 msgid "Switch hotend"
 msgstr "Смена хотэнда"
@@ -3932,18 +3920,15 @@ msgstr "Втянуть текущий материал на Filament Track Switc
 msgid "Switch track at Filament Track Switch"
 msgstr "Переключить подачу на Filament Track Switch"
 
-# AI Translated
 #. TRN AMS unit number, then slot number
 #, c-format, boost-format
 msgid "AMS-%d-%d Slot"
 msgstr "Слот AMS-%d-%d"
 
-# AI Translated
 #, c-format, boost-format
 msgid "The maximum temperature cannot exceed %d"
 msgstr "Температура не должна превышать %d"
 
-# AI Translated
 #, c-format, boost-format
 msgid "The minimum temperature should not be less than %d"
 msgstr "Температура не должна быть ниже %d"
@@ -4049,7 +4034,6 @@ msgstr "В принтере установлены разные сопла. Вы
 msgid "Ignore"
 msgstr "Игнорировать"
 
-# AI Translated
 msgid "unknown"
 msgstr "неизвестно"
 
@@ -4074,15 +4058,13 @@ msgstr ""
 msgid "Arranging..."
 msgstr "Расстановка..."
 
-# AI Translated
 #, c-format, boost-format
 msgid "Object %s has zero size and can't be arranged."
-msgstr "Модель %s имеет нулевой размер и не может быть расставлена."
+msgstr "Невозможно разместить модель с нулевым размером: %s"
 
 msgid "Arranging"
 msgstr "Расстановка"
 
-# AI Translated
 #. TRN Progress status. %1% is the name of the object being arranged.
 #, boost-format
 msgid "Arranging %1%"
@@ -4123,7 +4105,6 @@ msgstr ""
 msgid "Orienting..."
 msgstr "Ориентация..."
 
-# AI Translated
 #. TRN Progress status. %1% is the name of the object being oriented.
 #, boost-format
 msgid "Orienting %1%"
@@ -4135,7 +4116,6 @@ msgstr "Ориентация отменена."
 msgid "Filling"
 msgstr "Заполнение стола"
 
-# AI Translated
 #. TRN Progress status of Fill bed. %1% is the name of the object being copied.
 #, boost-format
 msgid "Filling %1%"
@@ -4154,22 +4134,18 @@ msgid "Orientation search canceled."
 msgstr "Поиск оптимального положения отменён."
 
 msgid "Orientation found."
-msgstr "Оптимальное положения найдено."
+msgstr "Оптимальное положение найдено."
 
-# AI Translated
 msgid "Best surface quality"
 msgstr "Наилучшее качество поверхности"
 
-# AI Translated
 msgid "Optimize object rotation for best surface quality."
 msgstr "Подбор поворота модели для наилучшего качества поверхности."
 
-# AI Translated
 # Needs human review: Orient tool method name (RotoptimizeJob); English 'Reduced overhang slopes' is vague, rendered as 'fewer overhangs'. Check it matches the method's behaviour.
 msgid "Reduced overhang slopes"
 msgstr "Меньше нависаний"
 
-# AI Translated
 msgid ""
 "Optimize object rotation to have minimum amount of overhangs needing support structures.\n"
 "Note that this method will try to find the best surface of the object for touching the print bed if no elevation is set."
@@ -4177,13 +4153,13 @@ msgstr ""
 "Подбор поворота модели с минимальным количеством нависаний, требующих поддержек.\n"
 "Если высота подъёма не задана, метод постарается найти лучшую поверхность модели для контакта со столом."
 
-# AI Translated
+# Высота по Z – масло масляное
 msgid "Lowest Z height"
-msgstr "Минимальная высота по Z"
+msgstr "Минимальная высота"
 
-# AI Translated
+# Высота по Z – масло масляное
 msgid "Rotate the model to have the lowest z height for faster print time."
-msgstr "Поворот модели для получения минимальной высоты по Z и сокращения времени печати."
+msgstr "Поворот модели для снижения общей высоты и сокращения времени печати."
 
 msgid "Logging in"
 msgstr "Авторизация"
@@ -4288,7 +4264,6 @@ msgstr "Успешно отправлено. Закрытие текущей с�
 msgid "Storage needs to be inserted before sending to printer."
 msgstr "Перед отправкой в принтер необходимо вставить накопитель."
 
-# AI Translated
 msgid "Sending G-code file over LAN, but the Storage in the printer is abnormal and print-issues may be caused by this."
 msgstr "Файл G-code отправлен по локальной сети, однако хранилище принтера неисправно, что может вызвать проблемы с печатью."
 
@@ -4298,14 +4273,12 @@ msgstr "Хранилище данных в принтере неисправно
 msgid "The Storage in the printer is read-only. Please replace it with a normal Storage before sending to printer."
 msgstr "Хранилище данных в принтере защищено от записи. Замените хранилище для отправки печати на принтер."
 
-# AI Translated
 msgid "Can't create empty volume."
 msgstr "Невозможно создать пустое тело."
 
 msgid "Bad input data for EmbossCreateObjectJob."
 msgstr "Некорректный ввод для EmbossCreateObjectJob."
 
-# AI Translated
 msgid "Can't create empty object."
 msgstr "Невозможно создать пустую модель."
 
@@ -4327,11 +4300,10 @@ msgstr "Некорректный ввод для CreateSurfaceVolumeJob."
 msgid "Bad input data for UseSurfaceJob."
 msgstr "Некорректный ввод для CreateSurfaceVolumeJob."
 
-# AI Translated
+# "модель-заглушка" мне не нравится, но лучше "плейсхолдера". Контекст: в случае растровых шрифтов функция пытается загрузить некую заглушку /data/embossed_text.obj, которой нет в исходниках. В случае отсутствия/повреждения заглушки, создаётся параллелепипед.
 msgid "It is used default volume for embossed text, try to change text or font to fix it."
-msgstr "Для объёмного текста используется тело по умолчанию; попробуйте изменить текст или шрифт, чтобы исправить это."
+msgstr "Текст или шрифт не подходят для придания объёма, используется модель-заглушка."
 
-# AI Translated
 msgid "Empty mesh can't be created."
 msgstr "Невозможно создать пустую сетку."
 
@@ -4340,7 +4312,6 @@ msgstr "Невозможно создать пустую сетку."
 msgid "Emboss attribute change"
 msgstr "Изменение свойств рельефа"
 
-# AI Translated
 msgid "Bad object to create volume."
 msgstr "Неподходящая модель для создания тела."
 
@@ -4441,7 +4412,7 @@ msgstr "В данном ПО используются компоненты с о
 msgid "About %s"
 msgstr "О программе %s"
 
-# AI Translated
+# Номер сборки версии
 #. TRN %s is the commit the application was built from
 #, c-format, boost-format
 msgid "Build %s"
@@ -4457,33 +4428,27 @@ msgstr "OrcaSlicer начинал свой путь с тем же замысл�
 msgid "Today, OrcaSlicer is the most widely used and actively developed open-source slicer in the 3D printing community. Many of its innovations have been adopted by other slicers, making it a driving force for the entire industry."
 msgstr "В наши дни OrcaSlicer – самый прогрессивный и распространённый в сообществе слайсер с открытым исходным кодом. Благодаря множеству инноваций он становится основой других слайсеров и движущей силой всей индустрии 3D-печати."
 
-# AI Translated
 msgid "Copyright(C) 2026 OrcaSlicer Pte Ltd All Rights Reserved"
 msgstr "Copyright(C) 2026 OrcaSlicer Pte Ltd. Все права защищены"
 
-# AI Translated
 msgid "Script plugin skipped."
 msgstr "Плагин-скрипт пропущен."
 
-# AI Translated
 msgid "Script plugin finished."
 msgstr "Плагин-скрипт завершил работу."
 
 msgid "Printer"
 msgstr "Принтер"
 
-# AI Translated
 msgid "Recent Projects"
 msgstr "Недавние проекты"
 
-# AI Translated
 msgid "Go to Plate"
 msgstr "Перейти к столу"
 
 msgid "Device"
 msgstr "Принтер"
 
-# AI Translated
 msgid "Device (Web)"
 msgstr "Принтер (веб)"
 
@@ -4545,15 +4510,13 @@ msgstr "Пожалуйста, введите допустимое значени
 msgid "Please input a valid value (K in %.1f~%.1f, N in %.1f~%.1f)"
 msgstr "Пожалуйста, введите допустимое значение (K в диапазоне %.1f~%.1f, N в диапазоне %.1f~%.1f)"
 
-# AI Translated
 msgid "Favorite filaments"
 msgstr "Избранные материалы"
 
-# AI Translated
 msgid "All filaments"
 msgstr "Все материалы"
 
-# Дичь какая-то бамбуковская с терминами, требуется проверка.
+# Дичь какая-то бамбуковская с терминами, требуется проверка от бамбувода.
 msgid ""
 "The nozzle flow is not set. Please set the nozzle flow rate before editing the filament.\n"
 "'Device -> Print parts'"
@@ -4875,11 +4838,10 @@ msgstr "Сетевой плагин установлен, для его загр
 msgid "Restart Required"
 msgstr "Требуется перезапуск."
 
-# AI Translated
 #. TRN %1% marks where the Home button icon is drawn; keep it in the translation.
 #, boost-format
 msgid "Please home all axes (click %1%) to locate the toolhead's position. This prevents device moving beyond the printable boundary and causing equipment wear."
-msgstr "Пожалуйста, припаркуйте все оси в начало координат (нажмите %1%), чтобы определить положение печатающей головы. Это предотвращает перемещение за пределы области печати и износ оборудования."
+msgstr "Выполните парковку осей (нажмите %1%), чтобы определить положение печатающей головы. Это предотвращает выход за пределы области печати и износ оборудования."
 
 msgid "Go Home"
 msgstr "На главную"
@@ -4894,7 +4856,6 @@ msgstr "Произошла критическая ошибка: \"%1%\""
 msgid "Please save your project and restart the application."
 msgstr "Пожалуйста, сохраните проект и перезапустите программу."
 
-# AI Translated
 msgid "Unknown C++ exception."
 msgstr "Неизвестное исключение C++."
 
@@ -4942,7 +4903,6 @@ msgstr ""
 "Не удалось скопировать временный G-code в целевое расположение. Возможно, накопитель защищён от записи?\n"
 "Сообщение об ошибке: %1%"
 
-# AI Translated
 #, boost-format
 msgid ""
 "Copying of the temporary G-code to the output G-code failed.\n"
@@ -4997,12 +4957,11 @@ msgstr "Начало координат"
 msgid "Size in X and Y of the rectangular plate."
 msgstr "Размеры прямоугольного стола в XY координатах."
 
-# AI Translated
 msgid "Distance of the 0,0 G-code coordinate from the front left corner of the rectangle."
-msgstr "Расстояние до точки начала координат G-code (0,0). Отсчёт от левого переднего угла прямоугольного стола."
+msgstr "Расстояние до точки начала координат. Отсчёт от левого переднего угла прямоугольного стола."
 
 msgid "Diameter of the print bed. It is assumed that origin (0,0) is located in the center."
-msgstr "Диаметр стола. Предполагается, что начало координат (0,0) находится в центре."
+msgstr "Диаметр стола. Начало координат (0,0) находится в центре."
 
 msgid "Rectangular"
 msgstr "Прямоугольная"
@@ -5078,7 +5037,6 @@ msgstr ""
 msgid "The recommended nozzle temperature for this filament type is [%d, %d] degrees Celsius."
 msgstr "Диапазон допустимых температур печати данным типом материала составляет [%d, %d] градусов Цельсия."
 
-# AI Translated
 msgid "Adaptive Pressure Advance model validation failed:\n"
 msgstr "Обнаружена ошибка в настройке адаптивного Pressure Advance:\n"
 
@@ -5104,16 +5062,13 @@ msgstr "Текущая температура внутри термокамер�
 msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
 msgstr "Стартовая температура внутри термокамеры (%d℃) превышает целевую (%d℃). Подразумевается, что печать начинается заранее, поэтому стартовая температура не должна превышать её. Значение будет уменьшено."
 
-# AI Translated
 #, c-format, boost-format
 msgid "Layer height is too small. It will be set to the minimum (%g mm)."
 msgstr "Высота слоя слишком мала. Будет установлено минимальное значение (%g мм)."
 
-# AI Translated
 msgid "Layer height is outside the limits set in Printer Settings -> Extruder -> Layer height limits, this may cause printing quality issues."
-msgstr "Высота слоя выходит за предел, заданный в настройках принтера → Экструдер → Ограничение высоты слоя. Это может вызвать проблемы с качеством печати."
+msgstr "Высота слоя выходит за пределы, заданные в настройках принтера → Экструдер → Ограничение высоты слоя. Это может вызвать проблемы с качеством печати."
 
-# AI Translated
 #, c-format, boost-format
 msgid "Adjust it to the limit (%g mm) automatically?"
 msgstr "Адаптировать к пределу (%g мм)?"
@@ -5121,7 +5076,6 @@ msgstr "Адаптировать к пределу (%g мм)?"
 msgid "Adjust"
 msgstr "Адаптировать"
 
-# AI Translated
 msgid ""
 "Raft and draft shield are not available on belt printers.\n"
 "They have been disabled."
@@ -5246,7 +5200,6 @@ msgid ""
 "No  - Disable Arachne Wall Generator and set [Displacement] mode of the Fuzzy Skin"
 msgstr "Использовать нечёткую оболочку с движком Arachne?"
 
-# AI Translated
 msgid "Brim ear radius"
 msgstr "Радиус ушек"
 
@@ -5370,9 +5323,8 @@ msgstr "Пауза (потеря контроля температуры кам�
 msgid "Cooling chamber"
 msgstr "Охлаждение термокамеры"
 
-# AI Translated
 msgid "Pause (G-code inserted by user)"
-msgstr "Пауза (вставлена пользователем в G-code)"
+msgstr "Пауза (добавлена пользователем в G-код)"
 
 # ??? Демонстрация шума двигателя
 msgid "Motor noise showoff"
@@ -5521,20 +5473,17 @@ msgstr "Текущая величина калибровки скорости п
 msgid "Selected diameter and machine diameter do not match"
 msgstr "Выбранный диаметр и диаметр профиля принтера не совпадают"
 
-# AI Translated
 msgid "Failed to generate calibration G-code"
-msgstr "Не удалось сгенерировать калибровочный G-code"
+msgstr "Не удалось сгенерировать G-код калибровки"
 
 msgid "Calibration error"
 msgstr "Ошибка калибровки"
 
-# AI Translated
 msgid "This printer is not configured with the hardware this control needs."
-msgstr "На этом принтере не настроено оборудование, необходимое для этого элемента управления."
+msgstr "Для этой функции требуется настройка соответствующего модуля в принтере."
 
-# AI Translated
 msgid "This control is not supported on this printer."
-msgstr "Этот элемент управления не поддерживается на этом принтере."
+msgstr "Фуннкция не поддерживается на этом принтере."
 
 msgid "Network unavailable"
 msgstr "Сеть недоступна"
@@ -5628,17 +5577,14 @@ msgstr "по умолчанию"
 msgid "Edit Custom G-code (%1%)"
 msgstr "Изменение пользовательского G-code (%1%)"
 
-# AI Translated
-# в конце добавляется двоеточие
 msgid "Built-in placeholders (Double click item to add to G-code)"
 msgstr "Встроенные переменные (нажмите дважды для добавления в G-code)"
 
-# AI Translated
 msgid "Search G-code placeholders"
-msgstr "Поиск переменных G-code"
+msgstr "Поиск переменных G-коде"
 
 msgid "Add selected placeholder to G-code"
-msgstr "Добавить переменную в G-code"
+msgstr "Добавить переменную в G-код"
 
 msgid "Select placeholder"
 msgstr "Выберите переменную"
@@ -5748,7 +5694,6 @@ msgstr "Недопустимый формат. Ожидаемый векторн
 msgid "System agents"
 msgstr "Системные агенты"
 
-# AI Translated
 #. TRN %1% is the ID of a printer agent that is no longer available
 #, boost-format
 msgid "%1% (missing)"
@@ -5810,7 +5755,6 @@ msgstr "Время слоя"
 msgid "Layer Time (log)"
 msgstr "Время слоя (лог. шкала)"
 
-# AI Translated
 # Режим просмотра кода
 msgid "Pressure Advance"
 msgstr "Pressure Advance"
@@ -5960,13 +5904,11 @@ msgstr "Скорость: "
 msgid "Actual speed profile"
 msgstr "график расчётной скорости"
 
-# AI Translated
 msgid "Automatic"
-msgstr "Автоматически"
+msgstr "Авто"
 
-# AI Translated
 msgid "Last used"
-msgstr "Последний использованный"
+msgstr "Недавний"
 
 msgid "Statistics of All Plates"
 msgstr "Статистика по всем столам"
@@ -6009,53 +5951,47 @@ msgstr "Совет:"
 msgid "Current grouping of slice result is not optimal."
 msgstr "Текущая группировка материалов не оптимальна."
 
-# AI Translated
 #, boost-format
 msgid "Increase %1%g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr[0] "Больше на %1% г материала и на %2% смену по сравнению с оптимальной группировкой."
-msgstr[1] "Больше на %1% г материала и на %2% смены по сравнению с оптимальной группировкой."
-msgstr[2] "Больше на %1% г материала и на %2% смен по сравнению с оптимальной группировкой."
+msgstr[0] "Сравнение с оптимальной: на %1%г и %2% смену больше."
+msgstr[1] "Сравнение с оптимальной: на %1%г и %2% смены больше."
+msgstr[2] "Сравнение с оптимальной: на %1%г и %2% смен больше."
 
-# AI Translated
 #, boost-format
 msgid "Increase %1%g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr[0] "Больше на %1% г материала, но на %2% смену меньше по сравнению с оптимальной группировкой."
-msgstr[1] "Больше на %1% г материала, но на %2% смены меньше по сравнению с оптимальной группировкой."
-msgstr[2] "Больше на %1% г материала, но на %2% смен меньше по сравнению с оптимальной группировкой."
+msgstr[0] "Сравнение с оптимальной: на %2% смену меньше и %1%г больше."
+msgstr[1] "Сравнение с оптимальной: на %2% смены меньше и %1%г больше."
+msgstr[2] "Сравнение с оптимальной: на %2% смен меньше и %1%г больше."
 
-# AI Translated
 #, boost-format
 msgid "Save %1%g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr[0] "Меньше на %1% г материала, но на %2% смену больше по сравнению с оптимальной группировкой."
-msgstr[1] "Меньше на %1% г материала, но на %2% смены больше по сравнению с оптимальной группировкой."
-msgstr[2] "Меньше на %1% г материала, но на %2% смен больше по сравнению с оптимальной группировкой."
+msgstr[0] "Сравнение с оптимальной: на %1%г меньше и %2% смену больше."
+msgstr[1] "Сравнение с оптимальной: на %1%г меньше и %2% смены больше."
+msgstr[2] "Сравнение с оптимальной: на %1%г меньше и %2% смен больше."
 
-# AI Translated
 #, boost-format
 msgid "Save %1%g filament and %2% change compared to a printer with one nozzle."
-msgid_plural "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr[0] "Меньше на %1% г материала и на %2% смену по сравнению с принтером с одним соплом."
-msgstr[1] "Меньше на %1% г материала и на %2% смены по сравнению с принтером с одним соплом."
-msgstr[2] "Меньше на %1% г материала и на %2% смен по сравнению с принтером с одним соплом."
+msgid_plural "Save %1%g filament and %2% changes comуpared to a printer with one nozzle."
+msgstr[0] "Сравнение с оптимальной: на %1%г и %2% смену меньше."
+msgstr[1] "Сравнение с оптимальной: на %1%г и %2% смены меньше."
+msgstr[2] "Сравнение с оптимальной: на %1%г и %2% смен меньше."
 
-# AI Translated
 #, boost-format
 msgid "Save %1%g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr[0] "Меньше на %1% г материала, но на %2% смену больше по сравнению с принтером с одним соплом."
-msgstr[1] "Меньше на %1% г материала, но на %2% смены больше по сравнению с принтером с одним соплом."
-msgstr[2] "Меньше на %1% г материала, но на %2% смен больше по сравнению с принтером с одним соплом."
+msgstr[0] "Сравнение с одним соплом: на %1%г меньше и %2% смену больше."
+msgstr[1] "Сравнение с одним соплом: на %1%г меньше и %2% смены больше."
+msgstr[2] "Сравнение с одним соплом: на %1%г меньше и %2% смен больше."
 
-# AI Translated
 #, boost-format
 msgid "Increase %1%g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr[0] "Больше на %1% г материала, но на %2% смену меньше по сравнению с принтером с одним соплом."
-msgstr[1] "Больше на %1% г материала, но на %2% смены меньше по сравнению с принтером с одним соплом."
-msgstr[2] "Больше на %1% г материала, но на %2% смен меньше по сравнению с принтером с одним соплом."
+msgstr[0] "Сравнение с одним соплом: на %2% смену меньше и %1%г больше."
+msgstr[1] "Сравнение с одним соплом: на %2% смены меньше и %1%г больше."
+msgstr[2] "Сравнение с одним соплом: на %2% смен меньше и %1%г больше."
 
 msgid "Set to Optimal"
 msgstr "Оптимизировать"
@@ -8194,15 +8130,12 @@ msgstr "Вкл./выкл. перспективу"
 msgid "Delete All Objects"
 msgstr "Удалить все модели"
 
-# AI Translated
 msgid "Mirror X"
 msgstr "Отразить по X"
 
-# AI Translated
 msgid "Mirror Y"
 msgstr "Отразить по Y"
 
-# AI Translated
 msgid "Mirror Z"
 msgstr "Отразить по Z"
 
@@ -9004,10 +8937,10 @@ msgid "Flushing volumes"
 msgstr "Объём прочистки"
 
 msgid "Add one filament"
-msgstr "Добавить катушку"
+msgstr "Добавить материал"
 
 msgid "Remove last filament"
-msgstr "Удалить последнюю катушку"
+msgstr "Удалить последний материал"
 
 msgid "Synchronize filament list from AMS"
 msgstr "Синхронизировать материалы"
@@ -10692,15 +10625,12 @@ msgstr "Запустить"
 msgid "Replaces the current project with the OrcaSliced Combo, then measures the frame rate and render timings while the camera turns around it in Prepare and Preview, and while the layer slider moves through the sliced layers."
 msgstr "Заменяет текущий проект моделью OrcaSliced Combo, затем измеряет частоту кадров и время отрисовки, пока камера вращается вокруг неё на вкладках «Подготовка» и «Просмотр нарезки», а также пока ползунок слоёв проходит по нарезанным слоям."
 
-# AI Translated
 msgid "G-code Preview"
-msgstr "Просмотр G-code"
+msgstr "Просмотр G-кода"
 
-# AI Translated
 msgid "Default view type"
-msgstr "Режим отображения по умолчанию"
+msgstr "Вариант просмотра по умолчанию"
 
-# AI Translated
 msgid ""
 "The color scheme the sliced preview opens with.\n"
 "Automatic: Filament for multi material prints, Line Type for single material ones.\n"
@@ -10708,11 +10638,12 @@ msgid ""
 "Any other value always opens that view type.\n"
 "You can still switch the view type in the preview afterwards."
 msgstr ""
-"Цветовая схема, с которой открывается просмотр нарезки.\n"
-"Автоматически: «Материал» для печати несколькими материалами, «Тип линии» для печати одним материалом.\n"
-"Последний использованный: режим отображения, выбранный последним.\n"
-"Любое другое значение всегда открывает этот режим отображения.\n"
-"Позже режим отображения можно переключить в просмотре нарезки."
+"Схема визуализации, с которой открывается просмотр нарезки.\n"
+"• Авто: «Материал» для печати несколькими материалами, «Тип линии» для печати одним материалом.\n"
+"• Недавний: режим отображения, выбранный ранее.\n"
+"Остальные варианты всегда открывают соответствующую схему.\n"
+"\n"
+"Примечание: режим можно переключить после нарезки."
 
 msgid "Dim lower layers"
 msgstr "Затемнять предыдущие слои"
@@ -14760,7 +14691,7 @@ msgid "Orca Slicer can upload G-code files to a printer host. This field should 
 msgstr "Orca Slicer может загружать файлы G-code на хост принтера. В этом поле нужно указать имя хоста, IP-адрес или URL-адрес хоста принтера. Доступ к узлу печати на основе HAProxy с включённой базовой аутентификацией можно получить, указав имя пользователя и пароль в URL-адресе в следующем формате: https://имя_пользователя:пароль@адрес/"
 
 msgid "Device UI"
-msgstr "URL-адрес хоста"
+msgstr "Веб-интерфейс"
 
 msgid "Specify the URL of your device user interface if it's not same as print_host."
 msgstr "Укажите URL-адрес веб-интерфейса, если он не совпадает с основным."
@@ -34274,15 +34205,14 @@ msgstr "- Удалить материал"
 
 # AI Translated
 msgid "Gradient Effect"
-msgstr "Эффект градиента"
+msgstr "Градиент"
 
 # AI Translated
 msgid "Enable per-part gradient effect"
 msgstr "Включить эффект градиента для каждой части"
 
-# AI Translated
 msgid "Mixing Recommendations"
-msgstr "Рекомендации по смешиванию"
+msgstr "Рекомендованные сочетания"
 
 # AI Translated
 msgid "-- Select --"
