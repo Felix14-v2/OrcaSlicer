@@ -79,7 +79,7 @@ msgid "Left nozzle"
 msgstr "Левый экструдер"
 
 msgid "left nozzle"
-msgstr "левого сопла"
+msgstr "левое сопло"
 
 #. TRN Nozzle counts: Std = standard flow, HF = high flow
 msgid "Right Nozzle"
@@ -89,7 +89,7 @@ msgid "Right nozzle"
 msgstr "Правый экструдер"
 
 msgid "right nozzle"
-msgstr "правого сопла"
+msgstr "правое сопло"
 
 msgid "Main Hotend"
 msgstr "Основной хотэнд"
@@ -2477,7 +2477,7 @@ msgid ""
 "\n"
 "Add those printers back to your presets now? Your presets are backed up first. You can also do this later from Help > Migrate Filament Presets."
 msgstr ""
-"В OrcaSlicer 2.5.0 была изменена структура многих системных профилей материалов, чтобы исправить проблемные профили и подготовиться к последующим обновлениям. Из-за этого перечисленные ниже профили больше не отображаются на некоторых принтерах. Приносим извинения за неудобства: это разовое исправление.\n"
+"В OrcaSlicer 2.5.0 была изменена структура профилей многих системных материалов, чтобы исправить проблемные профили и подготовиться к последующим обновлениям. Из-за этого перечисленные ниже профили больше не отображаются на некоторых принтерах. Приносим извинения за неудобства: это разовое исправление.\n"
 "\n"
 "Добавить принтеры в их основе обратно в ваш каталог? Сначала будет создана резервная копия. Миграцию можно выполнить позднее через Помощь → Миграция профилей материалов."
 
@@ -2810,7 +2810,7 @@ msgid "Disc"
 msgstr "Диск"
 
 msgid "Torus"
-msgstr "Тороид"
+msgstr "Тор"
 
 msgid "Orca Cube"
 msgstr "Куб Orca"
@@ -4963,7 +4963,7 @@ msgstr "Не удалось скопировать временный G-code в 
 
 #, boost-format
 msgid "Scheduling upload to `%1%`. See Window -> Print Host Upload Queue"
-msgstr "Планирование загрузки на `%1%`. Смотрите Окна -> Очередь загрузки на хост печати"
+msgstr "Планирование отправки на `%1%`. Смотрите Окна -> Очередь отправки на хост печати"
 
 msgid "Origin"
 msgstr "Начало координат"
@@ -6433,17 +6433,14 @@ msgstr "Оптимизировать"
 msgid "Regroup filament"
 msgstr "Изменить"
 
-# AI Translated
 #, boost-format
 msgid "up to %1% mm"
 msgstr "до %1% мм"
 
-# AI Translated
 #, boost-format
 msgid "above %1% mm"
 msgstr "выше %1% мм"
 
-# AI Translated
 #, boost-format
 msgid "from %1% to %2% mm"
 msgstr "от %1% до %2% мм"
@@ -6584,60 +6581,48 @@ msgstr "Изменить размер инструмента"
 msgid "Sequence"
 msgstr "Последовательность"
 
-# AI Translated
 msgid "Plate center of mass"
 msgstr "Центр масс стола"
 
-# AI Translated
 msgid "Part center of mass"
 msgstr "Центр масс части"
 
-# AI Translated
 msgid "Support center of mass"
 msgstr "Центр масс поддержек"
 
-# AI Translated
 msgid "Assembly center of mass"
 msgstr "Центр масс сборки"
 
-# AI Translated
 msgid "Object center of mass"
 msgstr "Центр масс модели"
 
-# AI Translated
 msgid "Finished print"
 msgstr "Напечатано полностью"
 
-# AI Translated
 #, boost-format
 msgid "Printed up to layer %1%"
-msgstr "Напечатано до слоя %1%"
+msgstr "Напечатано до %1% слоя"
 
-# AI Translated
 msgid "Weight"
-msgstr "Вес"
+msgstr "Масса"
 
 msgid "Volume"
 msgstr "Объём"
 
-# AI Translated
 msgid "Center in bounding box"
-msgstr "Положение центра в габаритах"
+msgstr "Положение центра"
 
-# AI Translated
 msgid "Bounding box size"
 msgstr "Габаритные размеры"
 
-# AI Translated
 msgid "Moment of inertia"
 msgstr "Момент инерции"
 
 msgid "Object selection"
 msgstr "Выбрать объект"
 
-# AI Translated
 msgid "1~16 number keys"
-msgstr "Цифровые клавиши 1~16"
+msgstr "Цифры 1-9"
 
 msgid "Number keys can quickly change the color of objects"
 msgstr "Быстро переназначить цвет"
@@ -6725,7 +6710,6 @@ msgctxt "Axis"
 msgid "Y"
 msgstr "Y"
 
-# AI Translated
 msgctxt "Axis"
 msgid "Z"
 msgstr "Z"
@@ -6840,7 +6824,6 @@ msgstr "Обводка выбранного"
 msgid "Wireframe"
 msgstr "Сетка модели"
 
-# AI Translated
 #. TRN View toggle that draws models see-through, so hidden parts show.
 msgid "X-Ray"
 msgstr "Рентген"
@@ -6857,45 +6840,35 @@ msgstr "Оси координат"
 msgid "Gridlines"
 msgstr "Разметка"
 
-# AI Translated
-# Needs human review: No glossary rendering yet (Russian cell empty); check the term for hiding the interface to concentrate on the 3D canvas.
 msgid "Focus mode"
-msgstr "Режим фокуса"
+msgstr "Режим одного стола"
 
 msgid "Labels"
 msgstr "Имена моделей"
 
-# AI Translated
 msgid "Center of mass"
 msgstr "Центр масс"
 
-# AI Translated
 msgid "Show raw G-code (belt only)"
-msgstr "Показать исходный G-code (только для ленточных принтеров)"
+msgstr "Необработанный G-код"
 
-# AI Translated
 msgid "Move section plane"
-msgstr "Перемещение секущей плоскости"
+msgstr "Переместить секущую плоскость"
 
-# AI Translated
 msgid "Mouse wheel on icon"
-msgstr "Колесо мыши над значком"
+msgstr "Прокрутка по значку"
 
-# AI Translated
 msgid "Right click on icon"
 msgstr "ПКМ по значку"
 
-# AI Translated
 msgid "Toggle section view"
-msgstr "Вкл./выкл. сечение"
+msgstr "Переключить сечение"
 
-# AI Translated
 msgid "Middle click on icon"
 msgstr "СКМ по значку"
 
-# AI Translated
 msgid "Set viewing angle"
-msgstr "Задать угол обзора"
+msgstr "Параллельно экрану"
 
 msgid "Paint Toolbar"
 msgstr "Панель рисования"
@@ -6945,16 +6918,16 @@ msgstr "%d"
 #, boost-format
 msgid "Filament %1% is placed in the %2%, but the generated G-code path exceeds the printable range of the %2%."
 msgid_plural "Filaments %1% are placed in the %2%, but the generated G-code path exceeds the printable range of the %2%."
-msgstr[0] "Материал %1% назначен на %2%, но итоговый G-code выходит за его область печати."
-msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-code выходит за его область печати."
-msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-code выходит за его область печати."
+msgstr[0] "Материал %1% назначен на %2%, но итоговый G-код выходит за его область печати."
+msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его область печати."
+msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его область печати."
 
 #, boost-format
 msgid "Filament %1% is placed in the %2%, but the generated G-code path exceeds the printable height of the %2%."
 msgid_plural "Filaments %1% are placed in the %2%, but the generated G-code path exceeds the printable height of the %2%."
-msgstr[0] "Материал %1% назначен на %2%, но итоговый G-code выходит за его предел высоты печати."
-msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-code выходит за его предел высоты печати."
-msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-code выходит за его предел высоты печати."
+msgstr[0] "Материал %1% назначен на %2%, но итоговый G-код выходит за его предел высоты печати."
+msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его предел высоты печати."
+msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его предел высоты печати."
 
 msgid "Open wiki for more information."
 msgstr "Подробнее на Вики."
@@ -6962,13 +6935,12 @@ msgstr "Подробнее на Вики."
 msgid "Only the object being edited is visible."
 msgstr "Другие модели скрыты на время редактирования."
 
-# AI Translated
 #, c-format, boost-format
 msgid "Filament %s cannot be printed directly on the surface of this plate."
 msgid_plural "Filaments %s cannot be printed directly on the surface of this plate."
-msgstr[0] "Материал %s нельзя печатать непосредственно на поверхности этого стола."
-msgstr[1] "Материалы %s нельзя печатать непосредственно на поверхности этого стола."
-msgstr[2] "Материалы %s нельзя печатать непосредственно на поверхности этого стола."
+msgstr[0] "Для печати %s требуется подложка или основание из другого материала."
+msgstr[1] "Для печати %s требуется подложка или основание из другого материала."
+msgstr[2] "Для печати %s требуется подложка или основание из другого материала."
 
 # В конце подставляется "руководством."
 msgid "PLA and PETG filaments detected in the mixture. Adjust parameters according to the Wiki to ensure print quality."
@@ -7086,9 +7058,8 @@ msgstr "Закрытие приложения, при имеющихся изм�
 msgid "Logging"
 msgstr "Авторизация"
 
-# AI Translated
 msgid "Design"
-msgstr "Моделирование"
+msgstr "Создание"
 
 msgid "Prepare"
 msgstr "Подготовка"
@@ -7107,11 +7078,10 @@ msgstr "Да"
 msgid "No"
 msgstr "Нет"
 
-# AI Translated
 #. TRN %s is a file name.
 #, c-format, boost-format
 msgid "%s will be closed before creating a new model. Do you want to continue?"
-msgstr "%s будет закрыт перед созданием новой модели. Продолжить?"
+msgstr "Файл «%s» будет закрыт перед созданием новой модели. Продолжить?"
 
 msgid "Print all"
 msgstr "Распечатать все столы"
@@ -7166,9 +7136,8 @@ msgstr "Мастер настройки"
 msgid "Show Configuration Folder"
 msgstr "Открыть папку слайсера"
 
-# AI Translated
 msgid "Bring back filament presets that a profile update removed from printers they were made for"
-msgstr "Вернуть профили материалов, которые обновление профилей убрало с принтеров, для которых они были созданы"
+msgstr "Вернуть связь материалов с профилями принтеров в их основе, удалённую при обновлении."
 
 msgid "Troubleshoot Center"
 msgstr "Экран отладки"
@@ -7176,11 +7145,9 @@ msgstr "Экран отладки"
 msgid "Open Network Test"
 msgstr "Проверка сети"
 
-# AI Translated
 msgid "Benchmark 3D Scene"
-msgstr "Тест производительности 3D-сцены"
+msgstr "Тест производительности"
 
-# AI Translated
 msgid "Measure how fast the 3D scene renders in Prepare and Preview"
 msgstr "Измерить скорость отрисовки 3D-сцены на вкладках «Подготовка» и «Просмотр нарезки»"
 
@@ -7252,13 +7219,12 @@ msgstr "Сохранить проект как"
 msgid "Save current project as"
 msgstr "Сохранить текущий проект как"
 
-# AI Translated
+# В трёх местах: заголовок окна, сочетание клавиш и меню "файл". Место есть.
 msgid "Publish 3MF"
-msgstr "Опубликовать 3MF"
+msgstr "Подготовить к публикации"
 
-# AI Translated
 msgid "Export a 3MF file with the selected settings embedded"
-msgstr "Экспорт файла 3MF со встроенными выбранными настройками"
+msgstr "Экспорт файла 3MF только с требуемыми настройками"
 
 msgid "Import 3MF/STL/STEP/SVG/OBJ/AMF"
 msgstr "Импорт 3MF/STL/STEP/SVG/OBJ/AMF"
@@ -7392,10 +7358,10 @@ msgid "Automatically switch between orthographic and perspective when changing f
 msgstr "Автоматическое переключение между ортогональной и перспективной проекцией при смене вида сверху/снизу/сбоку."
 
 msgid "Show &G-code Window"
-msgstr "&Показать панель G-code"
+msgstr "&Показать панель G-кода"
 
 msgid "Show G-code window in Preview scene."
-msgstr "Показать панель G-code в окне предпросмотра."
+msgstr "Показать панель G-кода в окне предпросмотра."
 
 msgid "Show 3D Navigator"
 msgstr "Показать навигационный куб"
@@ -7409,13 +7375,11 @@ msgstr "Показать разметку"
 msgid "Show Gridlines on plate"
 msgstr "Показать разметку стола"
 
-# AI Translated
 msgid "Show IDEX/IQEX Toolhead"
-msgstr "Показать печатающую голову IDEX/IQEX"
+msgstr "Показать габарит голов IMEX"
 
-# AI Translated
 msgid "Show the IDEX/IQEX toolhead representation around each active nozzle in the G-code preview."
-msgstr "Показывать в предпросмотре G-code контур печатающей головы IDEX/IQEX вокруг каждого активного сопла."
+msgstr "Показывать в предпросмотре G-кода габарит печатающей головы IDEX/IQEX у каждого активного сопла."
 
 msgid "Reset Window Layout"
 msgstr "Сбросить макет интерфейса"
@@ -7465,9 +7429,8 @@ msgstr "Правка"
 msgid "View"
 msgstr "Вид"
 
-# AI Translated
 msgid "Open Speed Dial"
-msgstr "Открыть быстрый запуск"
+msgstr "Открыть быстрые действия"
 
 msgid "Preset Bundle"
 msgstr "Пакет профилей"
@@ -7493,7 +7456,6 @@ msgstr "Калибровка температуры"
 msgid "Max flowrate"
 msgstr "Макс. объёмный расход"
 
-# AI Translated
 msgid "Pressure advance"
 msgstr "Коэффициент Pressure Advance"
 
@@ -7660,9 +7622,9 @@ msgstr "Не удалось загрузить проигрыватель: GStre
 msgid "Please confirm if the printer is connected."
 msgstr "Пожалуйста, проверьте, подключен ли принтер."
 
-# AI Translated
+# заменил на нейтральное на случай, если вендоры не будут работать с учётками Орки
 msgid "Sign in to OrcaCloud to view the camera."
-msgstr "Войдите в OrcaCloud, чтобы просматривать камеру."
+msgstr "Войдите в учётную запись для просмотра камеры."
 
 msgid "Initializing..."
 msgstr "Инициализация..."
@@ -8067,11 +8029,9 @@ msgstr "(Модель уже была оценена. Ваша оценка пе
 msgid "Rate"
 msgstr "Оценка"
 
-# AI Translated
 msgid "Calculating..."
 msgstr "Расчёт..."
 
-# AI Translated
 msgctxt "Printer camera"
 msgid "Camera"
 msgstr "Камера"
@@ -8155,13 +8115,12 @@ msgstr "Загрузка..."
 msgid "Cloud Slicing..."
 msgstr "Облачная нарезка..."
 
-# AI Translated
 #, c-format, boost-format
 msgid "In Cloud Slicing Queue, there is %d task ahead of you."
 msgid_plural "In Cloud Slicing Queue, there are %d tasks ahead of you."
-msgstr[0] "В очереди облачной нарезки перед вами %d задача."
-msgstr[1] "В очереди облачной нарезки перед вами %d задачи."
-msgstr[2] "В очереди облачной нарезки перед вами %d задач."
+msgstr[0] "Ожидание %d задачи в очереди на облачную нарезку."
+msgstr[1] "Ожидание %d задач в очереди на облачную нарезку."
+msgstr[2] "Ожидание %d задач в очереди на облачную нарезку."
 
 #, c-format, boost-format
 msgid "Layer: %s"
@@ -8192,10 +8151,9 @@ msgstr "Применимо только во время печати"
 msgid "Silent"
 msgstr "Тихий"
 
-# AI Translated
 msgctxt "Mode"
 msgid "Standard"
-msgstr "Стандартный"
+msgstr "Обычный"
 
 msgid "Sport"
 msgstr "Спортивный"
@@ -8247,16 +8205,15 @@ msgstr "Ошибка получения конфигурации OSS."
 
 # ??? или Загрузка оставить?
 msgid "Upload Pictures"
-msgstr "Загрузка изображений"
+msgstr "Отправка изображений"
 
 msgid "Number of images successfully uploaded"
 msgstr "Количество успешно отправленных изображений"
 
-# AI Translated
 #. TRN %s is the path of an image file.
 #, c-format, boost-format
 msgid "%s upload failed"
-msgstr "Ошибка загрузки %s"
+msgstr "Ошибка отправки %s"
 
 # AI Translated
 #. TRN %s is the path of an image file.
@@ -8270,7 +8227,6 @@ msgstr "Ошибка обработки конфигурации при загр
 msgid "%s: No corresponding storage bucket"
 msgstr "%s: соответствующее хранилище не найдено"
 
-# AI Translated
 #. TRN %s is the path of an image file.
 #, c-format, boost-format
 msgid "%s cannot be opened"
@@ -8292,7 +8248,6 @@ msgstr "Ошибка отправки\n"
 msgid "Obtaining instance_id failed\n"
 msgstr "не удалось получить instance_id\n"
 
-# AI Translated
 #, c-format, boost-format
 msgid ""
 "Your comment result cannot be uploaded due to the following reasons:\n"
@@ -8307,7 +8262,7 @@ msgstr ""
 "  код ошибки: %d\n"
 "  сообщение об ошибке: %s\n"
 "\n"
-"Перейти на веб-страницу, чтобы поставить оценку?"
+"Открыть сайт для оценки в браузере?"
 
 msgid "Some of your images failed to upload. Would you like to redirect to the webpage to give a rating?"
 msgstr "Некоторые из ваших изображений не удалось загрузить. Перейти на страницу для выставления оценки?"
@@ -8430,15 +8385,13 @@ msgstr "Не показывать снова"
 msgid "Please refer to Wiki before use->"
 msgstr "Перед использованием обратитесь к руководству →"
 
-# AI Translated
 msgid "Plates are a filament (FFF) feature."
-msgstr "Столы доступны только для печати материалом (FFF)."
+msgstr "Столы доступны только для FDM-печати."
 
 # AI Translated
 msgid "Open the 3D view first."
 msgstr "Сначала откройте 3D-вид."
 
-# AI Translated
 msgid "Select an object first."
 msgstr "Сначала выберите модель."
 
@@ -8450,47 +8403,36 @@ msgstr "Нарезать и просмотреть"
 msgid "Slice & Export"
 msgstr "Нарезать и экспортировать"
 
-# AI Translated
 msgid "Go to layer (percent)"
 msgstr "Перейти к слою (в процентах)"
 
-# AI Translated
 msgid "Commands"
 msgstr "Команды"
 
-# AI Translated
 msgid "Go to tab..."
-msgstr "Перейти на вкладку..."
+msgstr "Открыть вкладку..."
 
-# AI Translated
 msgid "Load Project"
 msgstr "Загрузить проект"
 
-# AI Translated
 msgid "Save Project As"
 msgstr "Сохранить проект как"
 
-# AI Translated
 msgid "Mode: Simple"
 msgstr "Режим: простой"
 
-# AI Translated
 msgid "Mode: Advanced"
 msgstr "Режим: расширенный"
 
-# AI Translated
 msgid "Mode: Expert"
-msgstr "Режим: экспертный"
+msgstr "Режим: эксперт"
 
-# AI Translated
 msgid "Toggle Developer Mode"
-msgstr "Вкл./выкл. режим разработчика"
+msgstr "Переключить режим разработчика"
 
-# AI Translated
 msgid "Developer mode enabled."
 msgstr "Режим разработчика включён."
 
-# AI Translated
 msgid "Developer mode disabled."
 msgstr "Режим разработчика выключен."
 
@@ -8511,7 +8453,6 @@ msgstr "Экспорт всех нарезанных файлов"
 msgid "Max Volumetric Speed Calibration"
 msgstr "Калибровка макс. объёмного расхода"
 
-# AI Translated
 msgid "Pressure Advance Calibration"
 msgstr "Калибровка Pressure Advance"
 
@@ -8534,49 +8475,38 @@ msgstr "Калибровка частоты шейпера"
 msgid "Input Shaping Damping Calibration"
 msgstr "Калибровка коэффициента затухания шейпера"
 
-# AI Translated
 msgid "VFA Calibration"
-msgstr "Калибровка ряби (VFA)"
+msgstr "Тест ряби (VFA)"
 
-# AI Translated
 msgid "View: Top"
 msgstr "Вид: сверху"
 
-# AI Translated
 msgid "View: Bottom"
 msgstr "Вид: снизу"
 
-# AI Translated
 msgid "View: Front"
 msgstr "Вид: спереди"
 
-# AI Translated
 msgid "View: Rear"
 msgstr "Вид: сзади"
 
-# AI Translated
 msgid "View: Left"
 msgstr "Вид: слева"
 
-# AI Translated
 msgid "View: Right"
 msgstr "Вид: справа"
 
-# AI Translated
 msgid "View: Isometric"
 msgstr "Вид: изометрия"
 
-# AI Translated
 msgid "View: Default"
-msgstr "Вид: по умолчанию"
+msgstr "Вид: сброс"
 
-# AI Translated
 msgid "Fit Bed to View"
-msgstr "Вписать стол в окно"
+msgstr "Показать весь стол"
 
-# AI Translated
 msgid "Toggle Perspective"
-msgstr "Вкл./выкл. перспективу"
+msgstr "Переключить перспективу"
 
 msgid "Delete All Objects"
 msgstr "Удалить все модели"
@@ -8593,7 +8523,6 @@ msgstr "Отразить по Z"
 msgid "Split to Objects"
 msgstr "Разделить на модели"
 
-# AI Translated
 msgid "Split to Parts"
 msgstr "Разделить на части"
 
@@ -8601,7 +8530,6 @@ msgstr "Разделить на части"
 msgid "Center Selected on Plate"
 msgstr "Выровнять выбранное по центру стола"
 
-# AI Translated
 msgid "Drop to Bed"
 msgstr "Опустить на стол"
 
@@ -8625,7 +8553,6 @@ msgstr "Авторасстановка"
 msgid "Auto-Orient"
 msgstr "Автоориентация"
 
-# AI Translated
 msgid "Add Plate"
 msgstr "Добавить стол"
 
@@ -8645,7 +8572,6 @@ msgstr "Невозможно дублировать стол (достигнут
 msgid "Cannot delete the only plate."
 msgstr "Невозможно удалить единственный стол."
 
-# AI Translated
 msgid "Rename Plate"
 msgstr "Переименовать стол"
 
@@ -8653,7 +8579,6 @@ msgstr "Переименовать стол"
 msgid "Toggle Plate Lock"
 msgstr "Заблокировать/разблокировать стол"
 
-# AI Translated
 msgid "No plates available."
 msgstr "Нет доступных столов."
 
@@ -8748,7 +8673,6 @@ msgstr "Открыть папку."
 msgid "Safely remove hardware."
 msgstr "Безопасное извлечение устройства."
 
-# AI Translated
 msgid "Ejecting."
 msgstr "Извлечение."
 
@@ -8849,7 +8773,6 @@ msgstr "Нажмите, чтобы узнать подробности."
 msgid "Cut connectors"
 msgstr "Вырезанные соединения"
 
-# AI Translated
 #, c-format, boost-format
 msgid "Instance %d"
 msgstr "Экземпляр %d"
@@ -10186,7 +10109,7 @@ msgid "Is the printer ready? Is the print sheet in place, empty and clean?"
 msgstr "Готов ли принтер? Проверьте установку и состояние покрытия стола."
 
 msgid "Upload and Print"
-msgstr "Загрузить и напечатать"
+msgstr "Отправить и напечатать"
 
 msgid "Abnormal print file data. Please slice again"
 msgstr "Неправильные данные файла печати. Пожалуйста, нарежьте ещё раз"
@@ -10698,46 +10621,37 @@ msgstr "Управление несколькими устройствами Bam
 msgid "With this option enabled, you can send a task to multiple devices at the same time and manage multiple devices."
 msgstr "Если включено, вы сможете управлять несколькими устройствами и отправлять задания на печать на несколько устройств одновременно."
 
-# AI Translated
 msgid "Open the Speed Dial from the keyboard"
-msgstr "Открывать быстрый запуск с клавиатуры"
+msgstr "Клавиша быстрых действий"
 
-# AI Translated
 msgid "When enabled, the Speed Dial keyboard shortcut (Space by default) opens the action search from any page."
-msgstr "Если включено, сочетание клавиш быстрого запуска (по умолчанию Пробел) открывает поиск действий с любой страницы."
+msgstr "Открывать панель быстрых действий по нажатию сочетания клавиш(по умолчанию Пробел) с любой страницы."
 
-# AI Translated
 msgid "Recent actions"
 msgstr "Недавние действия"
 
-# AI Translated
 #. TRN Unit shown after the number of recent actions, as in "5 actions".
 msgid "actions"
 msgstr "действий"
 
-# AI Translated
 msgid "How many recently launched actions to show at the top of the Speed Dial. Set to 0 to hide recent actions."
-msgstr "Количество недавно запущенных действий, отображаемых вверху быстрого запуска. 0 – скрыть недавние действия."
+msgstr "Количество записей в истории панели быстрых действий. 0 – не использовать историю."
 
-# AI Translated
 msgid "CAD feature (experimental)"
-msgstr "CAD-моделирование (экспериментально)"
+msgstr "Вкладка создания моделей (бета)"
 
-# AI Translated
 msgid "With this option enabled, the Design tab is shown, where models can be built and edited parametrically. This feature is experimental and still under development."
-msgstr "Если включено, отображается вкладка «Моделирование», на которой можно создавать и редактировать модели параметрически. Функция экспериментальная и находится в разработке."
+msgstr "Активировать вкладку «Создание» с функциями системы проектирования параметрических моделей. Система экспериментальна и находится в разработке."
 
 # Запрашивать выбор режима группировки?
 msgid "Pop up to select filament grouping mode"
 msgstr "Всплывающее окно для выбора режима группировки материалов"
 
-# AI Translated
 msgid "Visible plugin pages"
-msgstr "Видимые страницы плагинов"
+msgstr "Лимит вкладок плагинов"
 
-# AI Translated
 msgid "pages"
-msgstr "стр."
+msgstr "вкладок"
 
 # AI Translated
 msgid "Number of plugin pages shown as fixed tabs before the remaining pages collapse into a dropdown on the last tab."
@@ -11564,21 +11478,17 @@ msgstr "%1% требует %2%, но его материал не будет о�
 msgid "To publish a mixed filament, enable every filament it uses and choose Full Publish or check its Type requirement."
 msgstr "Чтобы опубликовать смешанный материал, включите каждый используемый им материал и выберите «Полная публикация» либо выполните требование «Тип»."
 
-# AI Translated
 msgid "Publish anyway"
 msgstr "Всё равно опубликовать"
 
-# AI Translated
 msgid "Publish 3MF..."
-msgstr "Опубликовать 3MF..."
+msgstr "Подготовка проекта к публикации..."
 
-# AI Translated
 msgid "Select which settings to be published in the 3MF file"
-msgstr "Выберите, какие настройки будут опубликованы в файле 3MF"
+msgstr "Выберите важные настройки для сохранения в файле 3MF"
 
-# AI Translated
 msgid "Mixed filament - published as a whole when \"Enable\" above is selected"
-msgstr "Смешанный материал — публикуется целиком, когда выше выбрано «Включить»"
+msgstr "К смешанному материалу будут добавлены материалы в его составе."
 
 # AI Translated
 msgid "Publish this mixed filament and enable + Full Publish its component filaments"
@@ -24174,23 +24084,23 @@ msgid "Send G-code to printer host"
 msgstr "Отправить G-code на хост принтера"
 
 msgid "Upload to Printer Host with the following filename:"
-msgstr "Загрузить на хост принтера со следующим именем:"
+msgstr "Отправить на хост принтера со следующим именем:"
 
 msgid "Use forward slashes ( / ) as a directory separator if needed."
 msgstr "В качестве разделителя каталогов используйте косую черту ( / )."
 
 msgid "Upload to storage"
-msgstr "Загрузить в хранилище"
+msgstr "Отправить в хранилище"
 
 msgid "Switch to Device tab after upload."
 msgstr "После загрузки переключиться на вкладку «Принтер»."
 
 #, c-format, boost-format
 msgid "Upload filename doesn't end with \"%s\". Do you wish to continue?"
-msgstr "Имя загружаемого файла не заканчивается на \"%s\". Продолжить?"
+msgstr "Имя отправляемого файла не заканчивается на \"%s\". Продолжить?"
 
 msgid "Upload"
-msgstr "Загрузить"
+msgstr "Отправить"
 
 msgid "Leveling before print"
 msgstr "Калибровка перед печатью"
@@ -25264,7 +25174,7 @@ msgid "Error: No authentication credentials found!"
 msgstr "Ошибка: учётные данные для аутентификации не найдены!"
 
 msgid "Upload not enabled on FlashAir card."
-msgstr "Загрузка данных на карту FlashAir не включена."
+msgstr "Отправка данных на карту FlashAir не включена."
 
 msgid "Connection to FlashAir is working correctly and upload is enabled."
 msgstr "Подключение к FlashAir успешно установлено. Загрузка на карту включена."
@@ -25837,13 +25747,12 @@ msgstr "Исключение всех объектов."
 msgid "The printing job will be stopped. Continue?"
 msgstr "Печать будет остановлена. Продолжить?"
 
-# AI Translated
 #, c-format, boost-format
 msgid "Skipping %d object."
 msgid_plural "Skipping %d objects."
-msgstr[0] "Пропускается %d модель."
-msgstr[1] "Пропускаются %d модели."
-msgstr[2] "Пропускаются %d моделей."
+msgstr[0] "Пропуск %d модели."
+msgstr[1] "Пропуск %d моделей."
+msgstr[2] "Пропуск %d моделей."
 
 msgid "This action cannot be undone. Continue?"
 msgstr "Это действие необратимо. Продолжить?"
@@ -25851,17 +25760,14 @@ msgstr "Это действие необратимо. Продолжить?"
 msgid "Skipping objects."
 msgstr "Исключение объектов."
 
-# AI Translated
 msgid "Material Ratio"
-msgstr "Доля материала"
+msgstr "Соотношение материалов"
 
-# AI Translated
 msgid "Model Height"
 msgstr "Высота модели"
 
-# AI Translated
 msgid "Ratio"
-msgstr "Доля"
+msgstr "Соотношение"
 
 msgid "Select Filament"
 msgstr "Выбрать материал"
@@ -30844,16 +30750,14 @@ msgstr "Переключение между подготовкой и просм
 msgid "Collapse/Expand the sidebar"
 msgstr "Свернуть/развернуть боковую панель"
 
-# AI Translated
 msgid "Reload the device page"
 msgstr "Перезагрузить вкладку «Принтер»"
 
 msgid "Show keyboard shortcuts list"
 msgstr "Показать список сочетаний клавиш"
 
-# AI Translated
 msgid "Open the Speed Dial"
-msgstr "Открыть быстрый запуск"
+msgstr "Открыть быстрые действия"
 
 # AI Translated
 msgid "Slicing and printing"
@@ -30879,13 +30783,11 @@ msgstr "Ползунки"
 msgid "Painting tools"
 msgstr "Инструменты рисования"
 
-# AI Translated
 msgid "Application"
 msgstr "Приложение"
 
-# AI Translated
 msgid "Speed Dial"
-msgstr "Быстрый запуск"
+msgstr "Быстрые действия"
 
 # AI Translated
 msgid "helix radius must be > 0"
@@ -35061,13 +34963,11 @@ msgstr "Предпросмотр эффекта"
 msgid "Select Mixed Materials"
 msgstr "Выберите материалы для смешивания"
 
-# AI Translated
 msgid "+ Add Material"
-msgstr "+ Добавить материал"
+msgstr "+ Добавить"
 
-# AI Translated
 msgid "- Delete Material"
-msgstr "- Удалить материал"
+msgstr "- Удалить"
 
 # AI Translated
 msgid "Gradient Effect"
@@ -36410,7 +36310,7 @@ msgstr "Файл загружен"
 
 # AI Translated
 msgid "Uploading G-code..."
-msgstr "Загрузка G-code..."
+msgstr "Отправка G-code..."
 
 # AI Translated
 msgid "Starting print..."
@@ -36422,7 +36322,7 @@ msgstr "Печать запущена"
 
 # AI Translated
 msgid "Uploading..."
-msgstr "Загрузка..."
+msgstr "Отправка..."
 
 # AI Translated
 msgid "Network library version not specified"
