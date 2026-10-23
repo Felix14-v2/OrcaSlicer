@@ -9242,7 +9242,6 @@ msgstr "Коэффициент потока из профиля настроек
 msgid "Each mode names the tool heads that take part and the role each one plays. Click a tool button to cycle its role — hover a color below for what each role does."
 msgstr "Каждый режим задаёт участвующие в нём печатающие головы и роль каждой из них. Щёлкните кнопку инструмента, чтобы переключить его роль; наведите курсор на цвет ниже, чтобы узнать назначение каждой роли."
 
-# AI Translated
 msgid "Add Mode"
 msgstr "Добавить режим"
 
@@ -9251,9 +9250,8 @@ msgctxt "IDEX/IQEX modes"
 msgid "Tools"
 msgstr "Инструменты"
 
-# AI Translated
 msgid "G-code"
-msgstr "G-code"
+msgstr "G-код"
 
 # AI Translated
 msgid "How the mode is labeled in the plate's IDEX/IQEX mode selector. Required — a mode with no name cannot be selected."
@@ -9279,7 +9277,6 @@ msgctxt "IDEX/IQEX role"
 msgid "Inactive"
 msgstr "Неактивен"
 
-# AI Translated
 #. TRN IDEX/IQEX role: the tool head the slicer generates paths for.
 msgctxt "IDEX/IQEX role"
 msgid "Primary"
@@ -9319,7 +9316,6 @@ msgstr "Повторяет движения основного (Primary) инс�
 msgid "Marks a tool on the Primary's gantry as its multicolor partner. Required to allow multi-color printing in paired-gantry modes."
 msgstr "Отмечает инструмент на портале основного (Primary) инструмента как его партнёра по многоцветной печати. Необходим для многоцветной печати в режимах с парными порталами."
 
-# AI Translated
 msgid "Primary"
 msgstr "Основной"
 
@@ -9345,7 +9341,6 @@ msgstr ""
 msgid "Edit G-code / browse placeholders"
 msgstr "Изменить G-code / просмотреть переменные"
 
-# AI Translated
 msgid "Remove mode"
 msgstr "Удалить режим"
 
@@ -9435,7 +9430,6 @@ msgstr "Не рекомендуется одновременно использ�
 msgid "%1% with %2%\n"
 msgstr "%1% и %2%\n"
 
-# AI Translated
 #. TRN Slicing progress. %1% is the plate number, %2% the current slicing step.
 #, boost-format
 msgid "Slicing plate %1%: %2%"
@@ -9513,7 +9507,6 @@ msgstr "Синхронизировать информацию о соплах и
 msgid "Click to edit preset"
 msgstr "Изменить профиль"
 
-# AI Translated
 #. TRN Sidebar label of the printer variant (nozzle) selector; picking one switches the printer preset.
 msgid "Variant"
 msgstr "Вариант"
@@ -9620,7 +9613,6 @@ msgstr "Синхронизирована информация о типе и ц�
 msgid "Do you want to save changes to \"%1%\"?"
 msgstr "Сохранить изменения в «%1%»?"
 
-# AI Translated
 msgid "UV Editor"
 msgstr "UV-редактор"
 
