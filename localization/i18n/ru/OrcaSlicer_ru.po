@@ -18917,9 +18917,9 @@ msgstr ""
 msgid "This G-code will be used as a code for the pause print. Users can insert pause G-code in the G-code viewer."
 msgstr "Команды, которые выполняются при ручной постановке печати на паузу. Пользователь может вставить его в окне просмотра нарезки, нажав правой кнопкой мыши на ползунок выбора слоя."
 
-# используется для пользовательского шаблона
+# используется для пользовательского шаблона; требует доработки (криво сформулировано)
 msgid "This G-code will be used as a custom code."
-msgstr "Пользовательский шаблон команд, который выполняется при ручной вставке этого G-кода в окне просмотра нарезки, нажав правой кнопкой мыши на ползунок выбора слоя."
+msgstr "Пользовательский шаблон команд, которые выполняются при ручной вставке этого G-кода в окне предпросмотра нарезки, нажав правой кнопкой мыши на ползунок выбора слоя."
 
 msgid "Small area flow compensation (beta)"
 msgstr "Компенсация потока небольших областей (beta)"
@@ -20281,7 +20281,7 @@ msgid "IDEX/IQEX Mode G-codes"
 msgstr "G-код режима IMEX"
 
 msgid "G-code or macro call to inject at print start for each mode."
-msgstr "Команды G-кода или вызовы макросов, вставляемый в начале печати для каждого режима."
+msgstr "Команды G-кода или вызовы макросов, вставляемые в начале печати для каждого режима."
 
 msgid "Manual Filament Change"
 msgstr "Ручная смена прутка"
@@ -20942,13 +20942,13 @@ msgstr "Расстояние между линиями разглаживани�
 msgid "Activate temperature control"
 msgstr "Вкл. контроль температуры"
 
-# Needs human review: Corrected to match the English (punctuation, tags or tokens); check the wording.
+# Требует коррекции, сформулировано криво
 msgid ""
 "Enable this option for automated chamber temperature control. This option activates the emitting of an M191 command before the \"machine_start_gcode\" which sets the chamber temperature and waits until it is reached. In addition, it emits an M141 command at the end of the print to turn off the chamber heater, if present.\n"
 "\n"
 "This option relies on the firmware supporting the M191 and M141 commands either via macros or natively and is usually used when an active chamber heater is installed."
 msgstr ""
-"Для автоматического поддержания температуры внутри термокамеры принтера включите эту опцию. Эта опция активирует отправку команды M191 перед стартовым G-кодом принтера (machine_start_gcode)\", которая устанавливает температуру внутри термокамеры и ждёт её достижения. Так же, она отправляет команду M141 в конце печати, чтобы отключить нагреватель камеры, если он есть.\n"
+"Для автоматического поддержания температуры внутри термокамеры принтера включите эту опцию. Эта опция активирует отправку команды M191 перед стартовым G-кодом принтера (machine_start_gcode), которая устанавливает температуру внутри термокамеры и ждёт её достижения. Также отправляет команду M141 в конце печати, чтобы отключить нагреватель камеры, если он есть.\n"
 "\n"
 "Эта опция зависит от поддержки прошивкой команд M191 и M141, либо через макросы, либо нативно, и обычно используется, когда имеется активный нагреватель камеры."
 
