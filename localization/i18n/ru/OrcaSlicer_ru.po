@@ -6916,27 +6916,19 @@ msgstr "Печать двумя и более прутками TPU не подд
 msgid "Tool %d"
 msgstr "%d"
 
-# Подставляется номер материала (по порядку) 
-# AI Translated
-# Needs human review: %s is 'left nozzle' (catalog renders it in genitive, 'левого сопла') or 'Tool %d' (catalog renders it as a bare number); sentence is built with 'для %s'. Check the wording for both.
-#, c-format, boost-format
-msgid "Filament %s is placed in the %s, but the generated G-code path exceeds the printable range of the %s."
-msgid_plural "Filaments %s are placed in the %s, but the generated G-code path exceeds the printable range of the %s."
-msgstr[0] "Материал %s назначен на %s, но итоговый G-код выходит за его область печати."
-msgstr[1] "Материалы %s назначены на %s, но итоговый G-код выходит за его область печати."
-msgstr[2] "Материалы %s назначены на %s, но итоговый G-код выходит за его область печати."
+#, boost-format
+msgid "Filament %1% is placed in the %2%, but the generated G-code path exceeds the printable range of the %2%."
+msgid_plural "Filaments %1% are placed in the %2%, but the generated G-code path exceeds the printable range of the %2%."
+msgstr[0] "Материал %1% назначен на %2%, но итоговый G-код выходит за его область печати."
+msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его область печати."
+msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его область печати."
 
-# Возможно, какая-то специфичная проверка для тулченджеров, на профиле H2D при
-# превышении высоты через подъём при откате оно не выводится. Последнее
-# предложение – костыль для обхода кривизны системы локализации.
-# AI Translated
-# Needs human review: %s is 'left nozzle' (catalog renders it in genitive, 'левого сопла') or 'Tool %d' (catalog renders it as a bare number); sentence is built with 'для %s'. Check the wording for both.
-#, c-format, boost-format
-msgid "Filament %s is placed in the %s, but the generated G-code path exceeds the printable height of the %s."
-msgid_plural "Filaments %s are placed in the %s, but the generated G-code path exceeds the printable height of the %s."
-msgstr[0] "Материал %s назначен на %s, но итоговый G-код выходит за его предел высоты печати."
-msgstr[1] "Материалы %s назначены на %s, но итоговый G-код выходит за его предел высоты печати."
-msgstr[2] "Материалы %s назначены на %s, но итоговый G-код выходит за его предел высоты печати."
+#, boost-format
+msgid "Filament %1% is placed in the %2%, but the generated G-code path exceeds the printable height of the %2%."
+msgid_plural "Filaments %1% are placed in the %2%, but the generated G-code path exceeds the printable height of the %2%."
+msgstr[0] "Материал %1% назначен на %2%, но итоговый G-код выходит за его предел высоты печати."
+msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его предел высоты печати."
+msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его предел высоты печати."
 
 msgid "Open wiki for more information."
 msgstr "Подробнее на Вики."
