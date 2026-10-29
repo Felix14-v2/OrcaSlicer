@@ -6916,19 +6916,19 @@ msgstr "Печать двумя и более прутками TPU не подд
 msgid "Tool %d"
 msgstr "%d"
 
-# #, boost-format
-# msgid "Filament %1% is placed in the %2%, but the generated G-code path exceeds the printable range of the %2%."
-# msgid_plural "Filaments %1% are placed in the %2%, but the generated G-code path exceeds the printable range of the %2%."
-# msgstr[0] "Материал %1% назначен на %2%, но итоговый G-код выходит за его область печати."
-# msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его область печати."
-# msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его область печати."
-# 
-# #, boost-format
-# msgid "Filament %1% is placed in the %2%, but the generated G-code path exceeds the printable height of the %2%."
-# msgid_plural "Filaments %1% are placed in the %2%, but the generated G-code path exceeds the printable height of the %2%."
-# msgstr[0] "Материал %1% назначен на %2%, но итоговый G-код выходит за его предел высоты печати."
-# msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его предел высоты печати."
-# msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его предел высоты печати."
+##, boost-format
+#msgid "Filament %1% is placed in the %2%, but the generated G-code path exceeds the printable range of the %2%."
+#msgid_plural "Filaments %1% are placed in the %2%, but the generated G-code path exceeds the printable range of the %2%."
+#msgstr[0] "Материал %1% назначен на %2%, но итоговый G-код выходит за его область печати."
+#msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его область печати."
+#msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его область печати."
+#
+##, boost-format
+#msgid "Filament %1% is placed in the %2%, but the generated G-code path exceeds the printable height of the %2%."
+#msgid_plural "Filaments %1% are placed in the %2%, but the generated G-code path exceeds the printable height of the %2%."
+#msgstr[0] "Материал %1% назначен на %2%, но итоговый G-код выходит за его предел высоты печати."
+#msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его предел высоты печати."
+#msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его предел высоты печати."
 
 msgid "Open wiki for more information."
 msgstr "Подробнее на Вики."
@@ -9607,7 +9607,6 @@ msgid "Cannot slice: an object overlaps an area reserved for IDEX/IQEX parallel 
 msgstr "Внимание: модель пересекает область печати другой головы в режиме IMEX (или не обеспечивает требуемый отступ от неё). Нарезка невозможна."
 
 msgid "Cannot slice: the prime tower overlaps an area reserved for IDEX/IQEX parallel printing (a secondary zone, or a carriage clearance strip inside the primary zone)."
-msgstr ""
 msgstr "Внимание: черновая башня пересекает область печати другой головы в режиме IMEX (или не обеспечивает требуемый отступ от неё). Нарезка невозможна."
 
 msgid "Another export job is running."
@@ -20804,7 +20803,7 @@ msgstr ""
 msgid "Wall type"
 msgstr "Форма черновой башни"
 
-\msgid ""
+msgid ""
 "Wipe tower outer wall type.\n"
 "1. Rectangle: A rectangle with fixed width and height.\n"
 "2. Cone: A cone with a fillet at the bottom to help stabilize the wipe tower.\n"
