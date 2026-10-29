@@ -2966,10 +2966,10 @@ msgid "current"
 msgstr "текущий"
 
 msgid "Scale to build volume"
-msgstr "Отмасштабировать под область печати"
+msgstr "Растянуть на весь объём"
 
 msgid "Scale an object to fit the build volume"
-msgstr "Масштабировать выбранную модель до объёма стола"
+msgstr "Масштабировать выбранную модель до предела области печати"
 
 msgid "Flush Options"
 msgstr "Опции прочистки"
@@ -7564,7 +7564,7 @@ msgid "Show IDEX/IQEX Toolhead"
 msgstr "Показать габарит голов IMEX"
 
 msgid "Show the IDEX/IQEX toolhead representation around each active nozzle in the G-code preview."
-msgstr "Показывать в предпросмотре G-кода габарит печатающей головы IDEX/IQEX у каждого активного сопла."
+msgstr "Показывать при просмотре G-кода габарит каждой активной головы в режиме IMEX."
 
 msgid "Reset Window Layout"
 msgstr "Сбросить макет интерфейса"
@@ -9269,7 +9269,7 @@ msgid "Span"
 msgstr "Парная"
 
 msgid "Drives every sliced path. Always tool 0 — use Tool 0 Position above to choose which corner of the bed it occupies. It cannot be moved from the grid."
-msgstr "Служит источником информации о перемещениях. Может быть назначена только на T0; для смены позиции воспользуйтесь настройкой «Положение инструмента 0»."
+msgstr "Служит источником информации о перемещениях. Роль может быть назначена только на T0; для смены позиции воспользуйтесь настройкой «Положение инструмента 0»."
 
 msgid "Follows the Primary at the firmware level, printing the same paths offset into its own zone."
 msgstr "Повторяет движения основной головы на уровне прошивки, печатая такие же линии в своей зоне."
@@ -9278,7 +9278,7 @@ msgid "Follows the Primary at the firmware level, printing the same paths reflec
 msgstr "Отражает движения основной головы на уровне прошивки через границу зон, печатая зеркальную копию модели."
 
 msgid "Marks a tool on the Primary's gantry as its multicolor partner. Required to allow multi-color printing in paired-gantry modes."
-msgstr "Резервирует голову на балке основного инструмента для парной печати разными материалами. Требуется для многоцветной печати в зеркальном и копирующем режимах на поддерживаемых принтерах."
+msgstr "Резервирует голову на балке основного инструмента для парной печати разными материалами. Выступает в роли основной для многоцветной печати в зеркальном и копирующем режимах на поддерживаемых принтерах."
 
 msgid "Primary"
 msgstr "Основной"
@@ -9805,13 +9805,12 @@ msgstr "Отключить притягивание компонентов к с
 msgid "Object with floating parts was detected"
 msgstr "Обнаружен объект с парящими элементами"
 
-# AI Translated
 msgid "Cannot slice: an object overlaps an area reserved for IDEX/IQEX parallel printing (a secondary zone, or a carriage clearance strip inside the primary zone)."
-msgstr "Невозможно нарезать: модель перекрывает область, зарезервированную для параллельной печати IDEX/IQEX (дополнительную зону или полосу зазора каретки внутри основной зоны)."
+msgstr "Внимание: модель пересекает область печати другой головы в режиме IMEX (или не обеспечивает требуемый отступ от неё). Нарезка невозможна."
 
-# AI Translated
 msgid "Cannot slice: the prime tower overlaps an area reserved for IDEX/IQEX parallel printing (a secondary zone, or a carriage clearance strip inside the primary zone)."
-msgstr "Невозможно нарезать: черновая башня перекрывает область, зарезервированную для параллельной печати IDEX/IQEX (дополнительную зону или полосу зазора каретки внутри основной зоны)."
+msgstr ""
+msgstr "Внимание: черновая башня пересекает область печати другой головы в режиме IMEX (или не обеспечивает требуемый отступ от неё). Нарезка невозможна."
 
 msgid "Another export job is running."
 msgstr "Уже идёт другой процесс экспорта."
@@ -9903,43 +9902,36 @@ msgstr "Нарезка отменена"
 msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
 msgstr "Конфликт температуры стола: T%d (%s) задаёт температуру стола %d℃ — T%d (%s) требует %d℃. Столом управляет основной инструмент; остальные инструменты печатают при той температуре, которую он задаёт."
 
-# AI Translated
 #, c-format, boost-format
 msgid "Filament type mismatch: T%d uses %s and T%d uses %s. These materials have incompatible requirements and are not designed to print together."
-msgstr "Несовпадение типов материала: T%d использует %s, а T%d — %s. У этих материалов несовместимые требования, и они не предназначены для совместной печати."
+msgstr "Некорректный набор материалов: T%d использует %s, а T%d — %s. Эти материалы имеют несовместимые требования и не предназначены для совместной печати."
 
-# AI Translated
 #, c-format, boost-format
 msgid ""
 "Plate %d has IDEX/IQEX parallel mode active with the following concerns:\n"
 "\n"
 msgstr ""
-"На столе %d включён параллельный режим IDEX/IQEX, обнаружены следующие проблемы:\n"
+"На столе %d включён режим IMEX, обнаружены следующие проблемы:\n"
 "\n"
 
-# AI Translated
 msgid "Continue slicing?"
 msgstr "Продолжить нарезку?"
 
-# AI Translated
 msgid "IDEX/IQEX Parallel Mode Warning"
-msgstr "Предупреждение о параллельном режиме IDEX/IQEX"
+msgstr "Предупреждение режима IMEX"
 
-# AI Translated
 msgid "Don't show these warnings again"
-msgstr "Больше не показывать эти предупреждения"
+msgstr "Больше не показывать"
 
-# AI Translated
 #, c-format, boost-format
 msgid "Plate %d:\n"
 msgstr "Стол %d:\n"
 
-# AI Translated
 msgid ""
 "The following IDEX/IQEX parallel mode concerns were detected:\n"
 "\n"
 msgstr ""
-"Обнаружены следующие проблемы параллельного режима IDEX/IQEX:\n"
+"Обнаружены следующие проблемы режима IMEX:\n"
 "\n"
 
 msgid "Network plug-in switched successfully."
@@ -9973,33 +9965,28 @@ msgstr ""
 msgid "Sync now"
 msgstr "Синхронизировать"
 
-# AI Translated
 msgid "Cannot undo or redo while an operation is running. Stop the operation, or wait for it to finish and then retry."
-msgstr "Невозможно отменить или повторить действие во время выполнения операции. Остановите операцию или дождитесь её завершения и повторите попытку."
+msgstr "Невозможно отменить/повторить действие во время выполнения операции. Остановите операцию или дождитесь её завершения и повторите попытку."
 
-# AI Translated
 msgid ""
 "The selected printer does not support multiple bed types.\n"
 "Bed type overrides were reset to the global bed type."
 msgstr ""
-"Выбранный принтер не поддерживает несколько типов стола.\n"
-"Переопределённые типы стола сброшены до общего типа стола."
+"Выбранный принтер не поддерживает смену покрытий стола.\n"
+"Переопределённые покрытия сброшены до общего значения."
 
-# AI Translated
 msgid "Plate bed types reset"
-msgstr "Типы стола сброшены"
+msgstr "Покрытия сброшены"
 
-# AI Translated
 msgid "Texture import failed. The model appears to contain texture data, but the texture import process could not be completed. The model will be imported as geometry only."
-msgstr "Не удалось импортировать текстуру. Похоже, модель содержит данные текстуры, но завершить импорт не удалось. Модель будет импортирована только как геометрия."
+msgstr "Ошибка импорта текстуры. Похоже, модель содержит её данные, но завершить импорт не удалось. Будет загружена только геометрия модели."
 
 # AI Translated
 msgid "Applying texture colors..."
 msgstr "Применение цветов текстуры..."
 
-# AI Translated
 msgid "Updating 3D view..."
-msgstr "Обновление 3D-вида..."
+msgstr "Обновление рабочей области..."
 
 # AI Translated
 msgid "Texture colors applied."
@@ -13284,19 +13271,15 @@ msgstr "Черновая башня на ленте"
 msgid "Single extruder multi-material parameters"
 msgstr "Настройки комбинированной печати одним экструдером"
 
-# AI Translated
 msgid "IDEX/IQEX Configuration"
-msgstr "Настройка IDEX/IQEX"
+msgstr "Настройки IMEX"
 
-# AI Translated
 msgid "Pre-slice warnings"
-msgstr "Предупреждения перед нарезкой"
+msgstr "Проверка перед нарезкой"
 
-# AI Translated
 msgid "Show a warning dialog before slicing if IDEX/IQEX parallel mode concerns are detected (bed temperature conflicts, filament type mismatches, multi-material conflicts). Can be suppressed from the dialog itself. Re-enable here if suppressed accidentally."
-msgstr "Показывать перед нарезкой диалоговое окно с предупреждением, если обнаружены проблемы параллельного режима IDEX/IQEX (конфликты температуры стола, несовпадение типов материала, конфликты нескольких материалов). Его можно отключить в самом диалоговом окне. Если оно было отключено случайно, включите его снова здесь."
+msgstr "Выводить предупреждения в случае обнаружения проблем с печатью в режиме IMEX (конфликты температур и материалов). Предупреждения можно проигнорировать разово или отключить их полностью. Включите, если хотите вернуть проверки."
 
-# AI Translated
 msgid "Modes"
 msgstr "Режимы"
 
@@ -14792,19 +14775,18 @@ msgstr ""
 msgid "No object can be printed. It may be too small."
 msgstr "Печать моделей невозможна. Возможно, они слишком маленькие."
 
-# AI Translated
+# Не могу воспроизвести в интерфейсе. Судя по коду, старый сейфгуард на случай попытки печати удалённым из настроек режимом; теперь он автоматически удаляется и из стола.
 #, boost-format
 msgid "The IDEX/IQEX mode \"%1%\" has no tools assigned on the selected printer. Printing in Primary mode instead. Assign the mode's tools in Printer Settings, or pick another mode from the plate's IDEX/IQEX button."
-msgstr "Для режима IDEX/IQEX «%1%» на выбранном принтере не назначены инструменты. Вместо него используется режим «Основной». Назначьте инструменты режима в настройках принтера или выберите другой режим кнопкой IDEX/IQEX на столе."
+msgstr "Для режима IMEX «%1%» на текущем принтере не назначены головы. Вместо него используется основной режим. Назначьте головы в настройках принтера или выберите другой режим IMEX кнопкой на столе."
 
-# AI Translated
+# Не могу воспроизвести в интерфейсе. Судя по коду, старый сейфгуард на случай попытки печати удалённым из настроек режимом; теперь он автоматически удаляется и из стола.
 #, boost-format
 msgid "This plate is set to the IDEX/IQEX mode \"%1%\", which the selected printer does not define. Printing in Primary mode instead. Pick a mode from the plate's IDEX/IQEX button, or restore the mode in Printer Settings."
-msgstr "Для этого стола задан режим IDEX/IQEX «%1%», который не определён в выбранном принтере. Вместо него используется режим «Основной». Выберите режим кнопкой IDEX/IQEX на столе или восстановите режим в настройках принтера."
+msgstr "На столе выбран режим «%1%», который не настроен в текущем принтере. Вместо него используется основной режим. Восстановите режим в настройках принтера или выберите другой режим IMEX кнопкой на столе."
 
-# AI Translated
 msgid "Invalid thumbnails value:"
-msgstr "Недопустимое значение миниатюр:"
+msgstr "Недопустимое значение эскизов:"
 
 msgid "Your print is very close to the priming regions. Make sure there is no collision."
 msgstr "Модель(-и) находится очень близко к области предзарядки (область подготовки экструдера). Убедитесь, что не произойдёт столкновения."
@@ -15026,39 +15008,34 @@ msgstr "ошибка проверки"
 msgid "write callback failed"
 msgstr "ошибка записи функции обратного вызова"
 
-# AI Translated
 msgid "unknown error"
 msgstr "неизвестная ошибка"
 
-# AI Translated
 msgid "Multi-color prints in IDEX/IQEX parallel modes require each filament to have its own dedicated physical extruder. Two or more of the active filaments are routed to the same physical head via the printer's physical extruder map (an MMU/AFC manifold), which the slaved gantry cannot follow."
-msgstr "Для многоцветной печати в параллельных режимах IDEX/IQEX у каждого материала должен быть свой физический экструдер. Два или более активных материала направлены в одну и ту же физическую голову через карту физических экструдеров принтера (коллектор MMU/AFC), а ведомая балка не может это повторить."
+msgstr "Многоцветная печать в режиме IMEX требует отдельного экструдера для каждого материала. Однако сейчас на один экструдер назначены два (или более) цвета через внешний переключатель катушек (MMU/AFC), и дублирующая балка не в состоянии повторить их."
 
-# AI Translated
+# Сейчас в интерфейсе снять роль основной головы невозможно; вероятно, защита от повреждённых конфигов.
 msgid "The active IDEX/IQEX mode does not define a primary tool, so multi-color printing cannot be scheduled. Open the printer settings IDEX/IQEX Modes editor and assign a Primary role to one tool."
-msgstr "В активном режиме IDEX/IQEX не задан основной инструмент, поэтому многоцветную печать невозможно спланировать. Откройте редактор режимов IDEX/IQEX в настройках принтера и назначьте одному инструменту роль основного (Primary)."
+msgstr "Текущий режим IMEX не содержит основной головы, многоцветную печать невозможно спланировать. Назначьте основную голову в настройках IMEX (Принтер → Многоцвет → Настройки IMEX)."
 
-# AI Translated
+# На IDEX это чисто логически невозможно, так что тут только IQEX (хотя технически поддерживаются и 8-головые принтеры на двух балках, но пока серийных больше 2х2 ещё не было)
 msgid "Multi-color in this mode isn't a parallel-print scenario — all of the active tools sit on a single gantry, so there's no second gantry being copied or mirrored to. Switch the plate to Primary mode for multi-color printing on a single gantry, or define an IDEX/IQEX mode that includes tools on a second gantry."
-msgstr "Многоцветная печать в этом режиме не является параллельной — все активные инструменты находятся на одной балке, поэтому нет второй балки, на который выполняется копирование или зеркалирование. Для многоцветной печати на одной балке переключите стол в режим «Основной» или задайте режим IDEX/IQEX, включающий инструменты на второй балке."
+msgstr "В данном режиме параллельная печать разноцветных моделей невозможна, т.к. все задействованные головы находятся на одной балке. Задействуйте головы на соседней балке (назначив им роль дублирующих или зеркальных) или переключите стол в основной режим."
 
-# AI Translated
+# На IDEX это чисто логически невозможно, так что тут только IQEX (хотя технически поддерживаются и 8-головые принтеры на двух балках, но пока серийных больше 2х2 ещё не было)
 msgid "Multi-color prints in IDEX/IQEX parallel modes require a Span tool on the primary's gantry — without one, the mode doesn't declare a within-gantry multicolor partner. Either reduce the print to a single filament, switch to Primary mode, or open the printer settings IDEX/IQEX Modes editor and mark a tool on the primary's gantry as Span."
-msgstr "Для многоцветной печати в параллельных режимах IDEX/IQEX на балке основного инструмента нужен инструмент Span — без него в режиме не задан партнёр для многоцветной печати на той же балке. Сократите печать до одного материала, переключитесь в режим «Основной» или откройте редактор режимов IDEX/IQEX в настройках принтера и отметьте инструмент на балке основного инструмента как Span."
+msgstr "Параллельная печать разноцветных моделей на принтерах IQEX требует настройки парной головы на той же балке. Без назначенной пары этот режим не сможет подготовить параллельную печать двумя соседними головами на разных балках. Назначьте парную голову рядом с основной в настройках IMEX, переключитесь в основной режим или сделайте модель отноцветной."
 
-# AI Translated
 #. TRN %1% is a list of tools such as "T0/T1", %2% a filament number.
 #, boost-format
 msgid "In this Span mode, colors are printed only by %1%, but filament %2% isn't routed to any tool. Use filaments routed to %1%, or switch this plate to Primary mode."
-msgstr "В этом режиме Span разными цветами печатают только %1%, но материал %2% не подаётся ни в один инструмент. Используйте материалы, подаваемые в %1%, или переключите этот стол в режим «Основной»."
+msgstr "В парном режиме разными цветами печатают только %1%, но материал %2% не подаётся ни в одну голову. Переключите стол в основной режим или назначьте материалы, подаваемые в %1%."
 
-# AI Translated
 #. TRN %1% is a list of tools such as "T0/T1", %2% a filament number, %3% a tool number.
 #, boost-format
 msgid "In this Span mode, colors are printed only by %1%, but filament %2% is routed to T%3%. Use filaments routed to %1%, or switch this plate to Primary mode."
-msgstr "В этом режиме Span разными цветами печатают только %1%, но материал %2% подаётся в T%3%. Используйте материалы, подаваемые в %1%, или переключите этот стол в режим «Основной»."
+msgstr "В парном режиме разными цветами печатают только %1%, но материал %2% подаётся в T%3%. Переключите стол в основной режим или назначьте материалы, подаваемые в %1%."
 
-# AI Translated
 #, boost-format
 msgid ""
 "The selected preset cannot be loaded: %1%\n"
@@ -15067,7 +15044,6 @@ msgstr ""
 "Не удалось загрузить выбранный профиль: %1%\n"
 "\tПричина: %2%"
 
-# AI Translated
 #, boost-format
 msgid ""
 "Failed loading the preset file: %1%\n"
@@ -15151,35 +15127,29 @@ msgstr "Если вас это не пугает, эту проверку мож
 msgid "No extrusions under current settings."
 msgstr "При текущих настройках экструзия отсутствует."
 
-# AI Translated
 #. TRN %1% is the filament number as shown in the filament list, starting from 1.
 #, boost-format
 msgid "The flow ratio of filament %1% must be greater than 0."
-msgstr "Коэффициент потока материала %1% должен быть больше 0."
+msgstr "Коэффициент потока материала %1% не может быть нулевым."
 
-# AI Translated
 msgid "Mixed filaments are not supported in IDEX/IQEX parallel modes. Switch this plate to Primary mode."
-msgstr "Смешанные цвета не поддерживаются в параллельных режимах IDEX/IQEX. Переключите этот стол в режим «Основной»."
+msgstr "Смешивание цветов не поддерживается в режимах IMEX. Требуется основной режим."
 
-# AI Translated
 #. TRN %1% is the IDEX/IQEX mode name, %2% the tool number.
 #, boost-format
 msgid "IDEX/IQEX mode \"%1%\" prints with T%2%, but none of this plate's filaments are on a configured tool. Assign a filament loaded on T%2%, or switch this plate to Primary mode."
-msgstr "Режим IDEX/IQEX «%1%» печатает инструментом T%2%, но ни один материал этого стола не загружен в настроенный инструмент. Назначьте материал, загруженный в T%2%, или переключите этот стол в режим «Основной»."
+msgstr "Режим «%1%» задействует голову T%2%, но материал на неё не назначен. Назначьте для T%2% загруженный в неё материал или переключите стол в основной режим."
 
-# AI Translated
 #. TRN %1% is the IDEX/IQEX mode name, %2% the tool number, %3% a list of tools such as "T1, T2".
 #, boost-format
 msgid "IDEX/IQEX mode \"%1%\" prints with T%2%, but this plate's filaments are on %3%. Assign a filament loaded on T%2%, or switch this plate to Primary mode."
-msgstr "Режим IDEX/IQEX «%1%» печатает инструментом T%2%, но материалы этого стола загружены в %3%. Назначьте материал, загруженный в T%2%, или переключите этот стол в режим «Основной»."
+msgstr "Режим «%1%» задействует голову T%2%, но материалы стола загружены в %3%. Назначьте для T%2% загруженный в неё материал или переключите стол в основной режим."
 
-# AI Translated
 msgid "Raft is not compatible with belt printer mode."
-msgstr "Подложка несовместима с режимом ленточного принтера."
+msgstr "Функция подложки несовместима с ленточными принтерами."
 
-# AI Translated
 msgid "Draft shield is not compatible with belt printer mode."
-msgstr "Защитный кожух несовместим с режимом ленточного принтера."
+msgstr "Функция защитного кожуха несовместима с ленточными принтерами."
 
 # AI Translated
 msgid "Brim is not compatible with spiral vase mode on a belt printer. Disable one of them."
@@ -20220,16 +20190,15 @@ msgstr "Использовать общий экструдер для комби
 msgid "IDEX/IQEX Printer"
 msgstr "IMEX-принтер"
 
+# Примеры IDEX: https://youtu.be/ztwqHWLtrNY ITEX: https://youtu.be/T195ekiZnpE IQEX: https://youtu.be/Ifi2CkAXc60
 msgid "Enable parallel printing for printers with multiple independent carriages (IDEX, IQEX, and similar)."
 msgstr "Активирует возможности управления параллельной печатью для принтеров с несколькими независимыми головами (IDEX, ITEX, IQEX и т.п.)."
 
-# AI Translated
 msgid "Firmware-managed zones"
-msgstr "Зоны под управлением прошивки"
+msgstr "Локальная система координат"
 
-# AI Translated
 msgid "When enabled, the slicer emits G-code with the primary zone's contents centered on bed origin (0,0). The printer firmware is responsible for placing copies/mirrors at each physical zone position. Enable only on printers whose firmware applies its own zone offsets in copy/mirror mode (e.g. RepRapFirmware IDEX duplication mode). Has no effect in Primary mode."
-msgstr "Если включено, слайсер выводит G-код, в котором содержимое основной зоны центрировано относительно начала координат стола (0,0). За размещение копий и зеркальных отражений в физическом положении каждой зоны отвечает прошивка принтера. Включайте только на принтерах, прошивка которых сама применяет смещения зон в режиме копии/зеркала (например, режим дублирования IDEX в RepRapFirmware). Не действует в режиме «Основной»."
+msgstr "Смещает центр координат файла печати в центр модели. Необходимо для совместимости с принтерами, имеющими независимый переключатель режима печати и собственный контроль смещения голов на уровне прошивки (например, IDEX-принтеры на RepRapFirmware или Sailfish). Не влияет на основной режим."
 
 msgid "Gantry Count"
 msgstr "Количество балок"
@@ -20240,99 +20209,80 @@ msgstr "Количество независимых направляющих о�
 msgid "Tools per Gantry"
 msgstr "Голов на балке"
 
-# AI Translated
 msgid "Number of independent toolheads per gantry along X. 2 for IDEX-style."
-msgstr "Количество независимых печатающих голов на одном портале по оси X. 2 — для схемы IDEX."
+msgstr "Количество независимых печатающих голов на одной направляющей оси X. 2 для IDEX-подобных."
 
 msgid "Tool 0 Position"
 msgstr "Положение инструмента 0"
 
-# AI Translated
 msgid "Physical position on the bed where tool T0 (index 0) is located. Determines how tool indices map to bed zones. For single-gantry setups (IDEX) only left/right matters; for dual-gantry setups (IQEX) all four corners are selectable (front = lower Y / near the operator, rear = higher Y / back of machine)."
-msgstr "Физическое положение на столе, где находится инструмент T0 (индекс 0). Определяет, как индексы инструментов соотносятся с зонами стола. Для конфигураций с одним порталом (IDEX) важно только положение слева/справа; для конфигураций с двумя порталами (IQEX) можно выбрать любой из четырёх углов (спереди — меньшее значение Y / ближе к оператору, сзади — большее значение Y / задняя часть принтера)."
+msgstr "Физическое положение головы с индексом 0 на столе (T0). Определяет нумерацию голов и их зон. Для принтеров с одной балкой доступен только выбор стороны; для принтеров с двумя балками можно выбрать конкретный угол."
 
-# AI Translated
 msgid "Nozzle Clearance X"
-msgstr "Зазор сопла по X"
+msgstr "Отступ от сопла по X"
 
-# AI Translated
 msgid "Distance (mm) from the nozzle to the collision-side carriage edge in X. Used to calculate the width of the collision exclusion strip at each X boundary."
-msgstr "Расстояние (мм) от сопла до края каретки со стороны возможного столкновения по оси X. Используется для расчёта ширины полосы исключения столкновений на каждой границе по X."
+msgstr "Расстояние (мм) от оси сопла до края головы со стороны возможного столкновения с другой головой на оси X. Требуется для исключения столкновений между соседними головами."
 
-# AI Translated
 msgid "Nozzle Clearance Y"
-msgstr "Зазор сопла по Y"
+msgstr "Отступ от сопла по Y"
 
-# AI Translated
 msgid "Distance (mm) from the nozzle to the collision-side carriage edge in Y. Used to calculate the width of the collision exclusion strip at each Y boundary."
-msgstr "Расстояние (мм) от сопла до края каретки со стороны возможного столкновения по оси Y. Используется для расчёта ширины полосы исключения столкновений на каждой границе по Y."
+msgstr "Расстояние (мм) от оси сопла до края головы со стороны возможного столкновения с головой на соседней балке по оси Y. Требуется для исключения столкновений между балками."
 
-# AI Translated
 msgid "Safety Margin"
-msgstr "Запас безопасности"
+msgstr "Безопасный отступ"
 
-# AI Translated
 msgid "Non-blocking advisory clearance strip (mm) drawn inside the primary zone at each carriage boundary. Parts placed within this strip will still slice; it is a visual reminder to leave extra clearance near the zone edge."
-msgstr "Рекомендательная полоса зазора (мм), которая отображается внутри основной зоны у каждой границы кареток и не блокирует нарезку. Модели в этой полосе всё равно будут нарезаны; это лишь визуальное напоминание оставить дополнительный зазор у края зоны."
+msgstr "Отступ от области пересечения зон (мм), визуально напоминающий об опасности столкновения. Не препятствует нарезке."
 
 msgid "Visualization Theme"
 msgstr "Цветовая схема"
 
-# AI Translated
 msgid "Color theme for IDEX/IQEX bed zone visualization. Choose a colorblind-friendly theme if needed."
-msgstr "Цветовая тема для отображения зон стола IDEX/IQEX. При необходимости выберите тему, адаптированную для нарушений цветового зрения."
+msgstr "Цветовая схема для разметки зон. При необходимости выберите схему, адаптированную к цветовым аномалиям зрения."
 
-# AI Translated
 msgid "Deuteranopia / Protanopia (red-green)"
-msgstr "Дейтеранопия / протанопия (красный-зелёный)"
+msgstr "Дейтеранопия/протанопия (красный-зелёный)"
 
-# AI Translated
 msgid "Tritanopia (blue-yellow)"
 msgstr "Тританопия (синий-жёлтый)"
 
-# AI Translated
 msgid "High Contrast"
-msgstr "Высокая контрастность"
+msgstr "Контрастная"
 
-# AI Translated
 msgid "IDEX/IQEX Print Mode"
-msgstr "Режим печати IDEX/IQEX"
+msgstr "Режим печати IMEX"
 
-# AI Translated
 msgid "Name of the active IDEX/IQEX parallel print mode, or \"primary\" for single-carriage printing. Requires IDEX/IQEX Printer enabled in the Printer preset (Printer → Multimaterial → IDEX/IQEX Configuration)."
-msgstr "Название активного параллельного режима печати IDEX/IQEX или \"primary\" для печати одной кареткой. Требует включения параметра «Принтер IDEX/IQEX» в профиле принтера (Принтер → Многоцвет → Настройка IDEX/IQEX)."
+msgstr "Название активного параллельного режима печати IMEX (\"primary\" для печати одной головой). Требует включения параметра «IMEX-принтер» в профиле принтера (Принтер → Многоцвет → Настройки IMEX)."
 
-# AI Translated
+# По идее, отвечает за связь между логической связкой материал-голова (например, в подсказках по наведению на модель при активном параллельном режиме IMEX) и физическими экструдерами на выходе G-кода. В интерфейсе не проверял функционал (это плейсхолдер).
 msgid "IDEX/IQEX head filament map"
-msgstr "Карта материалов голов IDEX/IQEX"
+msgstr "Назначение материалов головам IMEX"
 
-# AI Translated
+# Описание плейсхолдера (переменной)
 msgid "Per-plate override mapping physical heads to filament slots (1-based). Empty means each head uses the first filament that the printer's physical extruder map routes to it."
-msgstr "Переопределение для стола: соответствие физических голов слотам материала (нумерация с 1). Пустое значение означает, что каждая голова использует первый материал, на который её направляет карта физических экструдеров принтера."
+msgstr "Сопоставление материалов на каждом столе с реальными экструдерами, через которые будет выполняться печать (начиная с 1). Возвращает пустое значение, если каждая голова использует первый материал, на который её направляет назначение физических экструдеров принтера."
 
-# AI Translated
 msgid "IDEX/IQEX Mode Names"
-msgstr "Названия режимов IDEX/IQEX"
+msgstr "Названия режимов IMEX"
 
-# AI Translated
+# Опять же, не только параллельные, напоминаю про режим бэкапа в Snapmaker J1
 msgid "Display names for each user-defined IDEX/IQEX parallel print mode."
-msgstr "Отображаемые названия всех пользовательских параллельных режимов печати IDEX/IQEX."
+msgstr "Отображаемые названия всех добавленных режимов печати IMEX."
 
-# AI Translated
 msgid "IDEX/IQEX Mode Active Tools"
-msgstr "Активные инструменты режимов IDEX/IQEX"
+msgstr "Активные головы в режиме IMEX"
 
-# AI Translated
 msgid "Tool role assignments for each mode. Format: \"idx:P,idx:C,idx:M\" where P=Primary, C=Copy, M=Mirror (e.g. \"0:P,1:C,2:M,3:M\"). Managed by the IDEX/IQEX Modes editor in the Printer preset."
-msgstr "Назначение ролей инструментов для каждого режима. Формат: \"idx:P,idx:C,idx:M\", где P=Primary (основной), C=Copy (копия), M=Mirror (зеркало) (например, \"0:P,1:C,2:M,3:M\"). Управляется редактором режимов IDEX/IQEX в профиле принтера."
+msgstr "Роли каждой головы в режиме с указанным индексом. Формат: \"n:P,n:C,n:M\", где P – Основная, C – Дублирующая, M – Зеркальная (например, \"0:P,1:C,2:M,3:M\"). Задаются в редакторе режимов IMEX в профиле принтера."
 
-# AI Translated
 msgid "IDEX/IQEX Mode G-codes"
-msgstr "G-код режимов IDEX/IQEX"
+msgstr "G-код режима IMEX"
 
-# AI Translated
 msgid "G-code or macro call to inject at print start for each mode."
-msgstr "G-код или вызов макроса, вставляемый в начале печати для каждого режима."
+msgstr "Команды G-кода или вызовы макросов, вставляемый в начале печати для каждого режима."
 
 msgid "Manual Filament Change"
 msgstr "Ручная смена прутка"
@@ -22096,13 +22046,11 @@ msgstr "Имеется предзарядка одиночного ММ экст
 msgid "Are the extra multi-material priming regions used in this print?"
 msgstr "Используется ли в этой печати дополнительная область очистки для комбинированной печати?"
 
-# AI Translated
 msgid "Initial no support extruder"
-msgstr "Начальный экструдер без поддержек"
+msgstr "Первый экструдер не для поддержки"
 
-# AI Translated
 msgid "Zero-based index of the first extruder used for printing without support. Same as initial_no_support_tool."
-msgstr "Отсчитываемый от нуля номер первого экструдера, используемого при печати без поддержек. То же самое, что initial_no_support_tool."
+msgstr "Номер первого экструдера, используемого для печати линий модели (отсчёт с 0). Алиас для initial_no_support_tool."
 
 # AI Translated
 # Needs human review: 'Head wrap' (nozzle wrapped by filament) rendered with the catalog's 'clumping detection area' / nozzle-wrapping wording; check this matches the placeholder's meaning.
@@ -22114,37 +22062,29 @@ msgstr "В зоне обнаружения налипаний"
 msgid "Indicates if the first layer overlaps with the head wrap zone."
 msgstr "Показывает, пересекается ли первый слой с зоной обнаружения налипаний."
 
-# AI Translated
 msgid "Current bed type"
-msgstr "Текущий тип стола"
+msgstr "Выбранный тип стола"
 
-# AI Translated
 msgid "Name of the currently selected bed plate type (e.g. 'Textured PEI Plate', 'Smooth High Temp Plate')."
 msgstr "Название выбранного типа стола (например, «Текстурный лист с PEI», «Гладкое (высокотемп.)»)."
 
-# AI Translated
 msgid "IDEX/IQEX active mode"
-msgstr "Активный режим IDEX/IQEX"
+msgstr "Текущий режим IMEX"
 
-# AI Translated
 msgid "Name of the active IDEX/IQEX parallel print mode for this plate (e.g. 'primary', 'mirror', 'copy'). Empty string if IDEX/IQEX is not enabled."
-msgstr "Название активного режима параллельной печати IDEX/IQEX для этого стола (например, 'primary', 'mirror', 'copy'). Пустая строка, если IDEX/IQEX не включён."
+msgstr "Название выбранного режима IMEX для этого стола (например, 'primary', 'mirror', 'copy'). Возвращает пустое значение, если IMEX не включён."
 
-# AI Translated
 msgid "IDEX/IQEX active mode index"
-msgstr "Индекс активного режима IDEX/IQEX"
+msgstr "Индекс текущего режима IMEX"
 
-# AI Translated
 msgid "Zero-based index of the active IDEX/IQEX parallel print mode within imex_mode_names."
-msgstr "Отсчитываемый от нуля индекс активного режима параллельной печати IDEX/IQEX в imex_mode_names."
+msgstr "Номер выбранного режима IMEX в imex_mode_names (отсчёт с 0)."
 
-# AI Translated
 msgid "IDEX/IQEX active mode G-code"
-msgstr "G-код активного режима IDEX/IQEX"
+msgstr "G-код текущего режима IMEX"
 
-# AI Translated
 msgid "The raw mode G-code template for the active IDEX/IQEX parallel print mode, after placeholder evaluation. Globals defined here flow into machine_start_gcode."
-msgstr "Исходный шаблон G-кода для активного режима параллельной печати IDEX/IQEX после вычисления переменных. Глобальные переменные, определённые здесь, передаются в machine_start_gcode."
+msgstr "Готовый фрагмент G-кода для выбранного режима IMEX после вычисления переменных. Глобальные переменные, определённые здесь, передаются в machine_start_gcode."
 
 msgid "Volume per extruder"
 msgstr "Объём для каждого экструдера"
@@ -23084,7 +23024,7 @@ msgid "It seems object %1% has large overhangs. Please re-orient the object or e
 msgstr "Похоже, у модели %1% есть большие нависания. Переориентируйте модель или включите создание поддержек."
 
 msgid "Generating support"
-msgstr "Генерация поддержки"
+msgstr "Генерация поддержек"
 
 msgid "Optimizing toolpath"
 msgstr "Оптимизация траектории инструмента"
