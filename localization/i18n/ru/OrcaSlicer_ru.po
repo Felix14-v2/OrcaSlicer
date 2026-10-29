@@ -5124,7 +5124,6 @@ msgstr "Адаптировать к пределу (%g мм)?"
 msgid "Adjust"
 msgstr "Адаптировать"
 
-# AI Translated
 msgid ""
 "Raft and draft shield are not available on belt printers.\n"
 "They have been disabled."
@@ -7120,13 +7119,13 @@ msgstr "Подробнее на Вики."
 msgid "Only the object being edited is visible."
 msgstr "Другие модели скрыты на время редактирования."
 
-# AI Translated
+# подставляется номер
 #, c-format, boost-format
 msgid "Filament %s cannot be printed directly on the surface of this plate."
 msgid_plural "Filaments %s cannot be printed directly on the surface of this plate."
-msgstr[0] "Для печати материалом %s требуется подложка или основание из другого материала."
-msgstr[1] "Для печати материалами %s требуется подложка или основание из другого материала."
-msgstr[2] "Для печати материалами %s требуется подложка или основание из другого материала."
+msgstr[0] "Материал %s несовместим с печатью на текущем покрытии."
+msgstr[1] "Материалы %s несовместимы с печатью на текущем покрытии."
+msgstr[2] "Материалы %s несовместимы с печатью на текущем покрытии."
 
 # В конце подставляется "руководством."
 msgid "PLA and PETG filaments detected in the mixture. Adjust parameters according to the Wiki to ensure print quality."
@@ -8406,13 +8405,11 @@ msgstr "Количество успешно отправленных изобр�
 msgid "%s upload failed"
 msgstr "Ошибка отправки %s"
 
-# AI Translated
 #. TRN %s is the path of an image file.
 #, c-format, boost-format
 msgid "%s upload config parse failed"
-msgstr "Ошибка обработки конфигурации при загрузке %s"
+msgstr "Ошибка обработки конфигурации при отправке %s"
 
-# AI Translated
 #. TRN %s is the path of an image file.
 #, c-format, boost-format
 msgid "%s: No corresponding storage bucket"
@@ -8579,9 +8576,8 @@ msgstr "Перед использованием обратитесь к руко
 msgid "Plates are a filament (FFF) feature."
 msgstr "Столы доступны только для FDM-печати."
 
-# AI Translated
 msgid "Open the 3D view first."
-msgstr "Сначала откройте 3D-вид."
+msgstr "Сначала откройте рабочую область."
 
 msgid "Select an object first."
 msgstr "Сначала выберите модель."
@@ -8589,7 +8585,6 @@ msgstr "Сначала выберите модель."
 msgid "Slice and Preview"
 msgstr "Нарезка и просмотр"
 
-# AI Translated
 msgid "Slice & Export"
 msgstr "Нарезка и экспорт"
 
@@ -8632,11 +8627,10 @@ msgstr "Экспорт в STL"
 msgid "Export 3MF"
 msgstr "Экспорт в 3MF"
 
-# Экспортирует .gcode.3mf
 msgid "Export Sliced File"
-msgstr "Экспорт сжатого G-кода"
+msgstr "Экспорт нарезанного файла"
 
-# AI Translated
+# В Speed Dial
 msgid "Export All Sliced Files"
 msgstr "Экспорт всех нарезанных файлов"
 
@@ -8649,19 +8643,15 @@ msgstr "Калибровка Pressure Advance"
 msgid "Flow Ratio Calibration"
 msgstr "Калибровка коэффициента потока"
 
-# AI Translated
 msgid "Retraction Calibration"
 msgstr "Калибровка отката"
 
-# AI Translated
 msgid "Cornering Calibration"
 msgstr "Калибровка прохождения углов"
 
-# AI Translated
 msgid "Input Shaping Frequency Calibration"
 msgstr "Калибровка частоты шейпера"
 
-# AI Translated
 msgid "Input Shaping Damping Calibration"
 msgstr "Калибровка коэффициента затухания шейпера"
 
@@ -8716,56 +8706,45 @@ msgstr "Разделить на модели"
 msgid "Split to Parts"
 msgstr "Разделить на части"
 
-# AI Translated
 msgid "Center Selected on Plate"
-msgstr "Выровнять выбранное по центру стола"
+msgstr "Разместить выбранное по центру"
 
 msgid "Drop to Bed"
 msgstr "Опустить на стол"
 
-# AI Translated
 msgid "Scale to Fit Print Volume"
-msgstr "Масштабировать по области печати"
+msgstr "Растянуть на весь объём"
 
-# AI Translated
 msgid "Increase Instances"
-msgstr "Увеличить число экземпляров"
+msgstr "Добавить экземпляр"
 
-# AI Translated
 msgid "Decrease Instances"
-msgstr "Уменьшить число экземпляров"
+msgstr "Удалить экземпляр"
 
-# AI Translated
 msgid "Auto-Arrange"
-msgstr "Авторасстановка"
+msgstr "Расставить автоматически"
 
-# AI Translated
 msgid "Auto-Orient"
-msgstr "Автоориентация"
+msgstr "Положить на стол"
 
 msgid "Add Plate"
 msgstr "Добавить стол"
 
-# AI Translated
 msgid "Cannot add another plate (maximum reached)."
-msgstr "Невозможно добавить ещё один стол (достигнут максимум)."
+msgstr "Достигнуто максимальное количество столов."
 
-# AI Translated
 msgid "Duplicate Plate"
 msgstr "Дублировать стол"
 
-# AI Translated
 msgid "Cannot duplicate a plate (maximum reached)."
-msgstr "Невозможно дублировать стол (достигнут максимум)."
+msgstr "Достигнуто максимальное количество столов."
 
-# AI Translated
 msgid "Cannot delete the only plate."
-msgstr "Невозможно удалить единственный стол."
+msgstr "Невозможно удалить последний стол."
 
 msgid "Rename Plate"
 msgstr "Переименовать стол"
 
-# AI Translated
 msgid "Toggle Plate Lock"
 msgstr "Заблокировать/разблокировать стол"
 
@@ -8900,7 +8879,6 @@ msgstr "ОШИБКА"
 msgid "COMPLETED"
 msgstr "ЗАВЕРШЕНО"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%d%% - %.2f of %.2fMB uploaded"
 msgstr "%d%% - отправлено %.2f из %.2f МБ"
@@ -8956,9 +8934,8 @@ msgstr "Вашей модели нужна поддержка! Пожалуйс�
 msgid "G-code path overlap"
 msgstr "Перекрытие пути G-кода"
 
-# AI Translated
 msgid "Click for more."
-msgstr "Нажмите, чтобы узнать подробности."
+msgstr "Нажмите для подробностей."
 
 msgid "Cut connectors"
 msgstr "Вырезанные соединения"
@@ -8970,7 +8947,6 @@ msgstr "Экземпляр %d"
 msgid "Layers"
 msgstr "Слои"
 
-# AI Translated
 #. TRN Object list item: plate number, then instance number
 #, c-format, boost-format
 msgid "[P%d]Instance %d"
@@ -9004,11 +8980,9 @@ msgctxt "Layers"
 msgid "Bottom"
 msgstr "Снизу"
 
-# AI Translated
 msgid "This setting does not specify a plugin capability type."
-msgstr "Эта настройка не указывает тип возможности плагина."
+msgstr "Не влияет на тип возможностей плагина."
 
-# AI Translated
 msgid "This setting specifies an unrecognized plugin capability type: "
 msgstr "Эта настройка указывает нераспознанный тип возможности плагина: "
 
@@ -9235,119 +9209,108 @@ msgstr "Сводка настроек моделей"
 msgid "Material settings"
 msgstr "Настройки материала"
 
-# AI Translated
 msgid "The process flow ratio cannot be edited in this panel."
-msgstr "Коэффициент потока из профиля настроек печати нельзя изменить на этой панели."
+msgstr "Коэффициент потока нельзя изменить в этом месте."
 
-# AI Translated
 msgid "Each mode names the tool heads that take part and the role each one plays. Click a tool button to cycle its role — hover a color below for what each role does."
-msgstr "Каждый режим задаёт участвующие в нём печатающие головы и роль каждой из них. Щёлкните кнопку инструмента, чтобы переключить его роль; наведите курсор на цвет ниже, чтобы узнать назначение каждой роли."
+msgstr "Режимы определяют участие и роль каждой из голов. Роль задаётся цикличным переключением соответствующей кнопки; подробнее можно прочитать в подсказках к режимам ниже."
 
 msgid "Add Mode"
 msgstr "Добавить режим"
 
-# AI Translated
+# "Инструменты" is too long here
 msgctxt "IDEX/IQEX modes"
 msgid "Tools"
-msgstr "Инструменты"
+msgstr "Головы"
 
 msgid "G-code"
 msgstr "G-код"
 
-# AI Translated
+# подсказка к заголовку "Режим"
 msgid "How the mode is labeled in the plate's IDEX/IQEX mode selector. Required — a mode with no name cannot be selected."
-msgstr "Название режима в списке режимов IDEX/IQEX у стола. Обязательно — режим без названия нельзя выбрать."
+msgstr "Название режима в переключателе у стола. Обязательно — режим без названия нельзя выбрать."
 
-# AI Translated
 msgid "Which tool heads take part in the mode and what role each one plays. Click a tile to cycle its role."
-msgstr "Какие печатающие головы участвуют в режиме и какую роль выполняет каждая из них. Щёлкните плитку, чтобы переключить её роль."
+msgstr "Назначение роли каждой из голов. Роль задаётся цикличным переключением цвета."
 
-# AI Translated
 msgid ""
 "G-code run at print start to put the printer into this mode (for example a Klipper SET_PRINT_MODE call).\n"
 "\n"
 "The slicer only emits the Primary tool's paths; the firmware drives the others."
 msgstr ""
-"G-code, выполняемый в начале печати для перевода принтера в этот режим (например, вызов SET_PRINT_MODE в Klipper).\n"
+"G-код для выполнения в начале печати. Требуется для активации соответствующего режима в прошивке (например, через SET_PRINT_MODE в Klipper).\n"
 "\n"
-"Слайсер формирует траектории только основного (Primary) инструмента; остальными управляет прошивка."
+"Примечание: управляющие команды создаются только для основной головы; остальными управляет прошивка."
 
-# AI Translated
 #. TRN IDEX/IQEX role of a tool head that takes no part in the mode.
 msgctxt "IDEX/IQEX role"
 msgid "Inactive"
-msgstr "Неактивен"
+msgstr "Неактивно"
 
 #. TRN IDEX/IQEX role: the tool head the slicer generates paths for.
 msgctxt "IDEX/IQEX role"
 msgid "Primary"
-msgstr "Основной"
+msgstr "Основная"
 
-# AI Translated
 #. TRN IDEX/IQEX role: the tool head prints a copy of the Primary's paths.
 msgctxt "IDEX/IQEX role"
 msgid "Copy"
-msgstr "Копия"
+msgstr "Дублирующая"
 
-# AI Translated
 #. TRN IDEX/IQEX role: the tool head prints a mirror image of the Primary's paths.
 msgctxt "IDEX/IQEX role"
 msgid "Mirror"
-msgstr "Зеркало"
+msgstr "Зеркальная"
 
-# AI Translated
+# Только IQEX (требуется минимум 2 головы на минимум 2 балках): назначает вторую голову для печати двумя цветами\материалами в зеркальном\копирующем режиме.
 #. TRN IDEX/IQEX role: multicolor partner of the Primary on the same gantry.
 msgctxt "IDEX/IQEX role"
 msgid "Span"
-msgstr "Span"
+msgstr "Парная"
 
-# AI Translated
 msgid "Drives every sliced path. Always tool 0 — use Tool 0 Position above to choose which corner of the bed it occupies. It cannot be moved from the grid."
-msgstr "Задаёт все нарезанные траектории. Всегда инструмент 0 — выберите в параметре «Положение инструмента 0» выше, в каком углу стола он находится. Его нельзя переместить в сетке."
+msgstr "Служит источником информации о перемещениях. Может быть назначена только на T0; для смены позиции воспользуйтесь настройкой «Положение инструмента 0»."
 
-# AI Translated
 msgid "Follows the Primary at the firmware level, printing the same paths offset into its own zone."
-msgstr "Повторяет движения основного (Primary) инструмента на уровне прошивки, печатая те же траектории со смещением в свою зону."
+msgstr "Повторяет движения основной головы на уровне прошивки, печатая такие же линии в своей зоне."
 
-# AI Translated
 msgid "Follows the Primary at the firmware level, printing the same paths reflected across the boundary between the two zones."
-msgstr "Повторяет движения основного (Primary) инструмента на уровне прошивки, печатая те же траектории, отражённые относительно границы между двумя зонами."
+msgstr "Отражает движения основной головы на уровне прошивки через границу зон, печатая зеркальную копию модели."
 
-# AI Translated
 msgid "Marks a tool on the Primary's gantry as its multicolor partner. Required to allow multi-color printing in paired-gantry modes."
-msgstr "Отмечает инструмент на портале основного (Primary) инструмента как его партнёра по многоцветной печати. Необходим для многоцветной печати в режимах с парными порталами."
+msgstr "Резервирует голову на балке основного инструмента для парной печати разными материалами. Требуется для многоцветной печати в зеркальном и копирующем режимах на поддерживаемых принтерах."
 
 msgid "Primary"
 msgstr "Основной"
 
-# AI Translated
 msgid "Mode name (required)"
-msgstr "Название режима (обязательно)"
+msgstr "Название необходимо"
 
-# AI Translated
+# Не обязательно параллельный, у Snapmaker J1 есть отдельный режим бэкапа (допечатывания) второй головой
 msgid "Name of this parallel mode, as it appears in the plate's IDEX/IQEX mode selector. Stored in the project by name, so renaming a mode that plates already use makes them fall back to Primary. Cannot be empty — a blank name is replaced with a generated one."
-msgstr "Название этого параллельного режима в списке режимов IDEX/IQEX у стола. В проекте режим хранится по названию, поэтому если переименовать режим, который уже используют столы, они вернутся к режиму «Основной». Не может быть пустым — пустое название заменяется сгенерированным."
+msgstr "Название режима в контекстном меню значка у стола. Работает как идентификатор, поэтому в случае переименования выбор режима на столах будет сброшен. Должно быть уникальным и не может быть пустым."
 
-# AI Translated
 msgid ""
 "G-code emitted once at the start of a print that uses this mode, before the machine start G-code. This is where the printer is put into the matching firmware mode — for example a Klipper SET_PRINT_MODE call or a RepRapFirmware M567 — since the slicer only emits the Primary tool's paths and the firmware drives the Copy / Mirror tools.\n"
 "\n"
 "Placeholders are supported; use the edit button to browse them. Leave empty if the mode needs no firmware setup."
 msgstr ""
-"G-код, выводимый один раз в начале печати в этом режиме, перед G-кодом начала печати принтера. Здесь принтер переводится в соответствующий режим прошивки — например, вызовом SET_PRINT_MODE в Klipper или M567 в RepRapFirmware, — поскольку слайсер формирует траектории только основного (Primary) инструмента, а инструментами копии (Copy) и зеркала (Mirror) управляет прошивка.\n"
+"G-код активации режима. Должен содержать команды для перевода прошивки в соответствующий режим печати (например, SET_PRINT_MODE в Klipper или M567 в RepRapFirmware).\n"
+"Доступны переменные; откройте редактор для их просмотра. Оставьте пустым, если для режима не требуется отдельная настройка на стороне слайсера.\n"
 "\n"
-"Поддерживаются переменные; чтобы просмотреть их, нажмите кнопку правки. Оставьте пустым, если режиму не нужна настройка прошивки."
+"Необходимо для корректной обработки прошивкой файлов для параллельной печати: слайсер не управляет ей напрямую, и G-код генерируется только для основной головы.\n"
+"\n"
+"Вызывается перед основным кодом начала печати."
 
 # AI Translated
 msgid "Edit G-code / browse placeholders"
-msgstr "Изменить G-код / просмотреть переменные"
+msgstr "Редактировать G-код/переменные"
 
 msgid "Remove mode"
 msgstr "Удалить режим"
 
-# AI Translated
 msgid "Discard in-session edits to this mode (snap back to saved value)"
-msgstr "Отменить изменения этого режима в текущем сеансе (вернуть сохранённое значение)"
+msgstr "Сбросить несохранённые изменения"
 
 msgid "Remove current plate (if not last one)"
 msgstr "Удалить стол (кроме последнего)"
@@ -9373,56 +9336,49 @@ msgstr "Переименовать стол"
 msgid "Move plate to the front"
 msgstr "Переместить стол в начало"
 
-# AI Translated
+# Судя по всему, мёртвый код, т.к. глобальный переключатель для всего проекта убрали, теперь настраивается для каждого стола.
 #. TRN Plate icon tooltip. %1% is the plate's IDEX/IQEX mode, %2% the mode its process preset sets.
 #, boost-format
 msgid "IDEX/IQEX mode: %1% (process preset: %2%) (left-click to cycle, right-click for menu)"
-msgstr "Режим IDEX/IQEX: %1% (профиль настроек печати: %2%) (щелчок левой кнопкой — переключить, правой — меню)"
+msgstr "Режим IMEX: %1% (профиль: %2%) (ПКМ — список)"
 
-# AI Translated
 #, boost-format
 msgid "IDEX/IQEX mode: %1% (left-click to cycle, right-click for menu)"
-msgstr "Режим IDEX/IQEX: %1% (щелчок левой кнопкой — переключить, правой — меню)"
+msgstr "Режим IMEX: %1% (ПКМ — список)"
 
-# AI Translated
 msgid "Warning: this plate uses a parallel IDEX/IQEX mode with multi-material objects. Proceed with caution — verify your G-code handles this combination correctly."
-msgstr "Внимание: на этом столе используется параллельный режим IDEX/IQEX с моделями из нескольких материалов. Будьте осторожны — убедитесь, что ваш G-код правильно обрабатывает такое сочетание."
+msgstr "Внимание: обнаружены модели из нескольких материалов вместе с включённым режимом параллельной печати. Убедитесь, что ваш G-код правильно обрабатывает такое сочетание."
 
 msgid "Customize current plate"
 msgstr "Настроить стол"
 
-# AI Translated
 #, c-format, boost-format
 msgid "The left nozzle cannot print %s."
 msgstr "Левое сопло не может печатать %s."
 
-# AI Translated
 #, c-format, boost-format
 msgid "The right nozzle cannot print %s."
 msgstr "Правое сопло не может печатать %s."
 
-# AI Translated
 msgid "Printing mixed-color filament on a single-extruder printer requires frequent filament changes and flushing, which may significantly increase waste and the risk of nozzle / waste-chute clogging."
-msgstr "Печать материала смешанного цвета на принтере с одним экструдером требует частой смены материала и прочистки, что может значительно увеличить количество отходов и риск засорения сопла или жёлоба для отходов."
+msgstr "Печать смешанным цветом через общий экструдер требует частой смены материала и прочистки сопла, что может значительно повысить расход материала и риск засорения сопла/канала прочистки."
 
 #, boost-format
 msgid "Mixing %1% with %2% in printing is not recommended.\n"
 msgstr "Совмещение %1% с %2% при печати не рекомендуется.\n"
 
-# AI Translated
 #. TRN %1% is the nozzle diameter, %2% the nozzle volume type, for example "Standard" or "High Flow".
 #, boost-format
 msgid "%1%mm %2% nozzle"
-msgstr "Сопло %1% мм (%2%)"
+msgstr "сопло %1% мм (%2%)"
 
-# AI Translated
 # Needs human review: %1% is a nozzle description such as '0.4mm Standard nozzle' built by get_nozzle_msg (nominative); the sentence puts it in parentheses to avoid inflecting it.
 #, boost-format
 msgid "It is not recommended to print the following filament with %1%: %2%\n"
 msgid_plural "It is not recommended to print the following filaments with %1%: %2%\n"
-msgstr[0] "Не рекомендуется использовать следующий материал (%1%): %2%\n"
-msgstr[1] "Не рекомендуется использовать следующие материалы (%1%): %2%\n"
-msgstr[2] "Не рекомендуется использовать следующие материалы (%1%): %2%\n"
+msgstr[0] "Не рекомендуется печатать %2% через %1%\n"
+msgstr[1] "Не рекомендуется печатать %2% через %1%\n"
+msgstr[2] "Не рекомендуется печатать %2% через %1%\n"
 
 msgid "It is not recommended to use the following nozzle and filament combinations:\n"
 msgstr "Не рекомендуется одновременно использовать следующие сопло и материал:\n"
@@ -9434,7 +9390,7 @@ msgstr "%1% и %2%\n"
 #. TRN Slicing progress. %1% is the plate number, %2% the current slicing step.
 #, boost-format
 msgid "Slicing plate %1%: %2%"
-msgstr "Нарезка стола %1%: %2%"
+msgstr "Нарезка стола %1%. %2%"
 
 msgid "Invalid name, the following characters are not allowed:"
 msgstr "Недопустимое имя файла. Следующие символы не разрешены:"
@@ -9536,29 +9492,24 @@ msgstr "Синхронизировать материалы"
 msgid "Set filaments to use"
 msgstr "Выбрать материал"
 
-# AI Translated
 msgid "Add Mixed Filament"
-msgstr "Добавить смешанный материал"
+msgstr "Добавить смешанный цвет"
 
-# AI Translated
 msgid "Mixed Filament"
-msgstr "Смешанный материал"
+msgstr "Смешанный цвет"
 
-# AI Translated
 msgid "Remove last mixed filament"
-msgstr "Удалить последний смешанный материал"
+msgstr "Удалить последний смешанный цвет"
 
-# AI Translated
 msgid "Remove all mixed filaments"
-msgstr "Удалить все смешанные материалы"
+msgstr "Удалить все смешанные цвета"
 
-# AI Translated
 msgid "Add mixed filament"
-msgstr "Добавить смешанный материал"
+msgstr "Добавить смешанный цвет"
 
-# AI Translated
+# Появляется после удаления компонента цвета или при выборе материалов несовместимых типов
 msgid "Mixed filament has invalid or mismatched components. Please re-edit affected entries."
-msgstr "У смешанного материала недопустимые или несовпадающие компоненты. Пожалуйста, отредактируйте затронутые записи заново."
+msgstr "Компоненты смешанного цвета несовместимы или отсутствуют. Требуется повторная настройка."
 
 msgid "Search plate, object and part."
 msgstr "Поиск стола, модели или части..."
@@ -9566,25 +9517,22 @@ msgstr "Поиск стола, модели или части..."
 msgid "Pellets"
 msgstr "Гранулы"
 
-# AI Translated
+# Подсказка при наведении на индикатор
 msgid "Mixed filament has broken component references"
-msgstr "У смешанного материала нарушены ссылки на компоненты"
+msgstr "Нарушены ссылки на компоненты"
 
-# AI Translated
 msgid "Edit / Delete / Merge"
-msgstr "Изменить / Удалить / Объединить"
+msgstr "Действия с цветом"
 
-# AI Translated
 #, boost-format
 msgid "Remove %1% mixed filament?"
 msgid_plural "Remove all %1% mixed filaments?"
-msgstr[0] "Удалить %1% смешанный материал?"
-msgstr[1] "Удалить все %1% смешанных материала?"
-msgstr[2] "Удалить все %1% смешанных материалов?"
+msgstr[0] "Удалить %1% смешанный цвет?"
+msgstr[1] "Удалить %1% смешанных цвета?"
+msgstr[2] "Удалить %1% смешанных цветов?"
 
-# AI Translated
 msgid "The target mixed filament uses this physical filament as a component. Merging will remove this physical filament and may invalidate the mixed filament. Continue?"
-msgstr "Целевой смешанный материал использует этот физический материал в качестве компонента. Объединение удалит этот физический материал и может сделать смешанный материал недействительным. Продолжить?"
+msgstr "Целевой смешанный цвет использует этот физический материал в качестве компонента. Объединение удалит этот материал и может сделать смешанный цвет недействительным. Продолжить?"
 
 # Порядок слов сильно зависит от контекста; не могу воспроизвести в интерфейсе. По идее, выводится при bool Sidebar::is_new_project_in_gcode3mf(), но что-либо менять в нарезанном .gcode.3mf вообще нельзя
 #, c-format, boost-format
@@ -11665,7 +11613,7 @@ msgstr "Очерёдность материалов на первом слое"
 
 # AI Translated
 msgid "The filament list contains mixed filaments. Custom filament sequence will not take effect."
-msgstr "Список материалов содержит смешанные материалы. Пользовательская последовательность материалов не будет применена."
+msgstr "Список материалов содержит смешанные цвета. Пользовательская последовательность материалов не будет применена."
 
 msgid "By Layer"
 msgstr "Послойно"
@@ -11685,16 +11633,16 @@ msgstr "Материал"
 
 # AI Translated
 msgid "Mixed filament"
-msgstr "Смешанный материал"
+msgstr "Смешанный цвет"
 
 # AI Translated
 msgid "Some mixed filaments rely on filaments that will not be published:"
-msgstr "Некоторые смешанные материалы зависят от материалов, которые не будут опубликованы:"
+msgstr "Некоторые смешанные цвета зависят от материалов, которые не будут опубликованы:"
 
 # AI Translated
 #, c-format, boost-format
 msgid "Filament %d (mixed)"
-msgstr "Материал %d (смешанный)"
+msgstr "Цвет %d (смешанный)"
 
 # AI Translated
 #, boost-format
@@ -11708,7 +11656,7 @@ msgstr "%1% требует %2%, но его материал не будет о�
 
 # AI Translated
 msgid "To publish a mixed filament, enable every filament it uses and choose Full Publish or check its Type requirement."
-msgstr "Чтобы опубликовать смешанный материал, включите каждый используемый им материал и выберите «Полная публикация» либо выполните требование «Тип»."
+msgstr "Чтобы опубликовать смешанный цвет, включите каждый используемый им материал и выберите «Полная публикация» либо выполните требование «Тип»."
 
 msgid "Publish anyway"
 msgstr "Всё равно опубликовать"
@@ -11720,11 +11668,11 @@ msgid "Select which settings to be published in the 3MF file"
 msgstr "Выберите важные настройки для сохранения в файле 3MF"
 
 msgid "Mixed filament - published as a whole when \"Enable\" above is selected"
-msgstr "К смешанному материалу будут добавлены материалы в его составе."
+msgstr "К смешанному цвету будут добавлены материалы в его составе."
 
 # AI Translated
 msgid "Publish this mixed filament and enable + Full Publish its component filaments"
-msgstr "Опубликовать этот смешанный материал и включить + полностью опубликовать его составляющие материалы"
+msgstr "Опубликовать этот смешанный цвет и включить + полностью опубликовать его составляющие материалы"
 
 # AI Translated
 msgid "Publish this filament slot in the 3MF file"
@@ -15084,7 +15032,7 @@ msgstr "неизвестная ошибка"
 
 # AI Translated
 msgid "Multi-color prints in IDEX/IQEX parallel modes require each filament to have its own dedicated physical extruder. Two or more of the active filaments are routed to the same physical head via the printer's physical extruder map (an MMU/AFC manifold), which the slaved gantry cannot follow."
-msgstr "Для многоцветной печати в параллельных режимах IDEX/IQEX у каждого материала должен быть свой физический экструдер. Два или более активных материала направлены в одну и ту же физическую голову через карту физических экструдеров принтера (коллектор MMU/AFC), а ведомый портал не может это повторить."
+msgstr "Для многоцветной печати в параллельных режимах IDEX/IQEX у каждого материала должен быть свой физический экструдер. Два или более активных материала направлены в одну и ту же физическую голову через карту физических экструдеров принтера (коллектор MMU/AFC), а ведомая балка не может это повторить."
 
 # AI Translated
 msgid "The active IDEX/IQEX mode does not define a primary tool, so multi-color printing cannot be scheduled. Open the printer settings IDEX/IQEX Modes editor and assign a Primary role to one tool."
@@ -15092,11 +15040,11 @@ msgstr "В активном режиме IDEX/IQEX не задан основн�
 
 # AI Translated
 msgid "Multi-color in this mode isn't a parallel-print scenario — all of the active tools sit on a single gantry, so there's no second gantry being copied or mirrored to. Switch the plate to Primary mode for multi-color printing on a single gantry, or define an IDEX/IQEX mode that includes tools on a second gantry."
-msgstr "Многоцветная печать в этом режиме не является параллельной — все активные инструменты находятся на одном портале, поэтому нет второго портала, на который выполняется копирование или зеркалирование. Для многоцветной печати на одном портале переключите стол в режим «Основной» или задайте режим IDEX/IQEX, включающий инструменты на втором портале."
+msgstr "Многоцветная печать в этом режиме не является параллельной — все активные инструменты находятся на одной балке, поэтому нет второй балки, на который выполняется копирование или зеркалирование. Для многоцветной печати на одной балке переключите стол в режим «Основной» или задайте режим IDEX/IQEX, включающий инструменты на второй балке."
 
 # AI Translated
 msgid "Multi-color prints in IDEX/IQEX parallel modes require a Span tool on the primary's gantry — without one, the mode doesn't declare a within-gantry multicolor partner. Either reduce the print to a single filament, switch to Primary mode, or open the printer settings IDEX/IQEX Modes editor and mark a tool on the primary's gantry as Span."
-msgstr "Для многоцветной печати в параллельных режимах IDEX/IQEX на портале основного инструмента нужен инструмент Span — без него в режиме не задан партнёр для многоцветной печати на том же портале. Сократите печать до одного материала, переключитесь в режим «Основной» или откройте редактор режимов IDEX/IQEX в настройках принтера и отметьте инструмент на портале основного инструмента как Span."
+msgstr "Для многоцветной печати в параллельных режимах IDEX/IQEX на балке основного инструмента нужен инструмент Span — без него в режиме не задан партнёр для многоцветной печати на той же балке. Сократите печать до одного материала, переключитесь в режим «Основной» или откройте редактор режимов IDEX/IQEX в настройках принтера и отметьте инструмент на балке основного инструмента как Span."
 
 # AI Translated
 #. TRN %1% is a list of tools such as "T0/T1", %2% a filament number.
@@ -15211,7 +15159,7 @@ msgstr "Коэффициент потока материала %1% должен 
 
 # AI Translated
 msgid "Mixed filaments are not supported in IDEX/IQEX parallel modes. Switch this plate to Primary mode."
-msgstr "Смешанные материалы не поддерживаются в параллельных режимах IDEX/IQEX. Переключите этот стол в режим «Основной»."
+msgstr "Смешанные цвета не поддерживаются в параллельных режимах IDEX/IQEX. Переключите этот стол в режим «Основной»."
 
 # AI Translated
 #. TRN %1% is the IDEX/IQEX mode name, %2% the tool number.
@@ -15263,7 +15211,7 @@ msgstr "Кайма «Только передний край» предназна
 
 # AI Translated
 msgid "A gradient mixed filament is used, but 'Mixed color sublayer' is disabled. The gradient will not be printed."
-msgstr "Используется смешанный материал с градиентом, но параметр «Подслой смешанного цвета» отключён. Градиент не будет напечатан."
+msgstr "Используется смешанный цвет с градиентом, но параметр «Подслой смешанного цвета» отключён. Градиент не будет напечатан."
 
 msgid "Smooth mode of timelapse is not supported when \"by object\" sequence is enabled."
 msgstr "Плавный режим таймлапса не поддерживается, когда включена последовательность печати моделей по очереди."
@@ -15317,7 +15265,7 @@ msgstr "Функция переменной высоты слоя несовме
 
 # AI Translated
 msgid "The wipe tower filament cannot be a mixed filament."
-msgstr "Материал черновой башни не может быть смешанным материалом."
+msgstr "Материал черновой башни не может быть смешанным."
 
 msgid "Different nozzle diameters and different filament diameters may not work well when the prime tower is enabled. It's very experimental, so please proceed with caution."
 msgstr "Совместное использование черновой башни с разными диаметрами сопел и прутков может привести к некорректной нарезке при включённой черновой башне. Этот метод работы экспериментальный, поэтому будьте осторожны при использовании."
@@ -17019,10 +16967,10 @@ msgid "Horizontal distance of the nozzle tip to the rod's farther edge. Used for
 msgstr "Расстояние по горизонтали от кончика сопла до дальнего края штанги. Используется для предотвращения столкновений при печати моделей по очереди."
 
 msgid "Height to rod"
-msgstr "Высота до вала"
+msgstr "Высота до направляющей"
 
 msgid "Distance from the nozzle tip to the lower rod. Used for collision avoidance in by-object printing."
-msgstr "Расстояние от кончика сопла до нижнего вала. Используется для предотвращения столкновений при печати объектов по очереди."
+msgstr "Расстояние от кончика сопла до нижней точки направляющей. Используется для предотвращения столкновений при печати объектов по очереди."
 
 msgid "Height to lid"
 msgstr "Высота до крышки"
@@ -17549,15 +17497,15 @@ msgstr "Обычно используется для печати поддерж
 
 # AI Translated
 msgid "Is mixed filament"
-msgstr "Является смешанным материалом"
+msgstr "Является смешанным цветом"
 
 # AI Translated
 msgid "Whether this filament slot is a mixed filament composed of multiple physical filaments"
-msgstr "Определяет, является ли этот слот материала смешанным материалом, состоящим из нескольких физических материалов"
+msgstr "Определяет, является ли этот слот материала смешанным цветом, состоящим из нескольких физических материалов"
 
 # AI Translated
 msgid "Mixed filament components"
-msgstr "Компоненты смешанного материала"
+msgstr "Компоненты смешанного цвета"
 
 # AI Translated
 msgid "Comma-separated 1-based indices of component filaments, e.g. \"1,3\""
@@ -17565,7 +17513,7 @@ msgstr "Разделённые запятыми индексы материал�
 
 # AI Translated
 msgid "Mixed filament sublayer ratios"
-msgstr "Доли подслоёв смешанного материала"
+msgstr "Доли подслоёв смешанного цвета"
 
 # AI Translated
 msgid "Comma-separated ratio values summing to 1.0, e.g. \"0.7,0.3\""
@@ -17573,15 +17521,15 @@ msgstr "Разделённые запятыми значения долей, д�
 
 # AI Translated
 msgid "Mixed filament gradient"
-msgstr "Градиент смешанного материала"
+msgstr "Градиент смешанного цвета"
 
 # AI Translated
 msgid "Enable Z-direction gradient mode for mixed filament sub-layers. When enabled, the sub-layer ratios vary linearly across layers."
-msgstr "Включает режим градиента по оси Z для подслоёв смешанного материала. При включении доли подслоёв линейно меняются от слоя к слою."
+msgstr "Включает режим градиента по оси Z для подслоёв смешанного цвета. При включении доли подслоёв линейно меняются от слоя к слою."
 
 # AI Translated
 msgid "Mixed filament gradient range"
-msgstr "Диапазон градиента смешанного материала"
+msgstr "Диапазон градиента смешанного цвета"
 
 # AI Translated
 msgid "Start and end ratios for the first component in gradient mode. Comma-separated pair, e.g. \"0.10,0.90\" means 10% to 90%."
@@ -17589,7 +17537,7 @@ msgstr "Начальная и конечная доли первого комп�
 
 # AI Translated
 msgid "Mixed filament gradient curve"
-msgstr "Кривая градиента смешанного материала"
+msgstr "Кривая градиента смешанного цвета"
 
 # AI Translated
 msgid "Optional Photoshop-style custom curve mapping Z progress to the first component ratio. Encoded as pipe-separated control points, either \"x,y\" (legacy) or \"x,y,m_in,m_out\" when a tangent override is needed (empty token or \"nan\" means use PCHIP default). x in [0,1]; y is clamped to the configured ratio range, e.g. \"0,0.15|0.5,0.50|1,0.85\". When empty, the linear gradient_range is used instead."
@@ -17597,7 +17545,7 @@ msgstr "Необязательная пользовательская крива
 
 # AI Translated
 msgid "Mixed filament per-part gradient"
-msgstr "Градиент смешанного материала по частям"
+msgstr "Градиент смешанного цвета по частям"
 
 # AI Translated
 msgid "When gradient mode is enabled, apply the gradient to each part of an assembly independently rather than treating the whole assembly as one Z range."
@@ -20263,20 +20211,17 @@ msgstr "Команды, которые выполняются в самом на
 msgid "G-code added when the printer starts using this filament"
 msgstr "Команды, которые выполняются при запуске печати этим материалом."
 
-# было Одиночный мультиматериальный экструдер
 msgid "Single Extruder Multi Material"
 msgstr "Общий экструдер"
 
 msgid "Use single nozzle to print multi filament."
 msgstr "Использовать общий экструдер для комбинированной печати несколькими цветами/материалами."
 
-# AI Translated
 msgid "IDEX/IQEX Printer"
-msgstr "Принтер IDEX/IQEX"
+msgstr "IMEX-принтер"
 
-# AI Translated
 msgid "Enable parallel printing for printers with multiple independent carriages (IDEX, IQEX, and similar)."
-msgstr "Включает параллельную печать для принтеров с несколькими независимыми каретками (IDEX, IQEX и аналогичных)."
+msgstr "Активирует возможности управления параллельной печатью для принтеров с несколькими независимыми головами (IDEX, ITEX, IQEX и т.п.)."
 
 # AI Translated
 msgid "Firmware-managed zones"
@@ -20286,23 +20231,19 @@ msgstr "Зоны под управлением прошивки"
 msgid "When enabled, the slicer emits G-code with the primary zone's contents centered on bed origin (0,0). The printer firmware is responsible for placing copies/mirrors at each physical zone position. Enable only on printers whose firmware applies its own zone offsets in copy/mirror mode (e.g. RepRapFirmware IDEX duplication mode). Has no effect in Primary mode."
 msgstr "Если включено, слайсер выводит G-код, в котором содержимое основной зоны центрировано относительно начала координат стола (0,0). За размещение копий и зеркальных отражений в физическом положении каждой зоны отвечает прошивка принтера. Включайте только на принтерах, прошивка которых сама применяет смещения зон в режиме копии/зеркала (например, режим дублирования IDEX в RepRapFirmware). Не действует в режиме «Основной»."
 
-# AI Translated
 msgid "Gantry Count"
-msgstr "Количество порталов"
+msgstr "Количество балок"
 
-# AI Translated
 msgid "Number of independent Y-axis gantries. 1 for IDEX/single-rail IQEX. 2 for dual-gantry systems (divides bed into rows)."
-msgstr "Количество независимых порталов по оси Y. 1 — для IDEX и IQEX с одной направляющей. 2 — для систем с двумя порталами (делит стол на ряды)."
+msgstr "Количество независимых направляющих оси X. 1 — для IMEX с одной направляющей. 2 — для систем с двумя независимыми балками."
 
-# AI Translated
 msgid "Tools per Gantry"
-msgstr "Инструментов на портале"
+msgstr "Голов на балке"
 
 # AI Translated
 msgid "Number of independent toolheads per gantry along X. 2 for IDEX-style."
 msgstr "Количество независимых печатающих голов на одном портале по оси X. 2 — для схемы IDEX."
 
-# AI Translated
 msgid "Tool 0 Position"
 msgstr "Положение инструмента 0"
 
@@ -20334,9 +20275,8 @@ msgstr "Запас безопасности"
 msgid "Non-blocking advisory clearance strip (mm) drawn inside the primary zone at each carriage boundary. Parts placed within this strip will still slice; it is a visual reminder to leave extra clearance near the zone edge."
 msgstr "Рекомендательная полоса зазора (мм), которая отображается внутри основной зоны у каждой границы кареток и не блокирует нарезку. Модели в этой полосе всё равно будут нарезаны; это лишь визуальное напоминание оставить дополнительный зазор у края зоны."
 
-# AI Translated
 msgid "Visualization Theme"
-msgstr "Тема отображения"
+msgstr "Цветовая схема"
 
 # AI Translated
 msgid "Color theme for IDEX/IQEX bed zone visualization. Choose a colorblind-friendly theme if needed."
@@ -22034,13 +21974,13 @@ msgstr "Разрешить вращение при расстановке"
 msgid "If enabled, Arrange will allow rotation when placing objects."
 msgstr "Если включено, то при расстановке моделей на столе разрешено поворачивать их."
 
-# AI Translated
+# Только в CLI
 msgid "Align to Y axis when arranging"
 msgstr "Выравнивать по оси Y при расстановке"
 
-# AI Translated
+# Только в CLI
 msgid "If enabled, Arrange will turn each object so its long side runs along the Y axis before placing it. When not given, it is on for i3 printers and off for the others, as in the GUI."
-msgstr "Если включено, при расстановке каждая модель поворачивается длинной стороной вдоль оси Y перед размещением. Если параметр не указан, он включён для принтеров I3 и выключен для остальных, как в графическом интерфейсе."
+msgstr "Расставлять модели параллельно оси Y при автоматическом размещении. Если иное не задано, параметр включён для принтеров I3 и выключен для остальных, как в графическом интерфейсе."
 
 msgid "Avoid extrusion calibrate region when arranging"
 msgstr "Избегать зону калибровки экструзии при выполнении расстановки"
@@ -26708,11 +26648,11 @@ msgstr "Недопустимый файл конфигурации: %1%"
 # AI Translated
 #, boost-format
 msgid "slot %1% -> slot %2%: mixed filament"
-msgstr "слот %1% -> слот %2%: смешанный материал"
+msgstr "слот %1% -> слот %2%: смешанный цвет"
 
 # AI Translated
 msgid "mixed filament definition: filament slot limit reached"
-msgstr "определение смешанного материала: достигнут предел слотов материала"
+msgstr "определение смешанного цвета: достигнут предел слотов материала"
 
 # AI Translated
 msgid "filament slot limit reached"
@@ -26726,12 +26666,12 @@ msgstr "предел материалов принтера: %1%"
 # AI Translated
 #, boost-format
 msgid "slot %1% -> slot %2%: unassigned mixed filament (the printer's filament limit is %3%)"
-msgstr "слот %1% -> слот %2%: неназначенный смешанный материал (предел материалов принтера: %3%)"
+msgstr "слот %1% -> слот %2%: неназначенный смешанный цвет (предел материалов принтера: %3%)"
 
 # AI Translated
 #, boost-format
 msgid "slot %1%: unassigned mixed filament (the printer's filament limit is %2%)"
-msgstr "слот %1%: неназначенный смешанный материал (предел материалов принтера: %2%)"
+msgstr "слот %1%: неназначенный смешанный цвет (предел материалов принтера: %2%)"
 
 # AI Translated
 #, boost-format
@@ -26741,7 +26681,7 @@ msgstr "слот %1%: %2% -> %3%"
 # AI Translated
 #, boost-format
 msgid "slot %1%: mixed filament definition could not be imported"
-msgstr "слот %1%: не удалось импортировать определение смешанного материала"
+msgstr "слот %1%: не удалось импортировать определение смешанного цвета"
 
 # AI Translated
 msgid "needs at least two components"
@@ -26754,12 +26694,12 @@ msgstr "компоненты ссылаются на отсутствующие 
 # AI Translated
 #, boost-format
 msgid "mixed filament definition: %1%"
-msgstr "определение смешанного материала: %1%"
+msgstr "определение смешанного цвета: %1%"
 
 # AI Translated
 #, boost-format
 msgid "slot %1%: mixed filament definition could not be imported (%2%)"
-msgstr "слот %1%: не удалось импортировать определение смешанного материала (%2%)"
+msgstr "слот %1%: не удалось импортировать определение смешанного цвета (%2%)"
 
 # AI Translated
 #, boost-format
@@ -32184,9 +32124,9 @@ msgstr ", "
 #, c-format, boost-format
 msgid "The current filament list does not contain %s. A project filament required by the mixed filament will be created automatically after decomposition."
 msgid_plural "The current filament list does not contain %s. Project filaments required by the mixed filament will be created automatically after decomposition."
-msgstr[0] "В текущем списке материалов нет: %s. Материал проекта, необходимый для смешанного материала, будет создан автоматически после разложения."
-msgstr[1] "В текущем списке материалов нет: %s. Материалы проекта, необходимые для смешанного материала, будут созданы автоматически после разложения."
-msgstr[2] "В текущем списке материалов нет: %s. Материалы проекта, необходимые для смешанного материала, будут созданы автоматически после разложения."
+msgstr[0] "В текущем списке материалов нет: %s. Материал проекта, необходимый для смешанного цвета, будет создан автоматически после разложения."
+msgstr[1] "В текущем списке материалов нет: %s. Материалы проекта, необходимые для смешанного цвета, будут созданы автоматически после разложения."
+msgstr[2] "В текущем списке материалов нет: %s. Материалы проекта, необходимые для смешанного цвета, будут созданы автоматически после разложения."
 
 # AI Translated
 msgid "Color Picker"
@@ -34879,7 +34819,7 @@ msgstr "Смешанные цвета"
 
 # AI Translated
 msgid "The most mixed filaments a bake may add. They are picked from the texture's colors, and only the ones the bake actually uses are created."
-msgstr "Максимальное число смешанных материалов, которое может добавить запекание. Они подбираются по цветам текстуры, и создаются только те, которые запекание действительно использует."
+msgstr "Максимальное число смешанных цветов, которое может добавить запекание. Они подбираются по цветам текстуры, и создаются только те, которые запекание действительно использует."
 
 # AI Translated
 # Needs human review: Caption under a mixed-colors image in the texture-displacement tool; check it reads right.
@@ -35539,7 +35479,7 @@ msgstr "Нажмите, чтобы изменить соотношение"
 
 # AI Translated
 msgid "Edit Mixed Filament"
-msgstr "Изменить смешанный материал"
+msgstr "Изменить смешанный цвет"
 
 # AI Translated
 msgid "Effect Preview"
@@ -36006,7 +35946,6 @@ msgstr "Активируйте этот плагин, чтобы настрои�
 msgid "View on OrcaCloud <a>here</a>"
 msgstr "Посмотреть в OrcaCloud можно <a>здесь</a>"
 
-# AI Translated
 msgid "Activated"
 msgstr "Активирован"
 
@@ -36014,7 +35953,6 @@ msgstr "Активирован"
 msgid "Runtime error"
 msgstr "Ошибка выполнения"
 
-# AI Translated
 msgid "Inactive"
 msgstr "Неактивен"
 
@@ -36393,13 +36331,11 @@ msgstr "Физические материалы проекта"
 msgid "New Physical Filaments"
 msgstr "Новые физические материалы"
 
-# AI Translated
 msgid "Project Mixed Filaments"
-msgstr "Смешанные материалы проекта"
+msgstr "Смешанные цвета проекта"
 
-# AI Translated
 msgid "New Mixed Filaments"
-msgstr "Новые смешанные материалы"
+msgstr "Новые смешанные цвета"
 
 # AI Translated
 #, c-format, boost-format
@@ -37732,7 +37668,7 @@ msgstr "размер массива %1% не совпадает с количе�
 
 # AI Translated
 msgid "must be set when mixed filament parameters are specified"
-msgstr "должно быть задано, если указаны параметры смешанного материала"
+msgstr "должно быть задано, если указаны параметры смешанного цвета"
 
 # AI Translated
 #. TRN Mixed filament validation error. %1% is the filament slot number, %2% the reason.
@@ -37753,7 +37689,7 @@ msgstr "слот %1%: не может ссылаться сам на себя к
 # AI Translated
 #, boost-format
 msgid "slot %1%: component %2% references a mixed filament slot"
-msgstr "слот %1%: компонент %2% ссылается на слот смешанного материала"
+msgstr "слот %1%: компонент %2% ссылается на слот смешанного цвета"
 
 # AI Translated
 #, boost-format
