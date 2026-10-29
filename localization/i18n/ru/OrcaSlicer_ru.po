@@ -5123,7 +5123,6 @@ msgstr "Адаптировать к пределу (%g мм)?"
 msgid "Adjust"
 msgstr "Адаптировать"
 
-# AI Translated
 msgid ""
 "Raft and draft shield are not available on belt printers.\n"
 "They have been disabled."
@@ -15023,7 +15022,7 @@ msgstr "Текущий режим IMEX не содержит основной г
 msgid "Multi-color in this mode isn't a parallel-print scenario — all of the active tools sit on a single gantry, so there's no second gantry being copied or mirrored to. Switch the plate to Primary mode for multi-color printing on a single gantry, or define an IDEX/IQEX mode that includes tools on a second gantry."
 msgstr "В данном режиме параллельная печать разноцветных моделей невозможна, т.к. все задействованные головы находятся на одной балке. Задействуйте головы на соседней балке (назначив им роль дублирующих или зеркальных) или переключите стол в основной режим."
 
-# На IDEX это чисто логически невозможно, так что тут только IQEX (хотя технически поддерживаются и 8-головые принтеры на двух балках, но пока серийных больше 2х2 ещё не было)
+# На IDEX это чисто логически невозможно, так что тут только IQEX (хотя технически поддерживаются и 8-головые принтеры на двух балках, но пока серийных больше 2х2 ещё не было) (хотя в теории это возможно и на трёхголовом ITEX, когда одна голова переходит в обычный режим и печатает вкрапления своего цвета у деталей крайних голов)
 msgid "Multi-color prints in IDEX/IQEX parallel modes require a Span tool on the primary's gantry — without one, the mode doesn't declare a within-gantry multicolor partner. Either reduce the print to a single filament, switch to Primary mode, or open the printer settings IDEX/IQEX Modes editor and mark a tool on the primary's gantry as Span."
 msgstr "Параллельная печать разноцветных моделей на принтерах IQEX требует настройки парной головы на той же балке. Без назначенной пары этот режим не сможет подготовить параллельную печать двумя соседними головами на разных балках. Назначьте парную голову рядом с основной в настройках IMEX, переключитесь в основной режим или сделайте модель отноцветной."
 
