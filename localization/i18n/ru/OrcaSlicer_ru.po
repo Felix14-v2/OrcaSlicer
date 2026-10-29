@@ -7098,19 +7098,19 @@ msgstr "Печать двумя и более прутками TPU не подд
 msgid "Tool %d"
 msgstr "%d"
 
-#, boost-format
-msgid "Filament %1% is placed in the %2%, but the generated G-code path exceeds the printable range of the %2%."
-msgid_plural "Filaments %1% are placed in the %2%, but the generated G-code path exceeds the printable range of the %2%."
-msgstr[0] "Материал %1% назначен на %2%, но итоговый G-код выходит за его область печати."
-msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его область печати."
-msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его область печати."
-
-#, boost-format
-msgid "Filament %1% is placed in the %2%, but the generated G-code path exceeds the printable height of the %2%."
-msgid_plural "Filaments %1% are placed in the %2%, but the generated G-code path exceeds the printable height of the %2%."
-msgstr[0] "Материал %1% назначен на %2%, но итоговый G-код выходит за его предел высоты печати."
-msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его предел высоты печати."
-msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его предел высоты печати."
+# #, boost-format
+# msgid "Filament %1% is placed in the %2%, but the generated G-code path exceeds the printable range of the %2%."
+# msgid_plural "Filaments %1% are placed in the %2%, but the generated G-code path exceeds the printable range of the %2%."
+# msgstr[0] "Материал %1% назначен на %2%, но итоговый G-код выходит за его область печати."
+# msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его область печати."
+# msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его область печати."
+# 
+# #, boost-format
+# msgid "Filament %1% is placed in the %2%, but the generated G-code path exceeds the printable height of the %2%."
+# msgid_plural "Filaments %1% are placed in the %2%, but the generated G-code path exceeds the printable height of the %2%."
+# msgstr[0] "Материал %1% назначен на %2%, но итоговый G-код выходит за его предел высоты печати."
+# msgstr[1] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его предел высоты печати."
+# msgstr[2] "Материалы %1% назначены на %2%, но итоговый G-код выходит за его предел высоты печати."
 
 msgid "Open wiki for more information."
 msgstr "Подробнее на Вики."
