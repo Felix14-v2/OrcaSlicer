@@ -1584,7 +1584,7 @@ msgstr "Шрифт"
 
 #. TRN - Input label. Be short as possible
 #. Height of one text line - Font Ascent
-msgid "Height"
+msgid "Высота"
 msgstr "Размер"
 
 #. TRN - Input label. Be short as possible
@@ -2240,7 +2240,7 @@ msgid ""
 msgstr ""
 "Не удалось установить среду выполнения WebView2.\n"
 "Некоторые страницы (такие как мастер настройки) будут недоступны до момента установки.\n"
-"Необходимо выполнить установку в ручном режиме %1% и перезапустить OrcaSlicer."
+"Необходимо выполнить установку в ручном режиме с %1% и перезапустить OrcaSlicer."
 
 #, c-format, boost-format
 msgid "Resources path does not exist or is not a directory: %s"
@@ -3036,9 +3036,8 @@ msgstr "Булевы операции"
 msgid "Mesh boolean operations including union and subtraction"
 msgstr "Булевы операции с сеткой, включая объединение и вычитание"
 
-# AI Translated
 msgid "Modify"
-msgstr "Правка"
+msgstr "Изменить сетку"
 
 msgid "More"
 msgstr "Подробнее"
@@ -3094,7 +3093,6 @@ msgstr "Добавить модель"
 msgid "Show Labels"
 msgstr "Показать имена файлов"
 
-# AI Translated
 msgid "Instances"
 msgstr "Экземпляры"
 
@@ -3156,12 +3154,11 @@ msgid "All Plates"
 msgstr "Все столы"
 
 msgid "Order By"
-msgstr ""
+msgstr "Упорядочить"
 
 msgid "Fix All"
 msgstr "Восстановить все"
 
-# AI Translated
 msgid "Fix all models on the current plate"
 msgstr "Восстановить все модели на текущем столе"
 
