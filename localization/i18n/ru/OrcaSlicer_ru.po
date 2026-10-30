@@ -1584,8 +1584,8 @@ msgstr "Шрифт"
 
 #. TRN - Input label. Be short as possible
 #. Height of one text line - Font Ascent
-msgid "Высота"
-msgstr "Размер"
+msgid "Height"
+msgstr "Высота"
 
 #. TRN - Input label. Be short as possible
 #. Copy surface of model on surface of the embossed text
@@ -12909,7 +12909,7 @@ msgstr[2] ""
 #. TRN %1% is the name of the custom G-code setting, e.g. "Machine start G-code".
 #, boost-format
 msgid "Reserved keywords found in %1%"
-msgstr "Найдены зарезервированные ключевые слова в %1%"
+msgstr "%1% содержит зарезервированные ключевые слова"
 
 msgid "Setting Overrides"
 msgstr "Замещение настроек"
