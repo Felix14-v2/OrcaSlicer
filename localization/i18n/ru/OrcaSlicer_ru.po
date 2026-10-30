@@ -3040,7 +3040,7 @@ msgid "Modify"
 msgstr "Изменить сетку"
 
 msgid "More"
-msgstr "Подробнее"
+msgstr "Больше"
 
 msgid "Precise Seam Type"
 msgstr "Тип точного шва"
@@ -3188,14 +3188,16 @@ msgstr "Удалить экземпляр"
 msgid "Remove one instance of the selected object"
 msgstr "Удалить последний экземпляр объекта"
 
+# Уже в подгруппе "Экземпляры", можно убрать лишнее
 msgid "Set number of instances"
-msgstr "Изменить количество экземпляров"
+msgstr "Изменить количество"
 
 msgid "Change the number of instances of the selected object"
 msgstr "Изменить количество экземпляров этого объекта"
 
+# Уже в подгруппе "Экземпляры", можно убрать лишнее
 msgid "Fill bed with instances"
-msgstr "Заполнить стол экземплярами"
+msgstr "Заполнить стол"
 
 msgid "Fill the remaining area of bed with instances of the selected object"
 msgstr "Заполнить всё пространство стола экземплярами этого объекта"
@@ -9014,6 +9016,9 @@ msgstr "Сводка настроек моделей"
 msgid "Material settings"
 msgstr "Настройки материала"
 
+msgid "The process flow ratio cannot be edited in this panel."
+msgstr "Коэффициент потока нельзя изменить в этом окне."
+
 msgid "Each mode names the tool heads that take part and the role each one plays. Click a tool button to cycle its role — hover a color below for what each role does."
 msgstr "Режимы определяют участие и роль каждой из голов. Роль задаётся цикличным переключением соответствующей кнопки; подробнее можно прочитать в подсказках к режимам ниже."
 
@@ -11524,29 +11529,23 @@ msgstr "Не удалось загрузить тестовую модель."
 msgid "Slicing failed, so only Prepare was measured."
 msgstr "Нарезка не удалась, поэтому измерена только вкладка «Подготовка»."
 
-# AI Translated
 msgid "The benchmark stopped because the 3D view was hidden."
-msgstr "Тест остановлен, так как 3D-вид был скрыт."
+msgstr "Тест остановлен, так как рабочая область была скрыта."
 
-# AI Translated
 msgid "Turning the camera in Prepare"
 msgstr "Вращение камеры в «Подготовке»"
 
-# AI Translated
 msgid "Turning the camera in Preview"
 msgstr "Вращение камеры в «Просмотре нарезки»"
 
-# AI Translated
 msgid "Moving through the layers in Preview"
 msgstr "Перемещение по слоям в «Просмотре нарезки»"
 
-# AI Translated
 msgid "Copy the results to the clipboard"
 msgstr "Скопировать результаты в буфер обмена"
 
-# AI Translated
 msgid "The benchmark replaces the current project with the OrcaSliced Combo and slices it. It turns the camera around the model in Prepare and in Preview, then moves the layer slider through the sliced layers, timing every frame, and shows the results."
-msgstr "Тест заменяет текущий проект моделью OrcaSliced Combo и нарезает её. Камера вращается вокруг модели на вкладках «Подготовка» и «Просмотр нарезки», затем ползунок слоёв проходит по нарезанным слоям; время каждого кадра замеряется, после чего отображаются результаты."
+msgstr "Тест заменяет текущий проект моделью «Нарезанная Orca» и нарезает её. Камера вращается вокруг модели на вкладках «Подготовка» и «Просмотр нарезки», затем ползунок слоёв переключает нарезанные слои. Время каждого кадра замеряется, после чего отображаются результаты."
 
 # AI Translated
 msgid "It uses the current graphics settings and usually takes less than a minute. The main window stays locked until it finishes."
@@ -11622,61 +11621,48 @@ msgstr "Вкладок: %s"
 msgid "Matching tabs: %s"
 msgstr "Подходящих вкладок: %s"
 
-# AI Translated
 #, c-format, boost-format
 msgid "Favorites are full (%s max)"
 msgstr "Избранное заполнено (максимум %s)"
 
-# AI Translated
 #, c-format, boost-format
 msgid "Go to %s%% of the layer range"
-msgstr "Перейти к %s%% диапазона слоёв"
+msgstr "Перейти к слою в %s%% от общего числа"
 
-# AI Translated
 msgid "Enter a layer percentage (0-100)"
-msgstr "Введите процент слоёв (0-100)"
+msgstr "Введите процент от числа слоёв (0-100)"
 
-# AI Translated
 #, c-format, boost-format
 msgid "Go to layer %% (0-100)"
-msgstr "Перейти к слою, %% (0-100)"
+msgstr "%% для перехода (0-100)"
 
-# AI Translated
 msgid "Go to tab"
 msgstr "Перейти на вкладку"
 
-# AI Translated
 #, c-format, boost-format
 msgid "Favorite %s (%s)"
 msgstr "Избранное %s (%s)"
 
-# AI Translated
 #, c-format, boost-format
 msgid "Pin to favorites (%s)"
 msgstr "Добавить в избранное (%s)"
 
-# AI Translated
 #, c-format, boost-format
 msgid "Unpin from favorites (%s)"
 msgstr "Убрать из избранного (%s)"
 
-# AI Translated
 msgid "Remove from favorites"
 msgstr "Убрать из избранного"
 
-# AI Translated
 msgid "Move left"
 msgstr "Сдвинуть влево"
 
-# AI Translated
 msgid "Move right"
 msgstr "Сдвинуть вправо"
 
-# AI Translated
 msgid "Unpin"
 msgstr "Открепить"
 
-# AI Translated
 msgid "Wiki (F1)"
 msgstr "Вики (F1)"
 
@@ -11684,6 +11670,7 @@ msgstr "Вики (F1)"
 msgid "No wiki page for this action"
 msgstr "Для этого действия нет страницы Вики"
 
+# Оверюзинг
 msgid "Show details"
 msgstr "Подробнее"
 
@@ -37234,29 +37221,23 @@ msgstr ""
 msgid "Unable to parse desired new path from output name file"
 msgstr "Не удалось разобрать новый путь из файла с выходным именем"
 
-# AI Translated
 #, boost-format
 msgid "Output directory does not exist: %1%"
-msgstr "Выходная папка не существует: %1%"
+msgstr "Расположение не существует: %1%"
 
-# AI Translated
 #, boost-format
 msgid "Failed reading a file %1% carrying the final name / path of a G-code file: %2%"
-msgstr "Не удалось прочитать файл %1% с итоговым именем / путём файла G-кода: %2%"
+msgstr "Не удалось прочитать файл %1% с итоговым именем/путём файла G-кода: %2%"
 
-# AI Translated
 msgid "The printing task exceeds the limit, supporting a maximum of 6 printers."
 msgstr "Задание печати превышает лимит: поддерживается не более 6 принтеров."
 
-# AI Translated
 msgid "Elapsed time:"
-msgstr "Прошло времени:"
+msgstr "Прошло:"
 
-# AI Translated
 msgid "Estimated time:"
 msgstr "Расчётное время:"
 
-# AI Translated
 msgid "Remaining time:"
 msgstr "Осталось:"
 
