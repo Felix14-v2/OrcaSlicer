@@ -3215,14 +3215,11 @@ msgstr "Заполнить всё пространство стола экзем
 msgid "Clone"
 msgstr "Добавить копии"
 
-# Из-за issue#6970 у нас не полигоны, а треугольники, т.к. строка тянется из
-# шаблона заполнения "Треугольники"
 msgid "Simplify Model"
-msgstr "Упростить сетку"
+msgstr "Упростить"
 
-# AI Translated
 msgid "Subdivision mesh"
-msgstr "Подразделить сетку"
+msgstr "Сгладить"
 
 msgid "Center"
 msgstr "По центру"
@@ -6938,13 +6935,13 @@ msgid "Auto orient all/selected objects"
 msgstr "Положить все/выбранные модели"
 
 msgid "Auto orient all objects on current plate"
-msgstr "Положить модели на активном столе"
+msgstr "Положить модели на текущем столе"
 
 msgid "Arrange all objects"
 msgstr "Расставить все модели"
 
 msgid "Arrange objects on selected plates"
-msgstr "Расставить модели на активном столе"
+msgstr "Расставить модели на текущем столе"
 
 msgid "Assembly View"
 msgstr "Сборочный вид"
@@ -7569,7 +7566,6 @@ msgstr "Сбросить макет интерфейса"
 msgid "Reset to default window layout"
 msgstr "Восстановить стандартное расположение элементов интерфейса"
 
-# AI Translated
 msgid "Show 3Dconnexion Settings"
 msgstr "Показать настройки 3Dconnexion"
 
@@ -7580,7 +7576,7 @@ msgid "Show &Labels"
 msgstr "Показать &имена файлов"
 
 msgid "Show object labels in 3D scene."
-msgstr "Показать имена моделей в 3D-сцене."
+msgstr "Показать имена моделей в рабочей области."
 
 # AI Translated
 msgid "Show all collision volumes"
@@ -7612,8 +7608,9 @@ msgstr "Правка"
 msgid "View"
 msgstr "Вид"
 
+# Убрал "Открыть", т.к. сильно раздувалась ширина 
 msgid "Open Speed Dial"
-msgstr "Открыть быстрые действия"
+msgstr "Быстрые действия"
 
 msgid "Preset Bundle"
 msgstr "Пакет профилей"
@@ -14415,10 +14412,9 @@ msgid ""
 "Press the new shortcut for\n"
 "\"%s\""
 msgstr ""
-"Нажмите новое сочетание клавиш для\n"
+"Укажите новое сочетание клавиш для действия\n"
 "«%s»"
 
-# AI Translated
 msgid "Unbind"
 msgstr "Отвязать"
 
