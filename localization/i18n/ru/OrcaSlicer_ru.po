@@ -5248,9 +5248,7 @@ msgid ""
 "Yes - Enable Arachne Wall Generator\n"
 "No  - Disable Arachne Wall Generator and set [Displacement] mode of the Fuzzy Skin"
 msgstr ""
-"Использовать нечёткую оболочку с движком Arachne?\n"
-"Да – включить генератор периметров Arachne\n"
-"Нет – отключить генератор периметров Arachne и установить режим «Смещение» для нечёткой оболочки"
+"Использовать нечёткую оболочку с движком Arachne?"
 
 # AI Translated
 msgid "Set the maximum volumetric extrusion rate slope above zero to use extrusion rate smoothing."
@@ -9218,7 +9216,6 @@ msgid "Add Mode"
 msgstr "Добавить режим"
 
 # "Инструменты" is too long here
-msgctxt "IDEX/IQEX modes"
 msgid "Tools"
 msgstr "Головы"
 
@@ -9301,7 +9298,6 @@ msgstr ""
 "\n"
 "Вызывается перед основным кодом начала печати."
 
-# AI Translated
 msgid "Edit G-code / browse placeholders"
 msgstr "Редактировать G-код/переменные"
 
@@ -12881,15 +12877,14 @@ msgid_plural ""
 "Please remove them, or G-code visualization and print time estimation will be broken."
 msgstr[0] ""
 "Следующая строка %s содержит зарезервированные ключевые слова.\n"
-"Удалите их, иначе могут возникнуть проблемы при визуализации G-code и оценка времени печати."
+"Удалите их, иначе могут возникнуть проблемы при визуализации G-кода и оценке времени печати."
 msgstr[1] ""
 "Следующие строки %s содержат зарезервированные ключевые слова.\n"
-"Удалите их, иначе могут возникнуть проблемы при визуализации G-code и оценка времени печати."
+"Удалите их, иначе могут возникнуть проблемы при визуализации G-кода и оценке времени печати."
 msgstr[2] ""
 "Следующие строки %s содержат зарезервированные ключевые слова.\n"
-"Удалите их, иначе могут возникнуть проблемы при визуализации G-code и оценка времени печати."
+"Удалите их, иначе могут возникнуть проблемы при визуализации G-кода и оценке времени печати."
 
-# AI Translated
 #. TRN %1% is the name of the custom G-code setting, e.g. "Machine start G-code".
 #, boost-format
 msgid "Reserved keywords found in %1%"
@@ -18158,7 +18153,6 @@ msgstr "Включите этот параметр, чтобы получить 
 msgid "Arc fitting"
 msgstr "Аппроксимация дугами"
 
-# AI Translated
 # Needs human review: Glossary renders Infill and Sparse infill both as 'Заполнение'; 'разреженное заполнение' used here for the sparse sense; check against the catalog's usage.
 msgid ""
 "Fit G2 and G3 arc moves to the toolpaths. Walls and surfaces are fitted within the resolution, while sparse infill, supports and the wipe tower use fixed tolerances.\n"
@@ -18183,10 +18177,8 @@ msgstr ""
 msgid "Enabled"
 msgstr "Включено"
 
-# AI Translated
-# Needs human review: Glossary renders Infill and Sparse infill both as 'Заполнение'; 'разреженное заполнение' used here for the sparse sense; check against the catalog's usage.
 msgid "Sparse infill only"
-msgstr "Только разреженное заполнение"
+msgstr "Заполнение"
 
 msgid "Add line number"
 msgstr "Нумеровать строки"
